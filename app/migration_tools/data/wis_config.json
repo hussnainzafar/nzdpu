@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "general.system_email_address",
+    "type": "String",
+    "value": null,
+    "description": "System email address."
+  },
+  {
+    "id": 2,
+    "name": "data_explorer.download_all",
+    "type": "Integer",
+    "value": "1",
+    "description": "Control download all in Data Explorer (0 or 1)."
+  },
+  {
+    "id": 3,
+    "name": "data_explorer.download_sample",
+    "type": "Integer",
+    "value": "1",
+    "description": "Control download sample in Data Explorer (0 or 1)."
+  },
+  {
+    "id": 4,
+    "name": "data_explorer.download_none",
+    "type": "Integer",
+    "value": "1",
+    "description": "Control download none in Data Explorer (0 or 1)."
+  },
+  {
+    "id": 5,
+    "name": "company_profile.download_all",
+    "type": "Integer",
+    "value": "1",
+    "description": "Control download all in Company Profile (0 or 1)."
+  },
+  {
+    "id": 6,
+    "name": "company_profile.download_none",
+    "type": "Integer",
+    "value": "1",
+    "description": "Control download none in Company Profile (0 or 1)."
+  },
+  {
+    "id": 7,
+    "name": "data_download.show_all",
+    "type": "Integer",
+    "value": "1",
+    "description": "Show all data downloads (0 or 1)."
+  },
+  {
+    "id": 8,
+    "name": "data_download.exclude_classification",
+    "type": "Integer",
+    "value": "1",
+    "description": "Exclude classification in data downloads (0 or 1)."
+  }
+]

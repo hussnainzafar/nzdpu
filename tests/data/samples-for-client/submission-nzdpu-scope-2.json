@@ -1,0 +1,38 @@
+{
+    "scope_2_lb_emissions": 100000,
+    "scope_2_lb_emissions_units": 30001,
+    "scope_2_mb_emissions": 200000,
+    "scope_2_mb_emissions_units": 30002,
+    "rationale_s2_lb_non_disclose": null,
+    "rationale_s2_mb_non_disclose": null,
+    "scope_2_lb_methodology": [80002, "Custom methodology"],
+    "scope_2_mb_methodology": [80005],
+    "scope_2_lb_exclusion_form": [
+        {
+            "scope_2_lb_exclusion_description": "Text description of exclusion",
+            "scope_2_lb_exclusion_explanation": "Text explanation of exclusion",
+            "scope_2_lb_exclusion_perc": 55.55,
+            "scope_2_lb_exclusion_perc_explanation": "Text explanation of how percentage was calculated"
+        },
+        {
+            "scope_2_lb_exclusion_description": "There can be multiple/zero exclusions sub-forms in the scope_2_lb_exclusion_form form array",
+            "scope_2_lb_exclusion_explanation": null,
+            "scope_2_lb_exclusion_perc": null,
+            "scope_2_lb_exclusion_perc_explanation": null
+        }
+    ],
+    "scope_2_mb_exclusion_form": [
+        {
+            "scope_2_mb_exclusion_description": "Text description of exclusion",
+            "scope_2_mb_exclusion_explanation": "Text explanation of exclusion",
+            "scope_2_mb_exclusion_perc": 55.55,
+            "scope_2_mb_exclusion_perc_explanation": "Text explanation of how percentage was calculated"
+        },
+        {
+            "scope_2_mb_exclusion_description": "There can be multiple/zero exclusions sub-forms in the scope_2_mb_exclusion_form form array",
+            "scope_2_mb_exclusion_explanation": null,
+            "scope_2_mb_exclusion_perc": null,
+            "scope_2_mb_exclusion_perc_explanation": null
+        }
+    ]
+}

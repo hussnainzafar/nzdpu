@@ -1,0 +1,62 @@
+steps:
+  # Pull the latest image in the background so we have it for caching
+  - name: docker
+    id: pull
+    args:
+      - pull
+      - ${_DOCKER_REPO}/${_PACKAGE_NAME}:latest
+    # Allowing failure here, because it will fail on the first run in an environment, since we haven't built the image there yet
+    allowFailure: true
+    waitFor:
+      - "-"
+  - name: python
+    id: clean
+    script: |
+      #!/usr/bin/env bash
+      set -eu
+      # Get the latest pip
+      python -m pip install --user --upgrade pip
+      # Clean
+      rm -vf dist/*
+    waitFor:
+      - "-"
+  - name:       python
+    id:         Install build/deploy requirements
+    entrypoint: pip
+    args:
+      - 'install'
+      - '--upgrade'
+      - '--user'
+      - 'build'
+    waitFor:
+      - clean
+  - name: python
+    entrypoint: python
+    args: [ "-m", "build" ]
+    waitFor:
+      - Install build/deploy requirements
+  # Docker Build
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build',
+            '-t', '${_DOCKER_REPO}/${_PACKAGE_NAME}:${COMMIT_SHA}',
+            '-t', '${_DOCKER_REPO}/${_PACKAGE_NAME}:${SHORT_SHA}',
+            '-t', '${_DOCKER_REPO}/${_PACKAGE_NAME}:latest',
+            '--cache-from', '${_DOCKER_REPO}/${_PACKAGE_NAME}:latest',
+            '.',
+            '-f','Dockerfile.cicd'
+    ]
+    # Absence of a `waitFor` section implies that it must wait for ALL PRECEDING STEPS
+images:
+  - ${_DOCKER_REPO}/${_PACKAGE_NAME}:${COMMIT_SHA}
+  - ${_DOCKER_REPO}/${_PACKAGE_NAME}:${SHORT_SHA}
+  - ${_DOCKER_REPO}/${_PACKAGE_NAME}:latest
+substitutions:
+  _PACKAGE_NAME: "nzdpu-wis"
+  # _DOCKER_REPO should be overridden by the environment to point to where images are stored
+  # See Terraform cloud_build.tf for where we are replacing this value
+  # Cloud Build ref: https://cloud.google.com/build/docs/configuring-builds/use-bash-and-bindings-in-substitutions#creating_substitutions_using_payload_bindings
+  _DOCKER_REPO: ""
+  # also replaced by the build substitution, this is just so that we know it should exist
+  _MAIN_BRANCH: ""
+options:
+  dynamic_substitutions: true

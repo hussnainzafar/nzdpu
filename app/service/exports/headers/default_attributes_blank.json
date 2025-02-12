@@ -1,0 +1,930 @@
+{
+  "scope_1_ghg_breakdown": [
+     {
+      "scope_1_greenhouse_gas": 40001,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40002,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40003,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40004,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": 5500,
+      "scope_1_gwp_source": 50001,
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": 60001,
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": -999999,
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40005,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40006,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40007,
+      "scope_1_greenhouse_gas_other": "-",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    },
+    {
+      "scope_1_greenhouse_gas": 40008,
+      "scope_1_greenhouse_gas_other": "user-defined-gas",
+      "scope_1_ghg_emissions": "-",
+      "scope_1_gwp_source": "-",
+      "scope_1_gwp_source_other": "-",
+      "scope_1_gwp_time_horizon": "-",
+      "scope_1_gwp_time_horizon_other": "-",
+      "rationale_s1_ghg_non_disclose": "-",
+      "rationale_s1_ghg_non_disclose_other": "-"
+    }
+   ],
+  "scope_1_exclusion": [
+    {
+      "scope_1_exclusion_description": "-",
+      "scope_1_exclusion_explanation": "-",
+      "scope_1_exclusion_perc": "-",
+      "scope_1_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_2_lb_exclusion": [
+     {
+      "scope_2_lb_exclusion_description": "-",
+      "scope_2_lb_exclusion_explanation": "-",
+      "scope_2_lb_exclusion_perc": "-",
+      "scope_2_lb_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_2_mb_exclusion": [
+    {
+      "scope_2_mb_exclusion_description": "-",
+      "scope_2_mb_exclusion_explanation": "-",
+      "scope_2_mb_exclusion_perc": "-",
+      "scope_2_mb_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_3_ghg_protocol": [
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110001,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110002,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110003,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110004,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110005,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110006,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110007,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110008,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110009,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110010,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110011,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110012,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110013,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110014,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110015,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    },
+    {
+      "scope_3_ghgp_category": 110016,
+      "scope_3_ghgp_category_other": "-",
+      "rationale_s3_ghgp_non_disclose": "-",
+      "scope_3_ghgp_relevancy": "-",
+      "scope_3_ghgp_relevancy_description": "-",
+      "scope_3_ghgp_emissions": "-",
+      "scope_3_ghgp_emissions_units": "-",
+      "scope_3_ghgp_emissions_ghg": "-",
+      "scope_3_ghgp_emissions_co2": "-",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "-",
+          "scope_3_ghgp_methodology_type_other": "-",
+          "scope_3_ghgp_methodology_description": "-",
+          "scope_3_ghgp_methodology_perc": "-"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "-",
+          "scope_3_ghgp_exclusion_explanation": "-",
+          "scope_3_ghgp_exclusion_perc": "-",
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "-"
+      ],
+      "scope_3_ghgp_change_description": "-"
+    }
+  ],
+  "scope_3_iso":[
+    {
+      "scope_3_iso_category": 140001,
+      "scope_3_iso_category_other": "-",
+      "scope_3_iso_emissions": "-",
+      "scope_3_iso_emissions_units": "-",
+      "scope_3_iso_emissions_ghg": "-",
+      "scope_3_iso_emissions_co2": "-",
+      "rationale_s3_iso_non_disclose": "-",
+      "scope_3_iso_relevancy": "-",
+      "scope_3_iso_relevancy_description": "-",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "-",
+              "scope_3_iso_methodology_type_other": "-",
+              "scope_3_iso_methodology_description": "-",
+              "scope_3_iso_methodology_perc": "-"
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "-",
+              "scope_3_iso_exclusion_explanation": "-",
+              "scope_3_iso_exclusion_perc": "-",
+              "scope_3_iso_exclusion_perc_explanation": "-"
+          }
+      ],
+      "scope_3_iso_change_type": "-",
+      "scope_3_iso_change_description": "-"
+    },
+    {
+      "scope_3_iso_category": 140002,
+      "scope_3_iso_category_other": "-",
+      "scope_3_iso_emissions": "-",
+      "scope_3_iso_emissions_units": "-",
+      "scope_3_iso_emissions_ghg": "-",
+      "scope_3_iso_emissions_co2": "-",
+      "rationale_s3_iso_non_disclose": "-",
+      "scope_3_iso_relevancy": "-",
+      "scope_3_iso_relevancy_description": "-",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "-",
+              "scope_3_iso_methodology_type_other": "-",
+              "scope_3_iso_methodology_description": "-",
+              "scope_3_iso_methodology_perc": "-"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "-",
+              "scope_3_iso_exclusion_explanation": "-",
+              "scope_3_iso_exclusion_perc": "-",
+              "scope_3_iso_exclusion_perc_explanation": "-"
+          }
+      ],
+      "scope_3_iso_change_type": "-",
+      "scope_3_iso_change_description": "-"
+    },
+    {
+      "scope_3_iso_category": 140003,
+      "scope_3_iso_category_other": "-",
+      "scope_3_iso_emissions": "-",
+      "scope_3_iso_emissions_units": "-",
+      "scope_3_iso_emissions_ghg": "-",
+      "scope_3_iso_emissions_co2": "-",
+      "rationale_s3_iso_non_disclose": "-",
+      "scope_3_iso_relevancy": "-",
+      "scope_3_iso_relevancy_description": "-",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "-",
+              "scope_3_iso_methodology_type_other": "-",
+              "scope_3_iso_methodology_description": "-",
+              "scope_3_iso_methodology_perc": "-"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "-",
+              "scope_3_iso_exclusion_explanation": "-",
+              "scope_3_iso_exclusion_perc": "-",
+              "scope_3_iso_exclusion_perc_explanation": "-"
+          }
+      ],
+      "scope_3_iso_change_type": "-",
+      "scope_3_iso_change_description": "-"
+    },
+    {
+      "scope_3_iso_category": 140004,
+      "scope_3_iso_category_other": "-",
+      "scope_3_iso_emissions": "-",
+      "scope_3_iso_emissions_units": "-",
+      "scope_3_iso_emissions_ghg": "-",
+      "scope_3_iso_emissions_co2": "-",
+      "rationale_s3_iso_non_disclose": "-",
+      "scope_3_iso_relevancy": "-",
+      "scope_3_iso_relevancy_description": "-",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "-",
+              "scope_3_iso_methodology_type_other": "-",
+              "scope_3_iso_methodology_description": "-",
+              "scope_3_iso_methodology_perc": "-"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "-",
+              "scope_3_iso_exclusion_explanation": "-",
+              "scope_3_iso_exclusion_perc": "-",
+              "scope_3_iso_exclusion_perc_explanation": "-"
+          }
+      ],
+      "scope_3_iso_change_type": "-",
+      "scope_3_iso_change_description": "-"
+    }
+  ],
+  "scope_3_ghg_protocol_methodology": [
+    {
+        "scope_3_ghgp_methodology_type": "-",
+        "scope_3_ghgp_methodology_type_other": "-",
+        "scope_3_ghgp_methodology_description": "-",
+        "scope_3_ghgp_methodology_perc": "-"
+    }
+  ],
+  "scope_3_ghg_protocol_exclusion": [
+    {
+      "scope_3_ghgp_exclusion_description": "-",
+      "scope_3_ghgp_exclusion_explanation": "-",
+      "scope_3_ghgp_exclusion_perc": "-",
+      "scope_3_ghgp_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_3_iso_methodology": [
+    {
+        "scope_3_iso_methodology_type":  "-",
+        "scope_3_iso_methodology_type_other": "-",
+        "scope_3_iso_methodology_description": "-",
+        "scope_3_iso_methodology_perc": "-"
+    }
+  ],
+  "scope_3_iso_exclusion": [
+    {
+        "scope_3_iso_exclusion_description": "-",
+        "scope_3_iso_exclusion_explanation": "-",
+        "scope_3_iso_exclusion_perc": "-",
+        "scope_3_iso_exclusion_perc_explanation": "-"
+    }
+  ],
+  "assure_verif_valid_statement_dis": [
+    {
+      "assure_verif_valid_provider": "-",
+      "assure_verif_valid_standard": "-",
+      "assure_verif_valid_standard_other": "-",
+      "level_of_assurance": "-",
+      "assure_verif_valid_statement": "-",
+      "perc_scope_1_assure_verif_valid": "-",
+      "perc_scope_2_lb_assure_verif_valid": "-",
+      "perc_scope_2_mb_assure_verif_valid": "-",
+      "perc_scope_3_assure_verif_valid": "-"
+    }
+  ],
+  "fn_aum_intensity": [
+    {
+      "fn_aum_intensity_type": "-",
+      "fn_aum_intensity_physical": [
+        {
+          "fn_aum_phys_int_description": "-",
+          "fn_aum_phys_int_asset_class": ["-"],
+          "fn_aum_phys_int_sector": ["-"],
+          "fn_aum_phys_int_coverage_scope": ["-"],
+          "fn_aum_phys_int_coverage_s3_cat": ["-"],
+          "fn_aum_emissions_physical_intensity": "-",
+          "fn_aum_units_phys_int_numerator": "-",
+          "fn_aum_units_phys_int_denom": "-",
+          "fn_aum_units_phys_int_denom_other": "-",
+          "fn_aum_phys_int_coverage_ghg": ["-"],
+          "fn_aum_phys_int_methodology": "-",
+          "fn_aum_phys_int_methodology_underlying": "-"
+        }
+      ],
+      "fn_aum_intensity_economic": [
+          {
+            "fn_aum_econ_int_description": "-",
+            "fn_aum_econ_int_description_prompt": "-",
+            "fn_aum_econ_int_asset_class": ["-"],
+            "fn_aum_econ_int_asset_class_prompt": "-",
+            "fn_aum_econ_int_sector": ["-"],
+            "fn_aum_econ_int_sector_prompt": "-",
+            "fn_aum_econ_int_coverage_scope": ["-"],
+            "fn_aum_econ_int_coverage_s3_cat": ["-"],
+            "fn_aum_emissions_economic_intensity": "-",
+            "fn_aum_emissions_economic_intensity_usd": "-",
+            "fn_aum_units_econ_int_numerator": "-",
+            "fn_aum_units_econ_int_denom": "-",
+            "fn_aum_units_econ_int_denom_other": "-",
+            "fn_aum_econ_int_coverage_ghg": ["-"],
+            "fn_aum_econ_int_methodology": "-",
+            "fn_aum_econ_int_methodology_underlying": "-"
+          }
+        ]
+    }
+  ],
+  "fn_aum_data_quality": [
+    {
+      "fn_aum_data_quality_asset_class": ["-"],
+      "fn_aum_data_quality_sector": ["-"],
+      "fn_aum_perc_reported": "-",
+      "fn_aum_pcaf_data_quality_score_s1": "-",
+      "fn_aum_pcaf_data_quality_score_s2": "-",
+      "fn_aum_pcaf_data_quality_score_s1s2": "-",
+      "fn_aum_pcaf_data_quality_score_s3": "-",
+      "fn_aum_pcaf_data_quality_score_total": "-"
+    }
+  ],
+  "fn_gross_exp_intensity": [
+    {
+      "fn_gross_exp_intensity_type": "-",
+      "fn_gross_exp_intensity_physical": [
+        {
+          "fn_gross_exp_phys_int_description": "-",
+          "fn_gross_exp_phys_int_asset_class": ["-"],
+          "fn_gross_exp_phys_int_sector": ["-"],
+          "fn_gross_exp_phys_int_coverage_scope": ["-"],
+          "fn_gross_exp_phys_int_coverage_s3_cat": ["-"],
+          "fn_gross_exp_emissions_physical_intensity": "-",
+          "fn_gross_exp_units_phys_int_numerator": "-",
+          "fn_gross_exp_units_phys_int_denom": "-",
+          "fn_gross_exp_units_phys_int_denom_other": "-",
+          "fn_gross_exp_phys_int_coverage_ghg": ["-"],
+          "fn_gross_exp_phys_int_methodology": "-",
+          "fn_gross_exp_phys_int_methodology_underlying": "-"
+        }
+      ],
+      "fn_gross_exp_intensity_economic": [
+          {
+            "fn_gross_exp_econ_int_description": "-",
+            "fn_gross_exp_econ_int_asset_class": ["-"],
+            "fn_gross_exp_econ_int_sector": ["-"],
+            "fn_gross_exp_econ_int_coverage_scope": ["-"],
+            "fn_gross_exp_econ_int_coverage_s3_cat": ["-"],
+            "fn_gross_exp_emissions_economic_intensity": "-",
+            "fn_gross_exp_emissions_economic_intensity_usd": "-",
+            "fn_gross_exp_units_econ_int_numerator": "-",
+            "fn_gross_exp_units_econ_int_denom": "-",
+            "fn_gross_exp_units_econ_int_denom_other": "-",
+            "fn_gross_exp_econ_int_coverage_ghg": ["-"],
+            "fn_gross_exp_econ_int_methodology": "-",
+            "fn_gross_exp_econ_int_methodology_underlying": "-"
+          }
+        ]
+    }
+  ],
+  "fn_gross_exp_data_quality": [
+      {
+        "fn_gross_exp_data_quality_asset_class": ["-"],
+        "fn_gross_exp_data_quality_sector": ["-"],
+        "fn_gross_exp_perc_reported": "-",
+        "fn_gross_exp_pcaf_data_quality_score_s1": "-",
+        "fn_gross_exp_pcaf_data_quality_score_s2": "-",
+        "fn_gross_exp_pcaf_data_quality_score_s1s2": "-",
+        "fn_gross_exp_pcaf_data_quality_score_s3": "-",
+        "fn_gross_exp_pcaf_data_quality_score_total": "-"
+      }
+    ]
+}

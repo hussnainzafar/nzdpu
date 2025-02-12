@@ -1,0 +1,23 @@
+# nzdpu-wis
+FROM python:3.11-slim-bullseye
+# Upgrade package indexes and then packages
+# Need libmagic for python-magic https://pypi.org/project/python-magic/
+RUN apt update && apt upgrade -y && apt install libmagic1 -y && apt clean
+# Upgrading pip first
+RUN pip install -U pip
+# Install Poetry
+RUN pip install poetry
+# Bring in the lock file and pyproject.toml for poetry to introspect
+WORKDIR /app
+COPY poetry.lock pyproject.toml ./
+ENV POETRY_VIRTUALENVS_PATH=/pypoetry/virtualenvs
+# Install dependencies only
+RUN poetry install --no-root --sync
+# Bring in the built nzdpu-wis whl
+COPY dist /tmp/packages
+# Install nzdpu-wis and look for packages in /tmp/packages (should only be nzdpu-wis)
+RUN poetry run pip install --find-links /tmp/packages nzdpu-wis --no-deps
+EXPOSE 80
+RUN apt-get update && apt-get install -y \
+    curl
+CMD ["poetry", "run","uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]

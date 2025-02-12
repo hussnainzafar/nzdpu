@@ -1,0 +1,931 @@
+{
+  "scope_1_ghg_breakdown": [
+     {
+      "scope_1_greenhouse_gas": 40001,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40002,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40003,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40004,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": 5500,
+      "scope_1_gwp_source": 50001,
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": 60001,
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": -999999,
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40005,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40006,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40007,
+      "scope_1_greenhouse_gas_other": "N/A",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    },
+    {
+      "scope_1_greenhouse_gas": 40008,
+      "scope_1_greenhouse_gas_other": "user-defined-gas",
+      "scope_1_ghg_emissions": "N/A",
+      "scope_1_gwp_source": "N/A",
+      "scope_1_gwp_source_other": "N/A",
+      "scope_1_gwp_time_horizon": "N/A",
+      "scope_1_gwp_time_horizon_other": "N/A",
+      "rationale_s1_ghg_non_disclose": "N/A",
+      "rationale_s1_ghg_non_disclose_other": "N/A"
+    }
+   ],
+  "scope_1_exclusion": [
+    {
+      "scope_1_exclusion_description": "N/A",
+      "scope_1_exclusion_explanation": "N/A",
+      "scope_1_exclusion_perc": "N/A",
+      "scope_1_exclusion_perc_explanation": "N/A"
+    }
+  ],
+  "scope_2_lb_exclusion": [
+     {
+      "scope_2_lb_exclusion_description": "N/A",
+      "scope_2_lb_exclusion_explanation": "N/A",
+      "scope_2_lb_exclusion_perc": "N/A",
+      "scope_2_lb_exclusion_perc_explanation": "N/A"
+    }
+  ],
+  "scope_2_mb_exclusion": [
+    {
+      "scope_2_mb_exclusion_description": "N/A",
+      "scope_2_mb_exclusion_explanation": "N/A",
+      "scope_2_mb_exclusion_perc": "N/A",
+      "scope_2_mb_exclusion_perc_explanation": "N/A"
+    }
+  ],
+  "scope_3_ghg_protocol": [
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110001,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110002,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110003,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110004,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110005,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110006,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110007,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110008,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110009,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110010,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110011,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110012,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110013,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110014,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110015,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    },
+    {
+      "scope_3_ghgp_category": 110016,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": "N/A",
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": "N/A",
+      "scope_3_ghgp_emissions_units": "N/A",
+      "scope_3_ghgp_emissions_ghg": "N/A",
+      "scope_3_ghgp_emissions_co2": "N/A",
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": "N/A",
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "N/A",
+          "scope_3_ghgp_methodology_perc": "N/A"
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "N/A",
+          "scope_3_ghgp_exclusion_explanation": "N/A",
+          "scope_3_ghgp_exclusion_perc": "N/A",
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        "N/A"
+      ],
+      "scope_3_ghgp_change_description": "N/A"
+    }
+  ],
+  "scope_3_iso":[
+    {
+      "scope_3_iso_category": 140001,
+      "scope_3_iso_category_other": "N/A",
+      "scope_3_iso_emissions": "N/A",
+      "scope_3_iso_emissions_units": "N/A",
+      "scope_3_iso_emissions_ghg": "N/A",
+      "scope_3_iso_emissions_co2": "N/A",
+      "rationale_s3_iso_non_disclose": "N/A",
+      "scope_3_iso_relevancy": "N/A",
+      "scope_3_iso_relevancy_description": "N/A",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "N/A",
+              "scope_3_iso_methodology_type_other": "N/A",
+              "scope_3_iso_methodology_description": "N/A",
+              "scope_3_iso_methodology_perc": "N/A"
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "N/A",
+              "scope_3_iso_exclusion_explanation": "N/A",
+              "scope_3_iso_exclusion_perc": "N/A",
+              "scope_3_iso_exclusion_perc_explanation": "N/A"
+          }
+      ],
+      "scope_3_iso_change_type": "N/A",
+      "scope_3_iso_change_description": "N/A"
+    },
+    {
+      "scope_3_iso_category": 140002,
+      "scope_3_iso_category_other": "N/A",
+      "scope_3_iso_emissions": "N/A",
+      "scope_3_iso_emissions_units": "N/A",
+      "scope_3_iso_emissions_ghg": "N/A",
+      "scope_3_iso_emissions_co2": "N/A",
+      "rationale_s3_iso_non_disclose": "N/A",
+      "scope_3_iso_relevancy": "N/A",
+      "scope_3_iso_relevancy_description": "N/A",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "N/A",
+              "scope_3_iso_methodology_type_other": "N/A",
+              "scope_3_iso_methodology_description": "N/A",
+              "scope_3_iso_methodology_perc": "N/A"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "N/A",
+              "scope_3_iso_exclusion_explanation": "N/A",
+              "scope_3_iso_exclusion_perc": "N/A",
+              "scope_3_iso_exclusion_perc_explanation": "N/A"
+          }
+      ],
+      "scope_3_iso_change_type": "N/A",
+      "scope_3_iso_change_description": "N/A"
+    },
+    {
+      "scope_3_iso_category": 140003,
+      "scope_3_iso_category_other": "N/A",
+      "scope_3_iso_emissions": "N/A",
+      "scope_3_iso_emissions_units": "N/A",
+      "scope_3_iso_emissions_ghg": "N/A",
+      "scope_3_iso_emissions_co2": "N/A",
+      "rationale_s3_iso_non_disclose": "N/A",
+      "scope_3_iso_relevancy": "N/A",
+      "scope_3_iso_relevancy_description": "N/A",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "N/A",
+              "scope_3_iso_methodology_type_other": "N/A",
+              "scope_3_iso_methodology_description": "N/A",
+              "scope_3_iso_methodology_perc": "N/A"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "N/A",
+              "scope_3_iso_exclusion_explanation": "N/A",
+              "scope_3_iso_exclusion_perc": "N/A",
+              "scope_3_iso_exclusion_perc_explanation": "N/A"
+          }
+      ],
+      "scope_3_iso_change_type": "N/A",
+      "scope_3_iso_change_description": "N/A"
+    },
+    {
+      "scope_3_iso_category": 140004,
+      "scope_3_iso_category_other": "N/A",
+      "scope_3_iso_emissions": "N/A",
+      "scope_3_iso_emissions_units": "N/A",
+      "scope_3_iso_emissions_ghg": "N/A",
+      "scope_3_iso_emissions_co2": "N/A",
+      "rationale_s3_iso_non_disclose": "N/A",
+      "scope_3_iso_relevancy": "N/A",
+      "scope_3_iso_relevancy_description": "N/A",
+      "scope_3_iso_methodology": [
+          {
+              "scope_3_iso_methodology_type":  "N/A",
+              "scope_3_iso_methodology_type_other": "N/A",
+              "scope_3_iso_methodology_description": "N/A",
+              "scope_3_iso_methodology_perc": "N/A"
+
+          }
+      ],
+      "scope_3_iso_exclusion": [
+          {
+              "scope_3_iso_exclusion_description": "N/A",
+              "scope_3_iso_exclusion_explanation": "N/A",
+              "scope_3_iso_exclusion_perc": "N/A",
+              "scope_3_iso_exclusion_perc_explanation": "N/A"
+          }
+      ],
+      "scope_3_iso_change_type": "N/A",
+      "scope_3_iso_change_description": "N/A"
+    }
+  ],
+  "scope_3_ghg_protocol_methodology": [
+    {
+        "scope_3_ghgp_methodology_type": "N/A",
+        "scope_3_ghgp_methodology_type_other": "N/A",
+        "scope_3_ghgp_methodology_description": "N/A",
+        "scope_3_ghgp_methodology_perc": "N/A"
+    }
+  ],
+  "scope_3_ghg_protocol_exclusion": [
+    {
+      "scope_3_ghgp_exclusion_description": "N/A",
+      "scope_3_ghgp_exclusion_explanation": "N/A",
+      "scope_3_ghgp_exclusion_perc": "N/A",
+      "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+    }
+  ],
+  "scope_3_iso_methodology": [
+    {
+        "scope_3_iso_methodology_type":  "N/A",
+        "scope_3_iso_methodology_type_other": "N/A",
+        "scope_3_iso_methodology_description": "N/A",
+        "scope_3_iso_methodology_perc": "N/A"
+    }
+  ],
+  "scope_3_iso_exclusion": [
+    {
+        "scope_3_iso_exclusion_description": "N/A",
+        "scope_3_iso_exclusion_explanation": "N/A",
+        "scope_3_iso_exclusion_perc": "N/A",
+        "scope_3_iso_exclusion_perc_explanation": "N/A"
+    }
+  ],
+  "assure_verif_valid_statement_dis": [
+    {
+      "assure_verif_valid_provider": "N/A",
+      "assure_verif_valid_standard": "N/A",
+      "assure_verif_valid_standard_other": "N/A",
+      "level_of_assurance": "N/A",
+      "assure_verif_valid_statement": "N/A",
+      "perc_scope_1_assure_verif_valid": "N/A",
+      "perc_scope_2_lb_assure_verif_valid": "N/A",
+      "perc_scope_2_mb_assure_verif_valid": "N/A",
+      "perc_scope_3_assure_verif_valid": "N/A"
+    }
+  ],
+  "fn_aum_intensity": [
+    {
+      "fn_aum_intensity_type": "N/A",
+      "fn_aum_intensity_physical": [
+        {
+          "fn_aum_phys_int_description": "N/A",
+          "fn_aum_phys_int_asset_class": ["N/A"],
+          "fn_aum_phys_int_sector": ["N/A"],
+          "fn_aum_phys_int_coverage_scope": ["N/A"],
+          "fn_aum_phys_int_coverage_s3_cat": ["N/A"],
+          "fn_aum_emissions_physical_intensity": "N/A",
+          "fn_aum_units_phys_int_numerator": "N/A",
+          "fn_aum_units_phys_int_denom": "N/A",
+          "fn_aum_units_phys_int_denom_other": "N/A",
+          "fn_aum_phys_int_coverage_ghg": ["N/A"],
+          "fn_aum_phys_int_methodology": "N/A",
+          "fn_aum_phys_int_methodology_underlying": "N/A"
+        }
+      ],
+      "fn_aum_intensity_economic": [
+          {
+            "fn_aum_econ_int_description": "N/A",
+            "fn_aum_econ_int_description_prompt": "N/A",
+            "fn_aum_econ_int_asset_class": ["N/A"],
+            "fn_aum_econ_int_asset_class_prompt": "N/A",
+            "fn_aum_econ_int_sector": ["N/A"],
+            "fn_aum_econ_int_sector_prompt": "N/A",
+            "fn_aum_econ_int_coverage_scope": ["N/A"],
+            "fn_aum_econ_int_coverage_s3_cat": ["N/A"],
+            "fn_aum_emissions_economic_intensity": "N/A",
+            "fn_aum_emissions_economic_intensity_usd": "N/A",
+            "fn_aum_units_econ_int_numerator": "N/A",
+            "fn_aum_units_econ_int_denom": "N/A",
+            "fn_aum_units_econ_int_denom_other": "N/A",
+            "fn_aum_econ_int_coverage_ghg": ["N/A"],
+            "fn_aum_econ_int_methodology": "N/A",
+            "fn_aum_econ_int_methodology_underlying": "N/A"
+          }
+        ]
+    }
+  ],
+  "fn_aum_data_quality": [
+    {
+      "fn_aum_data_quality_asset_class": ["N/A"],
+      "fn_aum_data_quality_sector": ["N/A"],
+      "fn_aum_perc_reported": "N/A",
+      "fn_aum_pcaf_data_quality_score_s1": "N/A",
+      "fn_aum_pcaf_data_quality_score_s2": "N/A",
+      "fn_aum_pcaf_data_quality_score_s1s2": "N/A",
+      "fn_aum_pcaf_data_quality_score_s3": "N/A",
+      "fn_aum_pcaf_data_quality_score_total": "N/A"
+    }
+  ],
+  "fn_gross_exp_intensity": [
+    {
+      "fn_gross_exp_intensity_type": "N/A",
+      "fn_gross_exp_intensity_physical": [
+        {
+          "fn_gross_exp_phys_int_description": "N/A",
+          "fn_gross_exp_phys_int_asset_class": ["N/A"],
+          "fn_gross_exp_phys_int_sector": ["N/A"],
+          "fn_gross_exp_phys_int_coverage_scope": ["N/A"],
+          "fn_gross_exp_phys_int_coverage_s3_cat": ["N/A"],
+          "fn_gross_exp_emissions_physical_intensity": "N/A",
+          "fn_gross_exp_units_phys_int_numerator": "N/A",
+          "fn_gross_exp_units_phys_int_denom": "N/A",
+          "fn_gross_exp_units_phys_int_denom_other": "N/A",
+          "fn_gross_exp_phys_int_coverage_ghg": ["N/A"],
+          "fn_gross_exp_phys_int_methodology": "N/A",
+          "fn_gross_exp_phys_int_methodology_underlying": "N/A"
+        }
+      ],
+      "fn_gross_exp_intensity_economic": [
+          {
+            "fn_gross_exp_econ_int_description": "N/A",
+            "fn_gross_exp_econ_int_asset_class": ["N/A"],
+            "fn_gross_exp_econ_int_sector": ["N/A"],
+            "fn_gross_exp_econ_int_sector_prompt": "N/A",
+            "fn_gross_exp_econ_int_coverage_scope": ["N/A"],
+            "fn_gross_exp_econ_int_coverage_s3_cat": ["N/A"],
+            "fn_gross_exp_emissions_economic_intensity": "N/A",
+            "fn_gross_exp_emissions_economic_intensity_usd": "N/A",
+            "fn_gross_exp_units_econ_int_numerator": "N/A",
+            "fn_gross_exp_units_econ_int_denom": "N/A",
+            "fn_gross_exp_units_econ_int_denom_other": "N/A",
+            "fn_gross_exp_econ_int_coverage_ghg": ["N/A"],
+            "fn_gross_exp_econ_int_methodology": "N/A",
+            "fn_gross_exp_econ_int_methodology_underlying": "N/A"
+          }
+        ]
+    }
+  ],
+  "fn_gross_exp_data_quality": [
+      {
+        "fn_gross_exp_data_quality_asset_class": ["N/A"],
+        "fn_gross_exp_data_quality_sector": ["N/A"],
+        "fn_gross_exp_perc_reported": "N/A",
+        "fn_gross_exp_pcaf_data_quality_score_s1": "N/A",
+        "fn_gross_exp_pcaf_data_quality_score_s2": "N/A",
+        "fn_gross_exp_pcaf_data_quality_score_s1s2": "N/A",
+        "fn_gross_exp_pcaf_data_quality_score_s3": "N/A",
+        "fn_gross_exp_pcaf_data_quality_score_total": "N/A"
+      }
+    ]
+}

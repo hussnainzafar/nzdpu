@@ -1,0 +1,1573 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "created_on": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "heritable": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "table_def_id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "revision_id": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "revision": {
+              "type": "integer"
+            },
+            "active": {
+              "type": "boolean"
+            },
+            "constraint_view": {
+              "type": "object"
+            },
+            "permissions_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "table_def_id",
+            "name",
+            "created_on",
+            "user_id",
+            "revision_id",
+            "description",
+            "revision",
+            "active",
+            "constraint_view",
+            "permissions_set_id",
+            "id"
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "type": "string"
+                            },
+                            "conditions": {
+                              "type": "array",
+                              "items": {}
+                            },
+                            "actions": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "set": {
+                                      "type": "object",
+                                      "properties": {
+                                        "min": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "min"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "set"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "code",
+                            "conditions",
+                            "actions"
+                          ]
+                        }
+                      ]
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "type": "string"
+                            },
+                            "conditions": {
+                              "type": "array",
+                              "items": {}
+                            },
+                            "actions": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "set": {
+                                      "type": "object",
+                                      "properties": {
+                                        "required": {
+                                          "type": "boolean"
+                                        },
+                                        "min": {
+                                          "type": "string"
+                                        },
+                                        "max": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "required",
+                                        "min",
+                                        "max"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "set"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "code",
+                            "conditions",
+                            "actions"
+                          ]
+                        }
+                      ]
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "nzdpuForm": {
+                          "type": "string"
+                        },
+                        "view": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item": {
+                          "type": "object",
+                          "properties": {
+                            "variant": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "variant"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "nzdpuForm",
+                        "view",
+                        "item"
+                      ]
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "type": "string"
+                            },
+                            "conditions": {
+                              "type": "array",
+                              "items": {}
+                            },
+                            "actions": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "set": {
+                                      "type": "object",
+                                      "properties": {
+                                        "min": {
+                                          "type": "integer"
+                                        },
+                                        "max": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "min",
+                                        "max"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "set"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "code",
+                            "conditions",
+                            "actions"
+                          ]
+                        }
+                      ]
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object"
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "attribute_type": {
+              "type": "string"
+            },
+            "created_on": {
+              "type": "string"
+            },
+            "table_def_id": {
+              "type": "integer"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "attribute_type_id": {
+              "type": "null"
+            },
+            "choice_set_id": {
+              "type": "null"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "choices": {
+              "type": "null"
+            },
+            "prompts": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "language_code": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "value",
+                    "description",
+                    "language_code",
+                    "role",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "form": {
+              "type": "null"
+            },
+            "views": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "column_def_id": {
+                      "type": "integer"
+                    },
+                    "table_view_id": {
+                      "type": "integer"
+                    },
+                    "constraint_view": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "nzdpuForm": {
+                          "type": "string"
+                        },
+                        "view": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item": {
+                          "type": "object",
+                          "properties": {
+                            "variant": {
+                              "type": "string"
+                            },
+                            "additionalProps": {
+                              "type": "object",
+                              "properties": {
+                                "groupScope": {
+                                  "type": "string"
+                                },
+                                "headingType": {
+                                  "type": "string"
+                                },
+                                "isAccordion": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "groupScope",
+                                "headingType",
+                                "isAccordion"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "variant",
+                            "additionalProps"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "nzdpuForm",
+                        "view",
+                        "item"
+                      ]
+                    },
+                    "created_on": {
+                      "type": "string"
+                    },
+                    "constraint_value": {
+                      "type": "array",
+                      "items": {}
+                    },
+                    "user_id": {
+                      "type": "integer"
+                    },
+                    "permissions_set_id": {
+                      "type": "null"
+                    },
+                    "choice_set_id": {
+                      "type": "null"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "column_def_id",
+                    "table_view_id",
+                    "constraint_view",
+                    "created_on",
+                    "constraint_value",
+                    "user_id",
+                    "permissions_set_id",
+                    "choice_set_id",
+                    "id",
+                    "choices"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "attribute_type",
+            "created_on",
+            "table_def_id",
+            "user_id",
+            "attribute_type_id",
+            "choice_set_id",
+            "id",
+            "choices",
+            "prompts",
+            "form",
+            "views"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "created_on",
+    "user_id",
+    "heritable",
+    "id",
+    "views",
+    "attributes"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "name": "nzdpu_form",
+  "description": "NZDPU SCHEMA 4.0",
+  "user_id": 1,
+  "view": {
+    "name": "nzdpu_form_simple_test",
+    "description": "A sample questionnaire view"
+  },
+  "attributes": [
+    {
+      "name": "disclosure_source",
+      "type": "text",
+      "prompts": [
+        {
+          "value": "Disclosure source"
+        }
+      ]
+    },
+    {
+      "name": "legal_entity_identifier",
+      "type": "text_or_null",
+      "prompts": [
+        {
+          "value": "legal_entity_identifier"
+        }
+      ]
+    },
+    {
+      "name": "data_model",
+      "type": "text",
+      "prompts": [
+        {
+          "value": "Data model for disclosure"
+        }
+      ],
+      "view": {
+        "constraint_value": [
+          {
+            "code": "data_model_min",
+            "actions": [
+              {
+                "set": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "date_start_reporting_year",
+      "type": "datetime",
+      "prompts": [
+        {
+          "value": "Reporting period start date"
+        }
+      ]
+    },
+    {
+      "name": "date_end_reporting_year",
+      "type": "datetime",
+      "prompts": [
+        {
+          "value": "Reporting period end date"
+        }
+      ],
+      "view": {
+        "constraint_value": [
+          {
+            "code": "current_date_range",
+            "actions": [
+              {
+                "set": {
+                  "required": true,
+                  "min": "2023-06-27T00:00:00.000Z",
+                  "max": "{currentDate}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "reporting_year",
+      "type": "int",
+      "prompts": [
+        {
+          "value": "Reporting year"
+        }
+      ],
+      "view": {
+        "constraint_view": {
+          "type": "int",
+          "nzdpuForm": "GENERAL_DISCLOSURE",
+          "view": [
+            "DATA_EXPLORER"
+          ],
+          "item": {
+            "variant": "YEAR"
+          }
+        },
+        "constraint_value": [
+          {
+            "code": "reporting_year_range",
+            "actions": [
+              {
+                "set": {
+                  "min": 2015,
+                  "max": 2022
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "org_boundary_approach",
+      "type": "text_or_null",
+      "prompts": [
+        {
+          "value": "Organizational boundary approach used to consolidate GHG emissions"
+        }
+      ]
+    },
+    {
+      "name": "reporting_datetime",
+      "type": "datetime",
+      "prompts": [
+        {
+          "value": "Reporting date"
+        }
+      ]
+    },
+    {
+      "name": "scope_1_emissions_group",
+      "type": "text",
+      "prompts": [
+        {
+          "value": "Scope 1 Emissions"
+        }
+      ]
+    }
+  ]
+}

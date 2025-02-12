@@ -1,0 +1,913 @@
+{
+    "data_model": 10001,
+    "date_start_reporting_year": "2019-01-01T00:00:00.000Z",
+    "date_end_reporting_year": "2020-01-01T00:00:00.000Z",
+    "org_boundary_approach": 20001,
+    "disclose_s1_yn": "True",
+    "scope_1_emissions": 33000,
+    "scope_1_emissions_units": 30001,
+    "rationale_s1_non_disclose": null,
+    "disclose_s1_ghg_yn": "True",
+    "rationale_s1_ghg_breakdown_non_disclose": null,
+    "rationale_s1_ghg_breakdown_non_disclose_other": null,
+    "scope_1_ghg_breakdown": [
+        {
+            "scope_1_ghg_gas": 40001,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40002,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40003,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40004,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40005,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40006,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": "not_defined"
+        },
+        {
+            "scope_1_ghg_gas": 40007,
+            "scope_1_ghg_other_gas_name": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": 70001,
+            "rationale_s1_ghg_non_disclose_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40008,
+            "scope_1_ghg_other_gas_name": "user-defined-gas",
+            "scope_1_ghg_emissions": 5500,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null,
+            "rationale_s1_ghg_non_disclose": null,
+            "rationale_s1_ghg_non_disclose_other": null
+        }
+    ],
+    "rationale_s1_ghg_not_equal_s1_total": "null",
+    "scope_1_methodology": [
+        80000,
+        80001,
+        "User defined methodology"
+    ],
+    "scope_1_exclusion": [
+        {
+            "scope_1_exclusion_description": "Small international offices less than 500 square feet",
+            "scope_1_exclusion_explanation": "Difficult to collect data",
+            "scope_1_exclusion_perc": 0.1,
+            "scope_1_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+            "scope_1_exclusion_description": "Recent acquisitions",
+            "scope_1_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+            "scope_1_exclusion_perc_explanation": null
+        }
+    ],
+    "scope_1_calculation_change_yn": "True",
+    "scope_1_change_type": [
+        240001,
+        240004
+    ],
+    "scope_1_change_description": "Change description",
+    "disclose_s2_lb_yn": "True",
+    "scope_2_lb_emissions": 25000,
+    "scope_2_lb_emissions_units": 30001,
+    "rationale_s2_lb_non_disclose": null,
+    "scope_2_lb_methodology": [
+        270052,
+        270053,
+        270043,
+        "User defined methodology"
+    ],
+    "scope_2_lb_exclusion": [
+        {
+            "scope_2_lb_exclusion_description": "Small international offices less than 500 square feet",
+            "scope_2_lb_exclusion_explanation": "Difficult to collect data",
+            "scope_2_lb_exclusion_perc": 0.1,
+            "scope_2_lb_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+            "scope_2_lb_exclusion_description": "Recent acquisitions",
+            "scope_2_lb_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+            "scope_2_lb_exclusion_perc_explanation": null
+        }
+    ],
+    "scope_2_lb_calculation_change_yn": "True",
+    "scope_2_lb_change_type": [
+        240001,
+        240004
+    ],
+    "scope_2_lb_change_description": "Change description",
+    "disclose_s2_mb_yn": "True",
+    "scope_2_mb_emissions": 12000,
+    "scope_2_mb_emissions_units": 30001,
+    "rationale_s2_mb_non_disclose": null,
+    "scope_2_mb_methodology": [
+        270052,
+        270053,
+        270043,
+        "User defined methodology"
+    ],
+    "scope_2_mb_exclusion": [
+        {
+            "scope_2_mb_exclusion_description": "Small international offices less than 500 square feet",
+            "scope_2_mb_exclusion_explanation": "Difficult to collect data",
+            "scope_2_mb_exclusion_perc": 0.1,
+            "scope_2_mb_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+            "scope_2_mb_exclusion_description": "Recent acquisitions",
+            "scope_2_mb_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+            "scope_2_mb_exclusion_perc_explanation": null
+        }
+    ],
+    "scope_2_mb_calculation_change_yn": "True",
+    "scope_2_mb_change_type": [
+        240001,
+        240004
+    ],
+    "scope_2_mb_change_description": "Change description",
+    "disclose_s3_yn": "Yes",
+    "scope_3_breakdown_source": 90001,
+    "scope_3_ghg_protocol": [
+        {
+            "scope_3_ghg_prot_category": 110001,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110002,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110003,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110004,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110005,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110006,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110007,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110008,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110009,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110010,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110011,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110012,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110013,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110014,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110015,
+            "scope_3_ghg_prot_category_other": null,
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        },
+        {
+            "scope_3_ghg_prot_category": 110016,
+            "scope_3_ghg_prot_category_other": "User defined category",
+            "rationale_s3_ghg_prot_non_disclose": null,
+            "scope_3_ghg_prot_relevancy": null,
+            "scope_3_ghg_prot_relevancy_other": null,
+            "scope_3_ghgp_relevancy_description": null,
+            "scope_3_ghg_prot_emissions": 1200,
+            "scope_3_ghg_prot_emissions_units": 30001,
+            "scope_3_ghg_prot_methodology": [
+                {
+                    "scope_3_ghg_prot_methodology_type": 280000,
+                    "scope_3_ghg_prot_methodology_type_other": null,
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_ghg_prot_methodology_type": 280081,
+                    "scope_3_ghg_prot_methodology_type_other": "User defined other methodology",
+                    "scope_3_ghg_prot_methodology_description": "User defined description",
+                    "scope_3_methodology_perc": 20
+                }
+            ],
+            "scope_3_ghg_prot_exclusion": [
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Small international offices less than 500 square feet",
+                    "scope_3_ghg_prot_exclusion_explanation": "Difficult to collect data",
+                    "scope_3_ghg_prot_exclusion_perc": 0.1,
+                    "scope_3_ghg_prot_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+                },
+                {
+                    "scope_3_ghg_prot_exclusion_description": "Recent acquisitions",
+                    "scope_3_ghg_prot_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+                    "scope_3_ghg_prot_exclusion_perc_explanation": null
+                }
+            ],
+            "scope_3_calculation_change_ghg_prot_yn": "True",
+            "scope_3_ghg_prot_change_type": [
+                240001,
+                240004
+            ],
+            "scope_3_ghg_prot_change_description": "Change description"
+        }
+    ],
+    "scope_3_iso": null,
+    "disclose_assure_verif_yn": "True",
+    "rationale_assure_verif_non_disclose": null,
+    "assure_verif_valid_statement": [
+        {
+            "assure_verif_valid_provider": "Provider 1",
+            "assure_verif_valid_standard": 210001,
+            "assure_verif_valid_standard_other": null,
+            "level_of_assurance": 220001,
+            "assure_verif_valid_statement_file": 1,
+            "perc_scope_1_assure_verif_valid": 1,
+            "perc_scope_2_lb_assure_verif_valid": 12,
+            "perc_scope_2_mb_assure_verif_valid": 15,
+            "perc_scope_3_assure_verif_valid": 9
+        },
+        {
+            "assure_verif_valid_provider": "Provider 2",
+            "assure_verif_valid_standard": 210001,
+            "assure_verif_valid_standard_other": null,
+            "level_of_assurance": 220001,
+            "assure_verif_valid_statement_file": 2,
+            "perc_scope_1_assure_verif_valid": 1,
+            "perc_scope_2_lb_assure_verif_valid": 12,
+            "perc_scope_2_mb_assure_verif_valid": 15,
+            "perc_scope_3_assure_verif_valid": 9
+        }
+    ],
+    "disclose_target_valid_yn": "True",
+    "rationale_target_valid_non_disclose": null,
+    "assure_verif_valid_statement_target": [
+        {
+            "target_validation_provider": "Provider 1",
+            "target_validation_source": 230001,
+            "target_validation_source_other": null,
+            "target_validation_statement": 3
+        }
+    ]
+}

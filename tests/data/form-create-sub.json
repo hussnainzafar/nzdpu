@@ -1,0 +1,11 @@
+{
+  "disclosure_source": "CDP Climate Change 2015",
+  "legal_entity_identifier": "legalentityidentifier",
+  "data_model": "NZDPU Core",
+  "date_start_reporting_year": "2019-01-01T00:00:00.000Z",
+  "date_end_reporting_year": "2023-07-27T00:00:00.000Z",
+  "reporting_year": 2020,
+  "org_boundary_approach": "org_boundary_approach",
+  "reporting_datetime": "2020-01-02T00:00:00.000Z",
+  "scope_1_emissions_group": "scope_1_emissions_group"
+}

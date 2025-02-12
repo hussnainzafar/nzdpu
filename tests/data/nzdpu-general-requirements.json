@@ -1,0 +1,186 @@
+{
+    "name": "nzdpu_general_requirements",
+    "description": "NZDPU - General Requirements Form",
+    "user_id": 1,
+    "view": {
+        "name": "nzdpu_general_requirements_view",
+        "description": "NZDPU schema General Requirements view"
+    },
+    "attributes": [
+        {
+            "name": "general_features",
+            "type": "label",
+            "prompts": [
+                {
+                    "value": "General features",
+                    "description": "General features",
+                    "language_code": "en_US"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "label",
+                    "item": {
+                        "variant": "PRIMARY_HEADING"
+                    }
+                }
+            }
+        },
+        {
+            "name": "data_model",
+            "type": "single",
+            "prompts": [
+                {
+                    "value": "Reporting data model"
+                }
+            ],
+            "choices": [
+                {
+                    "choice_id": 10001,
+                    "value": "NZDPU Core",
+                    "set_name": "data_model_list"
+                },
+                {
+                    "choice_id": 10002,
+                    "value": "ISSB",
+                    "set_name": "data_model_list"
+                },
+                {
+                    "choice_id": 10003,
+                    "value": "EFRAG",
+                    "set_name": "data_model_list"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "constraint_view": {
+                    "type": "single",
+                    "layout": { "span": 6, "offset": 6 }
+                }
+            }
+        },
+        {
+            "name": "date_start_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period Start Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "constraint_view": {
+                    "type": "datetime",
+                    "layout": { "span": 6 }
+                }
+            }
+        },
+        {
+            "name": "date_end_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period End Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "constraint_view": {
+                    "type": "datetime",
+                    "layout": { "span": 6 }
+                }
+            }
+        },
+        {
+            "name": "org_boundary_approach",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 20001,
+                    "value": "Operational control",
+                    "set_name": "org_boundary_approach_list"
+                },
+                {
+                    "choice_id": 20002,
+                    "value": "Equity share",
+                    "set_name": "org_boundary_approach_list"
+                },
+                {
+                    "choice_id": 20003,
+                    "value": "Financial control",
+                    "set_name": "org_boundary_approach_list"
+                },
+                {
+                    "choice_id": 20004,
+                    "value": "Aligned with consolidated financial statement (and operational control for entities outside the consolidated accounting group)",
+                    "set_name": "org_boundary_approach_list"
+                },
+                {
+                    "choice_id": 20005,
+                    "value": "Aligned with consolidated financial statement (and equity share for entities outside the consolidated accounting group)",
+                    "set_name": "org_boundary_approach_list"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Organizational boundary approach used to consolidate GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "constraint_view": {
+                    "type": "single",
+                    "layout": { "span": 6 }
+                }
+            }
+        }
+    ]
+}

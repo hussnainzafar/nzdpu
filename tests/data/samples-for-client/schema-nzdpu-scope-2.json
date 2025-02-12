@@ -1,0 +1,709 @@
+{
+    "name": "nzdpu_scope_2",
+    "description": "NZDPU - Scope 2 Form",
+    "user_id": 1,
+    "attributes": [
+        {
+            "name": "scope_2_lb_emissions",
+            "type": "float",
+            "prompts": [
+                {
+                    "value": "Location-based scope 2 GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "scope_2_lb_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_lb_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "choice_set_id": 3,
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "choice_set_id": 3,
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Location-based scope 2 GHG emissions units"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_emissions",
+            "type": "float",
+            "prompts": [
+                {
+                    "value": "Market-based scope 2 GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "scope_2_mb_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_mb_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "choice_set_id": 3,
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "choice_set_id": 3,
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Market-based scope 2 GHG emissions units"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s2_lb_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total location-based scope 2 GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s2_mb_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total market-based scope 2 GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_methodology",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 80001,
+                    "choice_set_id": 8,
+                    "value": "ABI Energia Linee Guida"
+                },
+                {
+                    "choice_id": 80002,
+                    "choice_set_id": 8,
+                    "value": "Act on the Rational Use of Energy"
+                },
+                {
+                    "choice_id": 80003,
+                    "choice_set_id": 8,
+                    "value": "American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009"
+                },
+                {
+                    "choice_id": 80004,
+                    "choice_set_id": 8,
+                    "value": "Australia - National Greenhouse and Energy Reporting Act"
+                },
+                {
+                    "choice_id": 80005,
+                    "choice_set_id": 8,
+                    "value": "Bilan Carbone"
+                },
+                {
+                    "choice_id": 80006,
+                    "choice_set_id": 8,
+                    "value": "Brazil GHG Protocol Programme"
+                },
+                {
+                    "choice_id": 80007,
+                    "choice_set_id": 8,
+                    "value": "Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003"
+                },
+                {
+                    "choice_id": 80008,
+                    "choice_set_id": 8,
+                    "value": "China Corporate Energy Conservation and GHG Management Programme"
+                },
+                {
+                    "choice_id": 80009,
+                    "choice_set_id": 8,
+                    "value": "Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019"
+                },
+                {
+                    "choice_id": 80010,
+                    "choice_set_id": 8,
+                    "value": "ENCORD: Construction CO2e Measurement Protocol"
+                },
+                {
+                    "choice_id": 80011,
+                    "choice_set_id": 8,
+                    "value": "Energy Information Administration 1605(b)"
+                },
+                {
+                    "choice_id": 80012,
+                    "choice_set_id": 8,
+                    "value": "Environment Canada +"
+                },
+                {
+                    "choice_id": 80013,
+                    "choice_set_id": 8,
+                    "value": "EPRA (European Public Real Estate Association) +"
+                },
+                {
+                    "choice_id": 80014,
+                    "choice_set_id": 8,
+                    "value": "European Union Emission Trading System (EU ETS) +"
+                },
+                {
+                    "choice_id": 80015,
+                    "choice_set_id": 8,
+                    "value": "French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)"
+                },
+                {
+                    "choice_id": 80016,
+                    "choice_set_id": 8,
+                    "value": "Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010"
+                },
+                {
+                    "choice_id": 80017,
+                    "choice_set_id": 8,
+                    "value": "ICLEI Local Government GHG Protocol"
+                },
+                {
+                    "choice_id": 80018,
+                    "choice_set_id": 8,
+                    "value": "IEA CO2 Emissions from Fuel Combustion"
+                },
+                {
+                    "choice_id": 80019,
+                    "choice_set_id": 8,
+                    "value": "India GHG Inventory Programme"
+                },
+                {
+                    "choice_id": 80020,
+                    "choice_set_id": 8,
+                    "value": "International Wine Industry Greenhouse Gas Protocol and Accounting Tool"
+                },
+                {
+                    "choice_id": 80021,
+                    "choice_set_id": 8,
+                    "value": "IPCC Guidelines for National Greenhouse Gas Inventories, 2006"
+                },
+                {
+                    "choice_id": 80022,
+                    "choice_set_id": 8,
+                    "value": "IPIECA's Petroleum Industry Guidelines +"
+                },
+                {
+                    "choice_id": 80023,
+                    "choice_set_id": 8,
+                    "value": "ISO 14064-1"
+                },
+                {
+                    "choice_id": 80024,
+                    "choice_set_id": 8,
+                    "value": "Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)"
+                },
+                {
+                    "choice_id": 80025,
+                    "choice_set_id": 8,
+                    "value": "Korea GHG and Energy Target Management System Operating Guidelines"
+                },
+                {
+                    "choice_id": 80026,
+                    "choice_set_id": 8,
+                    "value": "National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)"
+                },
+                {
+                    "choice_id": 80027,
+                    "choice_set_id": 8,
+                    "value": "New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting"
+                },
+                {
+                    "choice_id": 80028,
+                    "choice_set_id": 8,
+                    "value": "Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)"
+                },
+                {
+                    "choice_id": 80029,
+                    "choice_set_id": 8,
+                    "value": "Programa GEI Mexico"
+                },
+                {
+                    "choice_id": 80030,
+                    "choice_set_id": 8,
+                    "value": "Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)"
+                },
+                {
+                    "choice_id": 80031,
+                    "choice_set_id": 8,
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) Model Rule"
+                },
+                {
+                    "choice_id": 80032,
+                    "choice_set_id": 8,
+                    "value": "Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies"
+                },
+                {
+                    "choice_id": 80033,
+                    "choice_set_id": 8,
+                    "value": "Taiwan - GHG Reduction Act"
+                },
+                {
+                    "choice_id": 80034,
+                    "choice_set_id": 8,
+                    "value": "Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization"
+                },
+                {
+                    "choice_id": 80035,
+                    "choice_set_id": 8,
+                    "value": "The Climate Registry +"
+                },
+                {
+                    "choice_id": 80036,
+                    "choice_set_id": 8,
+                    "value": "The Cool Farm Tool"
+                },
+                {
+                    "choice_id": 80037,
+                    "choice_set_id": 8,
+                    "value": "The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations"
+                },
+                {
+                    "choice_id": 80038,
+                    "choice_set_id": 8,
+                    "value": "The Greenhouse Gas Protocol +"
+                },
+                {
+                    "choice_id": 80039,
+                    "choice_set_id": 8,
+                    "value": "The Tokyo Cap-and Trade Program"
+                },
+                {
+                    "choice_id": 80040,
+                    "choice_set_id": 8,
+                    "value": "Toitū +"
+                },
+                {
+                    "choice_id": 80041,
+                    "choice_set_id": 8,
+                    "value": "US EPA +"
+                },
+                {
+                    "choice_id": 80042,
+                    "choice_set_id": 8,
+                    "value": "VfU (Verein fur Umweltmanagement) Indicators Standard"
+                },
+                {
+                    "choice_id": 80043,
+                    "choice_set_id": 8,
+                    "value": "WBCSD: The Cement CO2 and Energy Protocol"
+                },
+                {
+                    "choice_id": 80044,
+                    "choice_set_id": 8,
+                    "value": "World Steel Association CO2 emissions data collection guidelines"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Methodology used to calculate location-based scope 2 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_methodology",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 80001,
+                    "choice_set_id": 8,
+                    "value": "ABI Energia Linee Guida"
+                },
+                {
+                    "choice_id": 80002,
+                    "choice_set_id": 8,
+                    "value": "Act on the Rational Use of Energy"
+                },
+                {
+                    "choice_id": 80003,
+                    "choice_set_id": 8,
+                    "value": "American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009"
+                },
+                {
+                    "choice_id": 80004,
+                    "choice_set_id": 8,
+                    "value": "Australia - National Greenhouse and Energy Reporting Act"
+                },
+                {
+                    "choice_id": 80005,
+                    "choice_set_id": 8,
+                    "value": "Bilan Carbone"
+                },
+                {
+                    "choice_id": 80006,
+                    "choice_set_id": 8,
+                    "value": "Brazil GHG Protocol Programme"
+                },
+                {
+                    "choice_id": 80007,
+                    "choice_set_id": 8,
+                    "value": "Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003"
+                },
+                {
+                    "choice_id": 80008,
+                    "choice_set_id": 8,
+                    "value": "China Corporate Energy Conservation and GHG Management Programme"
+                },
+                {
+                    "choice_id": 80009,
+                    "choice_set_id": 8,
+                    "value": "Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019"
+                },
+                {
+                    "choice_id": 80010,
+                    "choice_set_id": 8,
+                    "value": "ENCORD: Construction CO2e Measurement Protocol"
+                },
+                {
+                    "choice_id": 80011,
+                    "choice_set_id": 8,
+                    "value": "Energy Information Administration 1605(b)"
+                },
+                {
+                    "choice_id": 80012,
+                    "choice_set_id": 8,
+                    "value": "Environment Canada +"
+                },
+                {
+                    "choice_id": 80013,
+                    "choice_set_id": 8,
+                    "value": "EPRA (European Public Real Estate Association) +"
+                },
+                {
+                    "choice_id": 80014,
+                    "choice_set_id": 8,
+                    "value": "European Union Emission Trading System (EU ETS) +"
+                },
+                {
+                    "choice_id": 80015,
+                    "choice_set_id": 8,
+                    "value": "French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)"
+                },
+                {
+                    "choice_id": 80016,
+                    "choice_set_id": 8,
+                    "value": "Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010"
+                },
+                {
+                    "choice_id": 80017,
+                    "choice_set_id": 8,
+                    "value": "ICLEI Local Government GHG Protocol"
+                },
+                {
+                    "choice_id": 80018,
+                    "choice_set_id": 8,
+                    "value": "IEA CO2 Emissions from Fuel Combustion"
+                },
+                {
+                    "choice_id": 80019,
+                    "choice_set_id": 8,
+                    "value": "India GHG Inventory Programme"
+                },
+                {
+                    "choice_id": 80020,
+                    "choice_set_id": 8,
+                    "value": "International Wine Industry Greenhouse Gas Protocol and Accounting Tool"
+                },
+                {
+                    "choice_id": 80021,
+                    "choice_set_id": 8,
+                    "value": "IPCC Guidelines for National Greenhouse Gas Inventories, 2006"
+                },
+                {
+                    "choice_id": 80022,
+                    "choice_set_id": 8,
+                    "value": "IPIECA's Petroleum Industry Guidelines +"
+                },
+                {
+                    "choice_id": 80023,
+                    "choice_set_id": 8,
+                    "value": "ISO 14064-1"
+                },
+                {
+                    "choice_id": 80024,
+                    "choice_set_id": 8,
+                    "value": "Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)"
+                },
+                {
+                    "choice_id": 80025,
+                    "choice_set_id": 8,
+                    "value": "Korea GHG and Energy Target Management System Operating Guidelines"
+                },
+                {
+                    "choice_id": 80026,
+                    "choice_set_id": 8,
+                    "value": "National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)"
+                },
+                {
+                    "choice_id": 80027,
+                    "choice_set_id": 8,
+                    "value": "New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting"
+                },
+                {
+                    "choice_id": 80028,
+                    "choice_set_id": 8,
+                    "value": "Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)"
+                },
+                {
+                    "choice_id": 80029,
+                    "choice_set_id": 8,
+                    "value": "Programa GEI Mexico"
+                },
+                {
+                    "choice_id": 80030,
+                    "choice_set_id": 8,
+                    "value": "Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)"
+                },
+                {
+                    "choice_id": 80031,
+                    "choice_set_id": 8,
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) Model Rule"
+                },
+                {
+                    "choice_id": 80032,
+                    "choice_set_id": 8,
+                    "value": "Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies"
+                },
+                {
+                    "choice_id": 80033,
+                    "choice_set_id": 8,
+                    "value": "Taiwan - GHG Reduction Act"
+                },
+                {
+                    "choice_id": 80034,
+                    "choice_set_id": 8,
+                    "value": "Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization"
+                },
+                {
+                    "choice_id": 80035,
+                    "choice_set_id": 8,
+                    "value": "The Climate Registry +"
+                },
+                {
+                    "choice_id": 80036,
+                    "choice_set_id": 8,
+                    "value": "The Cool Farm Tool"
+                },
+                {
+                    "choice_id": 80037,
+                    "choice_set_id": 8,
+                    "value": "The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations"
+                },
+                {
+                    "choice_id": 80038,
+                    "choice_set_id": 8,
+                    "value": "The Greenhouse Gas Protocol +"
+                },
+                {
+                    "choice_id": 80039,
+                    "choice_set_id": 8,
+                    "value": "The Tokyo Cap-and Trade Program"
+                },
+                {
+                    "choice_id": 80040,
+                    "choice_set_id": 8,
+                    "value": "Toitū +"
+                },
+                {
+                    "choice_id": 80041,
+                    "choice_set_id": 8,
+                    "value": "US EPA +"
+                },
+                {
+                    "choice_id": 80042,
+                    "choice_set_id": 8,
+                    "value": "VfU (Verein fur Umweltmanagement) Indicators Standard"
+                },
+                {
+                    "choice_id": 80043,
+                    "choice_set_id": 8,
+                    "value": "WBCSD: The Cement CO2 and Energy Protocol"
+                },
+                {
+                    "choice_id": 80044,
+                    "choice_set_id": 8,
+                    "value": "World Steel Association CO2 emissions data collection guidelines"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Methodology used to calculate market-based scope 2 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_exclusion_form",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Location-Based Exclusions"
+                }
+            ],
+            "form": {
+                "name": "scope_2_lb_exclusion_form",
+                "description": "Exclusions form for scope 2 Location-Based GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_2_lb_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of location-based scope 2 GHG emissions source excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of why location-based scope 2 GHG emissions source is excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_2_lb_exclusion_perc_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated percentage of location-based scope 2 GHG emissions excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of how percentage of location-based scope 2 GHG emissions excluded was calculated"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_mb_exclusion_form",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Market-Based Exclusions"
+                }
+            ],
+            "form": {
+                "name": "scope_2_mb_exclusion_form",
+                "description": "Exclusions form for scope 2 Market-Based GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_2_mb_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of market-based scope 2 GHG emissions source excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of why market-based scope 2 GHG emissions source is excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_2_mb_exclusion_perc_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated percentage of market-based scope 2 GHG emissions excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of how percentage of market-based scope 2 GHG emissions excluded was calculated"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

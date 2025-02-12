@@ -1,0 +1,98 @@
+{
+  "reporting_year": 2020,
+  "reporting_datetime": "2020-01-02T00:00:00.000Z",
+  "date_start_reporting_year": "2019-01-01T00:00:00.000Z",
+  "date_end_reporting_year": "2020-01-01T00:00:00.000Z",
+  "disclosure_source": "CDP Climate Change 2015",
+  "organization_identifier": 1000,
+  "legal_entity_identifier": "0000012345678",
+  "filing_type": "filing_type",
+  "data_model": "NZDPU Core",
+  "org_boundary_approach": "Operational control",
+  "total_s1_emissions_ghg": 1094881,
+  "rationale_s1_emissions_non_disclose": "-",
+  "s1_emissions_method": "s1_emissions_method",
+  "disclose_s1_emissions_exclusion": "disclose_s1_emissions_exclusion",
+  "disclose_s1_emissions_change_type": "disclose_s1_emissions_change_type",
+  "s1_ch4_emissions": 23412,
+  "s1_co2_emissions": 1234,
+  "total_s2_lb_emissions_co2": "-",
+  "s1_emissions_exclusion_dict": [
+    {
+      "s1_emissions_exclusion_desc": "Small international offices less than 500 square feet",
+      "s1_emissions_exclusion_perc": 0.1,
+      "s1_emissions_exclusion_explan": "Difficult to collect data",
+      "s1_emissions_exclusion_perc_explan": "Office activities which should not represent significant emissions."
+    },
+    {
+      "s1_emissions_exclusion_desc": "Recent acquisitions",
+      "s1_emissions_exclusion_perc": "-",
+      "s1_emissions_exclusion_explan": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+      "s1_emissions_exclusion_perc_explan": "-"
+    }
+  ],
+  "s1_other_ghg_emissions_dict": [
+    {
+      "s1_other_ghg_emissions_name": "s1_other_ghg_emissions_name",
+      "s1_other_ghg_emissions": 1021,
+      "s1_other_ghg_emissions_gwp_source": "s1_other_ghg_emissions_gwp_source",
+      "s1_other_ghg_emissions_gwp_time_horizon": "s1_other_ghg_emissions_gwp_time_horizon"
+    },
+    {
+      "s1_other_ghg_emissions_name": "s1_other_ghg_emissions_name",
+      "s1_other_ghg_emissions": 2032,
+      "s1_other_ghg_emissions_gwp_source": "s1_other_ghg_emissions_gwp_source",
+      "s1_other_ghg_emissions_gwp_time_horizon": "s1_other_ghg_emissions_gwp_time_horizon"
+    }
+  ],
+  "fin_emissions_grossexp_sectoral_classification": "text",
+  "tgt_abs_dict": [
+    {
+      "tgt_abs_id": "abs_id_1",
+      "tgt_abs_name": "Scope1_2",
+      "tgt_abs_status": "Active",
+      "tgt_abs_status_if_inactive": "Achieved",
+      "tgt_abs_year_set": 2030,
+      "tgt_abs_base_year": 2017,
+      "tgt_abs_base_year_total_perc": "—"
+    }
+  ],
+  "tgt_abs_progress_dict": [
+    {
+      "tgt_abs_id_progress": "abs_id_1",
+      "tgt_abs_progress_year": 2022,
+      "tgt_abs_progress_year_s1_emissions": 37220000.0,
+      "tgt_abs_progress_year_s2_emissions": 2430000.0,
+      "tgt_abs_progress_year_s3_ghgp_c1_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c2_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c3_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c4_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c5_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c6_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c7_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c8_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c9_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c10_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c11_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c12_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c13_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c14_emissions": "—",
+      "tgt_abs_progress_year_s3_ghgp_c15_emissions": "—",
+      "tgt_abs_progress_year_s3_emissions": "—",
+      "tgt_abs_progress_year_total_emissions": 39650000.0,
+      "tgt_abs_progress_perc": 79.3353323338331
+    }
+  ],
+  "s3_ghgp_c1_emissions_method_dict": [
+    {
+      "s3_ghgp_c1_emissions_method_type": "Purchased goods and services|Average-data method",
+      "s3_ghgp_c1_emissions_method_desc": "User defined description",
+      "s3_ghgp_c1_emissions_method_perc": 20
+    },
+    {
+      "s3_ghgp_c1_emissions_method_type": "Purchased goods and services|Hybrid method",
+      "s3_ghgp_c1_emissions_method_desc": "User defined description",
+      "s3_ghgp_c1_emissions_method_perc": 40
+    }
+  ]
+}

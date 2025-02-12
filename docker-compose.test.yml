@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  nzdpu_test_db:
+    image: postgres
+    env_file:
+      - .env
+    volumes:
+      - nzdpu_test_db:/var/lib/postgresql/data/
+      - ./resources/docker/test/db/docker-entrypoint-initdb.d/01-init-db.sh:/docker-entrypoint-initdb.d/01-init-db.sh
+    ports:
+      - "6432:5432"
+    healthcheck:
+      # runs this command to check if postgres is ready
+      test: pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  firebase_auth_emulator:
+    profiles: ["emulator"]
+    platform: linux/amd64
+    image: spine3/firebase-emulator
+    env_file:
+      - ./resources/docker/docker.env
+    ports:
+      - 4000:4000
+      - 9099:9099
+    restart: always
+    healthcheck:
+      # following from https://github.com/firebase/firebase-tools/issues/5009
+      test: wget --no-verbose --tries=1 --spider http://0.0.0.0:9099/emulator/v1/projects/demo-tests/config || exit 1
+      interval: 2s
+      retries: 20
+      timeout: 1s
+
+volumes:
+  nzdpu_test_db:
+    driver: local
+  cache:
+    driver: local

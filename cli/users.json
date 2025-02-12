@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "adminUser",
+      "role": "ADMIN",
+      "password": "password"
+    },
+    {
+      "name": "dataExplorerUser",
+      "role": "DATA_EXPLORER",
+      "password": "password"
+    },
+    {
+      "name": "dataPublisherUser",
+      "role": "DATA_PUBLISHER",
+      "password": "password"
+    },
+    {
+      "name": "schemaEditorUser",
+      "role": "SCHEMA_EDITOR",
+      "password": "password"
+    }
+  ]
+}

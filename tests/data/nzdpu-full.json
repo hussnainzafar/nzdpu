@@ -1,0 +1,3500 @@
+{
+    "name": "nzdpu_form",
+    "description": "NZDPU - General Requirements, Scope 1, Scope 2, Scope 3 Forms",
+    "user_id": 1,
+    "attributes": [
+        {
+            "name": "data_model",
+            "type": "single",
+            "prompts": [
+                {
+                    "value": "Reporting data model"
+                }
+            ],
+            "choices": [
+                {
+                    "choice_id": 10001,
+                    "set_name": "data_model_list",
+                    "value": "NZDPU Core"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "date_start_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period Start Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "date_end_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period End Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "org_boundary_approach",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 20001,
+                    "set_name": "organizational_boundary_approach_list",
+                    "value": "Operational control"
+                },
+                {
+                    "choice_id": 20002,
+                    "set_name": "organizational_boundary_approach_list",
+                    "value": "Equity share"
+                },
+                {
+                    "choice_id": 20003,
+                    "set_name": "organizational_boundary_approach_list",
+                    "value": "Financial control"
+                },
+                {
+                    "choice_id": 20004,
+                    "set_name": "organizational_boundary_approach_list",
+                    "value": "Aligned with consolidated financial statement (and operational control for entities outside the consolidated accounting group)"
+                },
+                {
+                    "choice_id": 20005,
+                    "set_name": "organizational_boundary_approach_list",
+                    "value": "Aligned with consolidated financial statement (and equity share for entities outside the consolidated accounting group)"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Organizational boundary approach used to consolidate GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "disclose_s1_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of scope 1 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_emissions",
+            "type": "float",
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "total_scope1_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prompts": [
+                {
+                    "value": "Total scope1 emissions value"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "set_name": "greenhouse_gas_emissions_units_list",
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "set_name": "greenhouse_gas_emissions_units_list",
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Total scope1 emissions units"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s1_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total scope 1 GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "disclose_s1_ghg_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates breakdown of total scope 1 GHG emissions by GHG"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s1_ghg_breakdown_non_disclose",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 150001,
+                    "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                    "value": "Not applicable"
+                },
+                {
+                    "choice_id": 150002,
+                    "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                    "value": "Not evaluated"
+                },
+                {
+                    "choice_id": 150003,
+                    "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                    "value": "Data not available"
+                },
+                {
+                    "choice_id": 150004,
+                    "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                    "value": "Other reason not listed"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Rationale if breakdown of total scope 1 GHG emissions by GHG not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s1_ghg_breakdown_non_disclose_other",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if breakdown of total scope 1 GHG emissions by GHG not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_ghg_breakdown",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Greenhouse Gasses"
+                }
+            ],
+            "form": {
+                "name": "scope_1_ghg_breakdown_form",
+                "description": "Breakdown of total scope 1 GHG emissions by GHG",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_1_ghg_gas",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 40001,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "CO2"
+                            },
+                            {
+                                "choice_id": 40002,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "CH4"
+                            },
+                            {
+                                "choice_id": 40003,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "NO2"
+                            },
+                            {
+                                "choice_id": 40004,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "HFCs"
+                            },
+                            {
+                                "choice_id": 40005,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "PFCs"
+                            },
+                            {
+                                "choice_id": 40006,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "SF6"
+                            },
+                            {
+                                "choice_id": 40007,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "NF3"
+                            },
+                            {
+                                "choice_id": 40008,
+                                "set_name": "greenhouse_gas_list",
+                                "value": "Other (please specify)"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Greenhouse gas"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_ghg_other_gas_name",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Greenhouse Gas Name"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_ghg_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "GHG emissions value"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "ghg_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_source",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 50001,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "IPCC Sixth Assessment Report (AR6)"
+                            },
+                            {
+                                "choice_id": 50002,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "IPCC Fifth Asssessment Report (AR5)"
+                            },
+                            {
+                                "choice_id": 50003,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "IPCC Fourth Assessment Report (AR4)"
+                            },
+                            {
+                                "choice_id": 50004,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "IPCC Third Assessment Report (TAR)"
+                            },
+                            {
+                                "choice_id": 50005,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "IPCC Second Assessment Report (SAR)"
+                            },
+                            {
+                                "choice_id": 50006,
+                                "set_name": "global_warming_potential_source_list",
+                                "value": "Other GWP source not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 1 GHG emissions Global Warming Potential source"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_source_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other GWP source"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_time_horizon",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 60001,
+                                "set_name": "global_warming_potential_time_horizon_list",
+                                "value": "20-year"
+                            },
+                            {
+                                "choice_id": 60002,
+                                "set_name": "global_warming_potential_time_horizon_list",
+                                "value": "50-year"
+                            },
+                            {
+                                "choice_id": 60003,
+                                "set_name": "global_warming_potential_time_horizon_list",
+                                "value": "100-year"
+                            },
+                            {
+                                "choice_id": 60004,
+                                "set_name": "global_warming_potential_time_horizon_list",
+                                "value": "500-year"
+                            },
+                            {
+                                "choice_id": 60005,
+                                "set_name": "global_warming_potential_time_horizon_list",
+                                "value": "Other time horizon not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 1 GHG emissions Global Warming Potential time horizon"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_time_horizon_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other time horizon"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s1_ghg_non_disclose",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 70001,
+                                "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                                "value": "Not applicable"
+                            },
+                            {
+                                "choice_id": 70002,
+                                "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                                "value": "Not evaluated"
+                            },
+                            {
+                                "choice_id": 70003,
+                                "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                                "value": "Data not available"
+                            },
+                            {
+                                "choice_id": 70004,
+                                "set_name": "rationale_non_disclosure_scope_1_ghg_list",
+                                "value": "Other reason not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Rationale if scope 1 greenhouse gas not disclosed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s1_ghg_non_disclose_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Rationale if scope 1 greenhouse gas not disclosed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "rationale_s1_ghg_not_equal_s1_total",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if scope 1 GHG breakdown does not equal total"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_methodology",
+            "type": "multiple",
+            "prompts": [
+                {
+                    "value": "Methodology"
+                }
+            ],
+            "choices": [
+                {
+                    "choice_id": 80000,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ABI Lab |Linee Guida per l_x0092_introduzione di metodologie di misura nell_x0092_ambito delle diagnosi energetiche del settore bancario "
+                },
+                {
+                    "choice_id": 80001,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ADEME |Bilan Carbone "
+                },
+                {
+                    "choice_id": 80002,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ADEME |Méthode pour la réalisation des bilans d_x0092_émissions de gaz à effet de serre "
+                },
+                {
+                    "choice_id": 80003,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "American Petroleum Institute |Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009 "
+                },
+                {
+                    "choice_id": 80004,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Australian Government |National Greenhouse and Energy Reporting Act 2007 "
+                },
+                {
+                    "choice_id": 80005,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Brazil GHG Protocol Programme |Brazil GHG Protocol Programme "
+                },
+                {
+                    "choice_id": 80006,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Bureau of the Environment Tokyo Metropolitan Government |Tokyo Cap-and-Trade Program "
+                },
+                {
+                    "choice_id": 80007,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Canadian Association of Petroleum Producers |Calculating Greenhouse Gas Emissions Guide, 2003 "
+                },
+                {
+                    "choice_id": 80008,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "China Energy Conservation and GHG Management Program |China Energy Conservation and GHG Management Program "
+                },
+                {
+                    "choice_id": 80009,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "China NDRC |Guidelines for Accounting and Reporting GHG Emissions from Enterprises (Trial) "
+                },
+                {
+                    "choice_id": 80010,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Cool Farm |The Cool Farm Tool "
+                },
+                {
+                    "choice_id": 80011,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Defra (UK Government) |Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019 "
+                },
+                {
+                    "choice_id": 80012,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ENCORD |Construction CO2e Measurement Protocol "
+                },
+                {
+                    "choice_id": 80013,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment and Climate Change Canada |Greenhouse Gas Reporting Program (GHGRP) Technical Guidance "
+                },
+                {
+                    "choice_id": 80014,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Sulphur hexafluoride (SF6) Emission Estimation and Reporting Protocol for Electric Utilities "
+                },
+                {
+                    "choice_id": 80015,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Aluminum Production - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80016,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Base Metals Smelting/Refining - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80017,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Cement Production - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80018,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Primary Iron and Steel Production - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80019,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Lime Production - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80020,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Primary Magnesium Production and Casting - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80021,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Environment Canada |Metal Mining - Guidance Manual for Estimating Greenhouse Gas Emissions "
+                },
+                {
+                    "choice_id": 80022,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "European Commission |EU Emissions Trading System (ETS): The Monitoring and Reporting Regulation - General guidance for installations "
+                },
+                {
+                    "choice_id": 80023,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "European Commission |EU Emissions Trading System (ETS): The Monitoring and Reporting Regulation - General guidance for aircraft operators "
+                },
+                {
+                    "choice_id": 80024,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "European Public Real Estate Association |Best Practices Recommendations on Sustainability Reporting, 2011 "
+                },
+                {
+                    "choice_id": 80025,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "European Public Real Estate Association |EPRA Sustainability Best Practices Recommendations Guidelines, 2017 "
+                },
+                {
+                    "choice_id": 80026,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "FIVS |International Wine Greenhouse Gas Protocol "
+                },
+                {
+                    "choice_id": 80027,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition) "
+                },
+                {
+                    "choice_id": 80028,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector "
+                },
+                {
+                    "choice_id": 80029,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: Public Sector Protocol "
+                },
+                {
+                    "choice_id": 80030,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "HKEX |Reporting Guidance on Environmental KPIs "
+                },
+                {
+                    "choice_id": 80031,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Hong Kong Environmental Protection Department |Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings in Hong Kong, 2010 "
+                },
+                {
+                    "choice_id": 80032,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ICLEI |Local Government Operations Protocol For the quantification and reporting of GHG emissions inventories "
+                },
+                {
+                    "choice_id": 80033,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "IEA |CO2 Emissions from Fuel Combustion "
+                },
+                {
+                    "choice_id": 80034,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "India GHG Program |India GHG Program "
+                },
+                {
+                    "choice_id": 80035,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "IPCC |2006 IPCC Guidelines for National Greenhouse Gas Inventories "
+                },
+                {
+                    "choice_id": 80036,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions, 2003 "
+                },
+                {
+                    "choice_id": 80037,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions - 2nd edition, 2011 "
+                },
+                {
+                    "choice_id": 80038,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ISO |ISO 14064-1: Greenhouse gases _x0097_ Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals "
+                },
+                {
+                    "choice_id": 80039,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "ISO |ISO 14064-3: Greenhouse gases _x0097_ Part 3: Specification with guidance for the verification and validation of greenhouse gas statements "
+                },
+                {
+                    "choice_id": 80040,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Klima-MO |Philippines Greenhouse Gas Accounting and Reporting Program (PhilGARP) "
+                },
+                {
+                    "choice_id": 80041,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Korea Energy Agency |GHG and Energy Target Management Scheme "
+                },
+                {
+                    "choice_id": 80042,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "New Zealand Ministry for the Environment |Guidance for Voluntary, Corporate Greenhouse Gas Reporting "
+                },
+                {
+                    "choice_id": 80043,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) |RGGI Model Rule "
+                },
+                {
+                    "choice_id": 80044,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "RMI |Steel GHG Emissions Reporting Guidance "
+                },
+                {
+                    "choice_id": 80045,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "SEMARNAT |Programa GEI México "
+                },
+                {
+                    "choice_id": 80046,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Singapore National Environment Agency |Greenhouse Gas (GHG) Emissions Measurement and Reporting Guidelines "
+                },
+                {
+                    "choice_id": 80047,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Smart Freight Centre |The GLEC Framework for Logistics Emissions Accounting and Reporting "
+                },
+                {
+                    "choice_id": 80048,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "South Africa Department of Environmental Affairs |Technical Guidelines for Monitoring, Reporting and Verification of Greenhouse Gas Emissions by Industry "
+                },
+                {
+                    "choice_id": 80049,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "TCFD |Guidance on Climate-related Financial Disclosures 3.0 "
+                },
+                {
+                    "choice_id": 80050,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Thailand Greenhouse Gas Management Organization |Carbon Footprint for Organization "
+                },
+                {
+                    "choice_id": 80051,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "The Climate Registry |Electric Power Sector Protocol "
+                },
+                {
+                    "choice_id": 80052,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "The Climate Registry |General Reporting Protocol "
+                },
+                {
+                    "choice_id": 80053,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "The Climate Registry |Local Government Operations Protocol "
+                },
+                {
+                    "choice_id": 80054,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "The Climate Registry |Oil & Gas Protocol "
+                },
+                {
+                    "choice_id": 80055,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Toitu |Toitu carbonreduce programme "
+                },
+                {
+                    "choice_id": 80056,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Toitu |Toitu net carbonzero programme "
+                },
+                {
+                    "choice_id": 80057,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "Toitu |Toitu climate positive programme "
+                },
+                {
+                    "choice_id": 80058,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "U.S. EIA |Voluntary Reporting of Greenhouse Gases, Instructions for Form EIA-1605 "
+                },
+                {
+                    "choice_id": 80059,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, and Industrial Gases "
+                },
+                {
+                    "choice_id": 80060,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Direct Emissions from Stationary Combustion Sources "
+                },
+                {
+                    "choice_id": 80061,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Direct Emissions from Mobile Combustion Sources "
+                },
+                {
+                    "choice_id": 80062,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "U.S. EPA Greenhouse Gas Reporting Program (GHGRP) |Mandatory Reporting of Greenhouse Gases Rule "
+                },
+                {
+                    "choice_id": 80063,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "UNEP |The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organisations "
+                },
+                {
+                    "choice_id": 80064,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "VfU |VfU Indicators Standard "
+                },
+                {
+                    "choice_id": 80065,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "WBSCD |The Cement CO2 and Energy Protocol "
+                },
+                {
+                    "choice_id": 80066,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "World Steel Association |CO2 Data Collection User Guide "
+                },
+                {
+                    "choice_id": 80067,
+                    "set_name": "scope_1_methodology_list",
+                    "value": "WRI |Indonesia Zero Emissions Application (EMISI) "
+                }
+            ]
+        },
+        {
+            "name": "scope_1_exclusion",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Exclusions"
+                }
+            ],
+            "form": {
+                "name": "scope_1_exclusion_form",
+                "description": "Exclusions form for scope 1 GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_1_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of Emissions Exclusion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of Emissions Exclusion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_1_exclusion_percentage_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated % of Emissions Excluded"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of Exclusion Calculation"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_1_calculation_change_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indication of change in Scope 2 location-based GHG emissions calculation"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_change_type",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 240001,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Data availability"
+                },
+                {
+                    "choice_id": 240002,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Methodology"
+                },
+                {
+                    "choice_id": 240003,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting boundary"
+                },
+                {
+                    "choice_id": 240004,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting timeframe"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Change in Scope 1 GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_change_description",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Description of change in Scope 1 GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "disclose_s2_lb_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of scope 2 location-based GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_emissions",
+            "type": "float",
+            "prompts": [
+                {
+                    "value": "Location-based scope 2 GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "scope_2_lb_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_lb_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "set_name": "greenhouse_gas_emissions_units_full_list",
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "set_name": "greenhouse_gas_emissions_units_full_list",
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Location-based scope 2 GHG emissions units"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s2_lb_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total scope 2 location-based GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_methodology",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 270000,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ABI Lab |Linee Guida per l_x0092_introduzione di metodologie di misura nell_x0092_ambito delle diagnosi energetiche del settore bancario "
+                },
+                {
+                    "choice_id": 270001,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Recommandations pour la détermination des postes significatifs d_x0092_émissions de gaz à effet de serre dans le cadre de l_x0092_article 173-IV de la loi sur la transition énergétique pour la croissance verte (LTECV) "
+                },
+                {
+                    "choice_id": 270002,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Bilan Carbone "
+                },
+                {
+                    "choice_id": 270003,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Méthode pour la réalisation des bilans d_x0092_émissions de gaz à effet de serre "
+                },
+                {
+                    "choice_id": 270004,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "American Petroleum Institute |Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009 "
+                },
+                {
+                    "choice_id": 270005,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Australian Government |National Greenhouse and Energy Reporting Act 2007 "
+                },
+                {
+                    "choice_id": 270006,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Brazil GHG Protocol Programme |Brazil GHG Protocol Programme "
+                },
+                {
+                    "choice_id": 270007,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Bureau of the Environment Tokyo Metropolitan Government |Tokyo Cap-and-Trade Program "
+                },
+                {
+                    "choice_id": 270008,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Canadian Association of Petroleum Producers |Calculating Greenhouse Gas Emissions Guide, 2003 "
+                },
+                {
+                    "choice_id": 270009,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "China Energy Conservation and GHG Management Program |China Energy Conservation and GHG Management Program "
+                },
+                {
+                    "choice_id": 270010,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "China NDRC |Guidelines for Accounting and Reporting GHG Emissions from Enterprises (Trial) "
+                },
+                {
+                    "choice_id": 270011,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Cool Farm |The Cool Farm Tool "
+                },
+                {
+                    "choice_id": 270012,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Defra (UK Government) |Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019 "
+                },
+                {
+                    "choice_id": 270013,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ENCORD |Construction CO2e Measurement Protocol "
+                },
+                {
+                    "choice_id": 270014,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "European Public Real Estate Association |Best Practices Recommendations on Sustainability Reporting, 2011 "
+                },
+                {
+                    "choice_id": 270015,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "European Public Real Estate Association |EPRA Sustainability Best Practices Recommendations Guidelines, 2017 "
+                },
+                {
+                    "choice_id": 270016,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "FIVS |International Wine Greenhouse Gas Protocol "
+                },
+                {
+                    "choice_id": 270017,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition) "
+                },
+                {
+                    "choice_id": 270018,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector "
+                },
+                {
+                    "choice_id": 270019,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: Scope 2 Guidance "
+                },
+                {
+                    "choice_id": 270020,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: Public Sector Protocol "
+                },
+                {
+                    "choice_id": 270021,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "HKEX |Reporting Guidance on Environmental KPIs "
+                },
+                {
+                    "choice_id": 270022,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Hong Kong Environmental Protection Department |Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings in Hong Kong, 2010 "
+                },
+                {
+                    "choice_id": 270023,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ICLEI |Local Government Operations Protocol For the quantification and reporting of GHG emissions inventories "
+                },
+                {
+                    "choice_id": 270024,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "India GHG Program |India GHG Program "
+                },
+                {
+                    "choice_id": 270025,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions, 2003 "
+                },
+                {
+                    "choice_id": 270026,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions - 2nd edition, 2011 "
+                },
+                {
+                    "choice_id": 270027,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ISO |ISO 14064-1: Greenhouse gases _x0097_ Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals "
+                },
+                {
+                    "choice_id": 270028,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ISO |ISO 14064-3: Greenhouse gases _x0097_ Part 3: Specification with guidance for the verification and validation of greenhouse gas statements "
+                },
+                {
+                    "choice_id": 270029,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Klima-MO |Philippines Greenhouse Gas Accounting and Reporting Program (PhilGARP) "
+                },
+                {
+                    "choice_id": 270030,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Korea Energy Agency |GHG and Energy Target Management Scheme "
+                },
+                {
+                    "choice_id": 270031,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "New Zealand Ministry for the Environment |Guidance for Voluntary, Corporate Greenhouse Gas Reporting "
+                },
+                {
+                    "choice_id": 270032,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) |RGGI Model Rule "
+                },
+                {
+                    "choice_id": 270033,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "RMI |Steel GHG Emissions Reporting Guidance "
+                },
+                {
+                    "choice_id": 270034,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "SEMARNAT |Programa GEI México "
+                },
+                {
+                    "choice_id": 270035,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Smart Freight Centre |The GLEC Framework for Logistics Emissions Accounting and Reporting "
+                },
+                {
+                    "choice_id": 270036,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Taiwan EPA |Greenhouse Gas Reduction and Management Act "
+                },
+                {
+                    "choice_id": 270037,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "TCFD |Guidance on Climate-related Financial Disclosures 3.0 "
+                },
+                {
+                    "choice_id": 270038,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Thailand Greenhouse Gas Management Organization |Carbon Footprint for Organization "
+                },
+                {
+                    "choice_id": 270039,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Electric Power Sector Protocol "
+                },
+                {
+                    "choice_id": 270040,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |General Reporting Protocol "
+                },
+                {
+                    "choice_id": 270041,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Local Government Operations Protocol "
+                },
+                {
+                    "choice_id": 270042,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Oil & Gas Protocol "
+                },
+                {
+                    "choice_id": 270043,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu carbonreduce programme "
+                },
+                {
+                    "choice_id": 270044,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu net carbonzero programme "
+                },
+                {
+                    "choice_id": 270045,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu climate positive programme "
+                },
+                {
+                    "choice_id": 270046,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EIA |Voluntary Reporting of Greenhouse Gases, Instructions for Form EIA-1605 "
+                },
+                {
+                    "choice_id": 270047,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA |Emissions & Generation Resource Integrated Database (eGRID) "
+                },
+                {
+                    "choice_id": 270048,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Indirect Emissions From Events and Conferences "
+                },
+                {
+                    "choice_id": 270049,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Indirect Emissions From Purchased Electricity "
+                },
+                {
+                    "choice_id": 270050,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "UNEP |The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organisations "
+                },
+                {
+                    "choice_id": 270051,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "VfU |VfU Indicators Standard "
+                },
+                {
+                    "choice_id": 270052,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "WBSCD |The Cement CO2 and Energy Protocol "
+                },
+                {
+                    "choice_id": 270053,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "World Steel Association |CO2 Data Collection User Guide "
+                },
+                {
+                    "choice_id": 270054,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "WRI |Indonesia Zero Emissions Application (EMISI) "
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Methodology used to calculate location-based scope 2 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_exclusion",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Location-Based Exclusions"
+                }
+            ],
+            "form": {
+                "name": "scope_2_lb_exclusion_form",
+                "description": "Exclusions form for scope 2 Location-Based GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_2_lb_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of location-based scope 2 GHG emissions source excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of why location-based scope 2 GHG emissions source is excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_2_lb_exclusion_perc_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated percentage of location-based scope 2 GHG emissions excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_lb_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of how percentage of location-based scope 2 GHG emissions excluded was calculated"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_lb_calculation_change_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indication of change in Scope 2 location-based GHG emissions calculation"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_change_type",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 170001,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Data availability"
+                },
+                {
+                    "choice_id": 170002,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Methodology"
+                },
+                {
+                    "choice_id": 170003,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting boundary"
+                },
+                {
+                    "choice_id": 170004,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting timeframe"
+                },
+                {
+                    "choice_id": 170005,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Other not listed"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Change in Scope 2 location-based GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_lb_change_description",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Description of change in Scope 2 location-based GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "disclose_s2_mb_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of scope 2 market-based GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_emissions",
+            "type": "float",
+            "prompts": [
+                {
+                    "value": "Market-based scope 2 GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "scope_2_mb_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_mb_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "set_name": "greenhouse_gas_emissions_units_list",
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "set_name": "greenhouse_gas_emissions_units_list",
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Market-based scope 2 GHG emissions units"
+                }
+            ]
+        },
+        {
+            "name": "rationale_s2_mb_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total market-based scope 2 GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_methodology",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 270000,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ABI Lab |Linee Guida per l_x0092_introduzione di metodologie di misura nell_x0092_ambito delle diagnosi energetiche del settore bancario "
+                },
+                {
+                    "choice_id": 270001,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Recommandations pour la détermination des postes significatifs d_x0092_émissions de gaz à effet de serre dans le cadre de l_x0092_article 173-IV de la loi sur la transition énergétique pour la croissance verte (LTECV) "
+                },
+                {
+                    "choice_id": 270002,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Bilan Carbone "
+                },
+                {
+                    "choice_id": 270003,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ADEME |Méthode pour la réalisation des bilans d_x0092_émissions de gaz à effet de serre "
+                },
+                {
+                    "choice_id": 270004,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "American Petroleum Institute |Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009 "
+                },
+                {
+                    "choice_id": 270005,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Australian Government |National Greenhouse and Energy Reporting Act 2007 "
+                },
+                {
+                    "choice_id": 270006,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Brazil GHG Protocol Programme |Brazil GHG Protocol Programme "
+                },
+                {
+                    "choice_id": 270007,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Bureau of the Environment Tokyo Metropolitan Government |Tokyo Cap-and-Trade Program "
+                },
+                {
+                    "choice_id": 270008,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Canadian Association of Petroleum Producers |Calculating Greenhouse Gas Emissions Guide, 2003 "
+                },
+                {
+                    "choice_id": 270009,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "China Energy Conservation and GHG Management Program |China Energy Conservation and GHG Management Program "
+                },
+                {
+                    "choice_id": 270010,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "China NDRC |Guidelines for Accounting and Reporting GHG Emissions from Enterprises (Trial) "
+                },
+                {
+                    "choice_id": 270011,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Cool Farm |The Cool Farm Tool "
+                },
+                {
+                    "choice_id": 270012,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Defra (UK Government) |Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019 "
+                },
+                {
+                    "choice_id": 270013,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ENCORD |Construction CO2e Measurement Protocol "
+                },
+                {
+                    "choice_id": 270014,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "European Public Real Estate Association |Best Practices Recommendations on Sustainability Reporting, 2011 "
+                },
+                {
+                    "choice_id": 270015,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "European Public Real Estate Association |EPRA Sustainability Best Practices Recommendations Guidelines, 2017 "
+                },
+                {
+                    "choice_id": 270016,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "FIVS |International Wine Greenhouse Gas Protocol "
+                },
+                {
+                    "choice_id": 270017,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition) "
+                },
+                {
+                    "choice_id": 270018,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol Agricultural Guidance: Interpreting the Corporate Accounting and Reporting Standard for the Agricultural Sector "
+                },
+                {
+                    "choice_id": 270019,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: Scope 2 Guidance "
+                },
+                {
+                    "choice_id": 270020,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "GHG Protocol |The Greenhouse Gas Protocol: Public Sector Protocol "
+                },
+                {
+                    "choice_id": 270021,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "HKEX |Reporting Guidance on Environmental KPIs "
+                },
+                {
+                    "choice_id": 270022,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Hong Kong Environmental Protection Department |Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings in Hong Kong, 2010 "
+                },
+                {
+                    "choice_id": 270023,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ICLEI |Local Government Operations Protocol For the quantification and reporting of GHG emissions inventories "
+                },
+                {
+                    "choice_id": 270024,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "India GHG Program |India GHG Program "
+                },
+                {
+                    "choice_id": 270025,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions, 2003 "
+                },
+                {
+                    "choice_id": 270026,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "IPIECA |Petroleum industry guidelines for reporting greenhouse gas emissions - 2nd edition, 2011 "
+                },
+                {
+                    "choice_id": 270027,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ISO |ISO 14064-1: Greenhouse gases _x0097_ Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals "
+                },
+                {
+                    "choice_id": 270028,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "ISO |ISO 14064-3: Greenhouse gases _x0097_ Part 3: Specification with guidance for the verification and validation of greenhouse gas statements "
+                },
+                {
+                    "choice_id": 270029,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Klima-MO |Philippines Greenhouse Gas Accounting and Reporting Program (PhilGARP) "
+                },
+                {
+                    "choice_id": 270030,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Korea Energy Agency |GHG and Energy Target Management Scheme "
+                },
+                {
+                    "choice_id": 270031,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "New Zealand Ministry for the Environment |Guidance for Voluntary, Corporate Greenhouse Gas Reporting "
+                },
+                {
+                    "choice_id": 270032,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) |RGGI Model Rule "
+                },
+                {
+                    "choice_id": 270033,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "RMI |Steel GHG Emissions Reporting Guidance "
+                },
+                {
+                    "choice_id": 270034,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "SEMARNAT |Programa GEI México "
+                },
+                {
+                    "choice_id": 270035,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Smart Freight Centre |The GLEC Framework for Logistics Emissions Accounting and Reporting "
+                },
+                {
+                    "choice_id": 270036,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Taiwan EPA |Greenhouse Gas Reduction and Management Act "
+                },
+                {
+                    "choice_id": 270037,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "TCFD |Guidance on Climate-related Financial Disclosures 3.0 "
+                },
+                {
+                    "choice_id": 270038,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Thailand Greenhouse Gas Management Organization |Carbon Footprint for Organization "
+                },
+                {
+                    "choice_id": 270039,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Electric Power Sector Protocol "
+                },
+                {
+                    "choice_id": 270040,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |General Reporting Protocol "
+                },
+                {
+                    "choice_id": 270041,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Local Government Operations Protocol "
+                },
+                {
+                    "choice_id": 270042,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "The Climate Registry |Oil & Gas Protocol "
+                },
+                {
+                    "choice_id": 270043,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu carbonreduce programme "
+                },
+                {
+                    "choice_id": 270044,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu net carbonzero programme "
+                },
+                {
+                    "choice_id": 270045,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "Toitu |Toitu climate positive programme "
+                },
+                {
+                    "choice_id": 270046,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EIA |Voluntary Reporting of Greenhouse Gases, Instructions for Form EIA-1605 "
+                },
+                {
+                    "choice_id": 270047,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA |Emissions & Generation Resource Integrated Database (eGRID) "
+                },
+                {
+                    "choice_id": 270048,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Indirect Emissions From Events and Conferences "
+                },
+                {
+                    "choice_id": 270049,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "U.S. EPA Center for Corporate Climate Leadership |Greenhouse Gas Inventory Guidance: Indirect Emissions From Purchased Electricity "
+                },
+                {
+                    "choice_id": 270050,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "UNEP |The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organisations "
+                },
+                {
+                    "choice_id": 270051,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "VfU |VfU Indicators Standard "
+                },
+                {
+                    "choice_id": 270052,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "WBSCD |The Cement CO2 and Energy Protocol "
+                },
+                {
+                    "choice_id": 270053,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "World Steel Association |CO2 Data Collection User Guide "
+                },
+                {
+                    "choice_id": 270054,
+                    "set_name": "scope_2_methdology_type_list",
+                    "value": "WRI |Indonesia Zero Emissions Application (EMISI) "
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Methodology used to calculate market-based scope 2 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_exclusion",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Market-Based Exclusions"
+                }
+            ],
+            "form": {
+                "name": "scope_2_mb_exclusion_form",
+                "description": "Exclusions form for scope 2 Market-Based GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_2_mb_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of market-based scope 2 GHG emissions source excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of why market-based scope 2 GHG emissions source is excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_2_mb_exclusion_perc_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated percentage of market-based scope 2 GHG emissions excluded from inventory"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_2_mb_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of how percentage of market-based scope 2 GHG emissions excluded was calculated"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_2_mb_calculation_change_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indication of change in Scope 2 market-based GHG emissions calculation"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_change_type",
+            "type": "multiple",
+            "choices": [
+                {
+                    "choice_id": 170001,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Data availability"
+                },
+                {
+                    "choice_id": 170002,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Methodology"
+                },
+                {
+                    "choice_id": 170003,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting boundary"
+                },
+                {
+                    "choice_id": 170004,
+                    "set_name": "change_in_ghg_emissions_type_list",
+                    "value": "Reporting timeframe"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Change in Scope 2 market-based GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "scope_2_mb_change_description",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Description of change in Scope 2 market-based GHG emissions calculation or reporting boundary"
+                }
+            ]
+        },
+        {
+            "name": "disclose_s3_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of scope 3 GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "scope_3_breakdown_source",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 90001,
+                    "set_name": "scope_3_breakdown_source_list",
+                    "value": "GHG Protocol"
+                },
+                {
+                    "choice_id": 90002,
+                    "set_name": "scope_3_breakdown_source_list",
+                    "value": "ISO"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Scope 3 Breakdown Source List"
+                }
+            ]
+        },
+        {
+            "name": "scope_3_ghg_protocol",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Disclosure of scope 3 GHG protocol details"
+                }
+            ],
+            "form": {
+                "name": "scope_3_ghg_protocol_form",
+                "description": "Disclosure of scope 3 GHG protocol details",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "disclose_s3_cat_yn",
+                        "type": "bool",
+                        "prompts": [
+                            {
+                                "value": "Indicates disclosure of scope 3 GHG emissions category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_category",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 110001,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 1 (Purchased goods and services)"
+                            },
+                            {
+                                "choice_id": 110002,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 2 (Capital goods)"
+                            },
+                            {
+                                "choice_id": 110003,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 3 (Fuel- and energy-related activities not included in Scope 1 or Scope 2)"
+                            },
+                            {
+                                "choice_id": 110004,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 4 (Upstream transportation and distribution)"
+                            },
+                            {
+                                "choice_id": 110005,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 5 (Waste generated in operations)"
+                            },
+                            {
+                                "choice_id": 110006,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 6 (Business travel)"
+                            },
+                            {
+                                "choice_id": 110007,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 7 (Employee commuting)"
+                            },
+                            {
+                                "choice_id": 110008,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 8 (Upstream leased assets)"
+                            },
+                            {
+                                "choice_id": 110009,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 9 (Downstream transportation and distribution)"
+                            },
+                            {
+                                "choice_id": 110010,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 10 (Processing of sold products)"
+                            },
+                            {
+                                "choice_id": 110011,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 11 (Use of sold products)"
+                            },
+                            {
+                                "choice_id": 110012,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 12 (End-of-life treatment of sold products)"
+                            },
+                            {
+                                "choice_id": 110013,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 13 (Downstream leased assets)"
+                            },
+                            {
+                                "choice_id": 110014,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 14 (Franchises)"
+                            },
+                            {
+                                "choice_id": 110015,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Category 15 (Investments)"
+                            },
+                            {
+                                "choice_id": 110016,
+                                "set_name": "scope_3_ghg_prot_categories_list",
+                                "value": "Other Scope 3 GHG emissions"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Disclosure of Scope 3 Emissions GHG Protocol Category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_category_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of Other Scope 3 Emissions GHG Protocol Category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s3_ghg_prot_non_disclose",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Rationale if Scope 3 GHG emissions not disclosed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_relevancy",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 120001,
+                                "set_name": "relevance_status_list",
+                                "value": "Relevant"
+                            },
+                            {
+                                "choice_id": 120002,
+                                "set_name": "relevance_status_list",
+                                "value": "Not relevant"
+                            },
+                            {
+                                "choice_id": 120003,
+                                "set_name": "relevance_status_list",
+                                "value": "Not evaluated"
+                            },
+                            {
+                                "choice_id": 120005,
+                                "set_name": "relevance_status_list",
+                                "value": "Other"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Relevancy of scope 3 GHG emissions category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_relevancy_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Relevancy of scope 3 GHG emissions category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghgp_relevancy_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of how relevancy was determined"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_3_ghg_protocol_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_emissions_units",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 30001,
+                                "set_name": "greenhouse_gas_emissions_units_list",
+                                "value": "tCO2e"
+                            },
+                            {
+                                "choice_id": 30002,
+                                "set_name": "greenhouse_gas_emissions_units_list",
+                                "value": "tCO2"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_methodology",
+                        "type": "form",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 GHG protocol methodology"
+                            }
+                        ],
+                        "form": {
+                            "name": "scope_3_ghg_prot_methodology_form",
+                            "description": "Disclosure of scope 3 GHG protocol methodology",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_ghg_prot_methodology_type",
+                                    "type": "single",
+                                    "choices": [
+                                        {
+                                            "choice_id": 280000,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Purchased goods and services |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280001,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Purchased goods and services |Hybrid method "
+                                        },
+                                        {
+                                            "choice_id": 280002,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Purchased goods and services |Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280003,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Purchased goods and services |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280004,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Purchased goods and services |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280005,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Capital goods |Average spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280006,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Capital goods |Average-product method "
+                                        },
+                                        {
+                                            "choice_id": 280007,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Capital goods |Hybrid method "
+                                        },
+                                        {
+                                            "choice_id": 280008,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Capital goods |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280009,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Capital goods |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280010,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Fuel- and energy-related activities not included in Scope 1 or Scope 2 |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280011,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Fuel- and energy-related activities not included in Scope 1 or Scope 2 |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280012,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Fuel- and energy-related activities not included in Scope 1 or Scope 2 |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280013,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280014,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 280015,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 280016,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Site-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280017,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280018,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream transportation and distribution |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280019,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Waste generated in operations |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280020,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Waste generated in operations |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280021,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Waste generated in operations |Waste-type-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280022,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Waste generated in operations |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280023,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Business travel |Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 280024,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Business travel |Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 280025,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Business travel |Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280026,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Business travel |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280027,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Employee commuting |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280028,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Employee commuting |Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 280029,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Employee commuting |Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 280030,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Employee commuting |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280031,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream leased assets |Asset-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280032,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream leased assets |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280033,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream leased assets |Lessor-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280034,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Upstream leased assets |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280035,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280036,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 280037,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 280038,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Site-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280039,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280040,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream transportation and distribution |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280041,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Processing of sold products |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280042,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Processing of sold products |Site-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280043,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Processing of sold products |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280044,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Use of sold products |Direct use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 280045,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Use of sold products |Indirect use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 280046,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Use of sold products |Sold intermediate products method "
+                                        },
+                                        {
+                                            "choice_id": 280047,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Use of sold products |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280048,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "End-of-life treatment of sold products |Waste-type-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280049,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "End-of-life treatment of sold products |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280050,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "End-of-life treatment of sold products |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280051,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "End-of-life treatment of sold products |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280052,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream leased assets |Asset-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280053,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream leased assets |Lessor-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280054,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream leased assets |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280055,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Downstream leased assets |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280056,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Franchises |Franchise-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280057,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Franchises |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280058,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Franchises |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280059,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Investments |Investment-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280060,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Investments |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280061,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Investments |Project-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280062,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Investments |Other not listed "
+                                        },
+                                        {
+                                            "choice_id": 280063,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Asset-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280064,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Average spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280065,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 280066,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Average-product method "
+                                        },
+                                        {
+                                            "choice_id": 280067,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Direct use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 280068,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 280069,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Franchise-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280070,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 280071,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Hybrid method "
+                                        },
+                                        {
+                                            "choice_id": 280072,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Indirect use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 280073,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Investment-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280074,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Lessor-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280075,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Project-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280076,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Site-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280077,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Sold intermediate products method "
+                                        },
+                                        {
+                                            "choice_id": 280078,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 280079,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280080,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Waste-type-specific method "
+                                        },
+                                        {
+                                            "choice_id": 280081,
+                                            "set_name": "scope_3_methodology_type_list_ghg_protocol",
+                                            "value": "Other scope 3 GHG emissions |Other not listed "
+                                        }
+                                    ],
+                                    "prompts": [
+                                        {
+                                            "value": "Scope 3 methodology type list"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_ghg_prot_methodology_type_other",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Other Scope 3 methodology type"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_ghg_prot_methodology_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of methodology used to calculate Scope 3 GHG emissions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Percentage of scope 3 GHG emissions calculated using methodology"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_methodology_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_exclusion",
+                        "type": "form",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 GHG protocol exclusion"
+                            }
+                        ],
+                        "form": {
+                            "name": "scope_3_ghg_prot_exclusion_form",
+                            "description": "Disclosure of scope 3 GHG protocol exclusion",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_ghg_prot_exclusion_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of scope 3 GHG emissions source excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_ghg_prot_exclusion_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of why scope 3 GHG emissions source is excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_ghg_prot_exclusion_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Estimated percentage of scope 3 GHG emissions excluded from inventory"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_ghg_prot_exclusion_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "scope_3_ghg_prot_exclusion_perc_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of how percentage of scope 3 GHG emissions excluded was calculated"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_calculation_change_ghg_prot_yn",
+                        "type": "bool",
+                        "prompts": [
+                            {
+                                "value": "Indication of change in Scope 3 GHG emissions calculation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_change_type",
+                        "type": "multiple",
+                        "choices": [
+                            {
+                                "choice_id": 170001,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Data availability"
+                            },
+                            {
+                                "choice_id": 170002,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Methodology"
+                            },
+                            {
+                                "choice_id": 170003,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Reporting boundary"
+                            },
+                            {
+                                "choice_id": 170004,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Reporting timeframe"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Change in Scope 3 GHG emissions calculation or reporting boundary"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghg_prot_change_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of change in Scope 3 GHG emissions calculation or reporting boundary"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_3_iso",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Disclosure of scope 3 GHG category emissions materiality using ISO"
+                }
+            ],
+            "form": {
+                "name": "scope_3_iso_form",
+                "description": "Disclosure of scope 3 GHG category emissions materiality using ISO",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "disclose_s3_iso_cat_yn",
+                        "type": "bool",
+                        "prompts": [
+                            {
+                                "value": "Indicates disclosure of scope 3 GHG emissions category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_category",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 140001,
+                                "set_name": "scope_3_iso_category_list",
+                                "value": "Indirect GHG Emissions from transportation"
+                            },
+                            {
+                                "choice_id": 140002,
+                                "set_name": "scope_3_iso_category_list",
+                                "value": "Indirect GHG emissions associated with the use of products from the organization"
+                            },
+                            {
+                                "choice_id": 140003,
+                                "set_name": "scope_3_iso_category_list",
+                                "value": "Indirect HG emissions from products used by organization"
+                            },
+                            {
+                                "choice_id": 140004,
+                                "set_name": "scope_3_iso_category_list",
+                                "value": "Indirect GHG emissions from other sources"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 ISO category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_category_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other Scope 3 ISO Category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s3_iso_non_disclose",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Rationale if scope 3 ISO emissions not disclosed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_relevancy",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 12001,
+                                "set_name": "relevance_status_list",
+                                "value": "Relevant"
+                            },
+                            {
+                                "choice_id": 12002,
+                                "set_name": "relevance_status_list",
+                                "value": "Not relevant"
+                            },
+                            {
+                                "choice_id": 12005,
+                                "set_name": "relevance_status_list",
+                                "value": "Not evaluated"
+                            },
+                            {
+                                "choice_id": 12006,
+                                "set_name": "relevance_status_list",
+                                "value": "Other"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 GHG materiality using ISO"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_relevancy_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 GHG materiality using ISO"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_relevancy_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of how materiality was determined"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_3_iso_category_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_iso_emissions_units",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 30001,
+                                "set_name": "greenhouse_gas_emissions_units_list",
+                                "value": "tCO2e"
+                            },
+                            {
+                                "choice_id": 30002,
+                                "set_name": "greenhouse_gas_emissions_units_list",
+                                "value": "tCO2"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_methodology",
+                        "type": "form",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 ISO methodology"
+                            }
+                        ],
+                        "form": {
+                            "name": "scope_3_iso_methodology_form",
+                            "description": "Disclosure of scope 3 ISO methodology",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_iso_methodology_type",
+                                    "type": "single",
+                                    "choices": [
+                                        {
+                                            "choice_id": 290000,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Asset-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290001,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Average spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 290002,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Average-data method "
+                                        },
+                                        {
+                                            "choice_id": 290003,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Average-product method "
+                                        },
+                                        {
+                                            "choice_id": 290004,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Direct use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 290005,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Distance-based method "
+                                        },
+                                        {
+                                            "choice_id": 290006,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Franchise-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290007,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Fuel-based method "
+                                        },
+                                        {
+                                            "choice_id": 290008,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Hybrid method "
+                                        },
+                                        {
+                                            "choice_id": 290009,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Indirect use-phase method "
+                                        },
+                                        {
+                                            "choice_id": 290010,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Investment-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290011,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Lessor-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290012,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Project-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290013,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Site-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290014,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Sold intermediate products method "
+                                        },
+                                        {
+                                            "choice_id": 290015,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Spend-based method "
+                                        },
+                                        {
+                                            "choice_id": 290016,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Supplier-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290017,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Waste-type-specific method "
+                                        },
+                                        {
+                                            "choice_id": 290018,
+                                            "set_name": "scope_3_methodology_list_iso",
+                                            "value": "Other not listed "
+                                        }
+                                    ],
+                                    "prompts": [
+                                        {
+                                            "value": "Scope 3 methodology type list"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_iso_type_other",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Other Scope 3 methodology type"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_iso_methodology_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of methodology used to calculate Scope 3 GHG emissions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_iso_methodology_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Percentage of scope 3 GHG emissions calculated using methodology"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_methodology_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_iso_exclusion",
+                        "type": "form",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 ISO exclusion"
+                            }
+                        ],
+                        "form": {
+                            "name": "scope_3_exclusion_form",
+                            "description": "Disclosure of scope 3 ISO exclusion",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_exclusion_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of scope 3 GHG emissions source excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_iso_exclusion_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of why scope 3 GHG emissions source is excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_iso_exclusion_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Estimated percentage of scope 3 GHG emissions excluded from inventory"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_iso_exclusion_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "scope_3_iso_exclusion_perc_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of how percentage of scope 3 GHG emissions excluded was calculated"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_calculation_change_iso_yn",
+                        "type": "bool",
+                        "prompts": [
+                            {
+                                "value": "Indication of change in Scope 3 GHG emissions calculation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_change_type",
+                        "type": "multiple",
+                        "choices": [
+                            {
+                                "choice_id": 170001,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Data availability"
+                            },
+                            {
+                                "choice_id": 170002,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Methodology"
+                            },
+                            {
+                                "choice_id": 170003,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Reporting boundary"
+                            },
+                            {
+                                "choice_id": 170004,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Reporting timeframe"
+                            },
+                            {
+                                "choice_id": 170005,
+                                "set_name": "change_in_ghg_emissions_type_list",
+                                "value": "Other not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Change in Scope 3 GHG emissions calculation or reporting boundary"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_change_type_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other change in Scope 3 GHG emissions calculation or reporting boundary"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_change_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of change in Scope 3 GHG emissions calculation or reporting boundary"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "disclose_assure_verif_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of assurance, verification, of GHG emissions"
+                }
+            ]
+        },
+        {
+            "name": "rationale_assure_verif_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if assurance, verification, of GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "assure_verif_valid_statement",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Details of disclosure of assurance, verification, or validation of GHG emissions"
+                }
+            ],
+            "form": {
+                "name": "assure_verif_valid_statement_form",
+                "description": "Details of disclosure of assurance, verification, or validation of GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "assure_verif_valid_provider",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Assurance, verification, or validation provider"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "assure_verif_valid_standard",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 210001,
+                                "set_name": "assurance_and_verification_standards_list",
+                                "value": "TBD"
+                            },
+                            {
+                                "choice_id": 210002,
+                                "set_name": "assurance_and_verification_standards_list",
+                                "value": "Other"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Standard emissions assured, verified, or validated against"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "assure_verif_valid_standard_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other standard emissions assured, verified, or validated against"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "level_of_assurance",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 220001,
+                                "set_name": "level_of_assurance_list",
+                                "value": "Limited assurance"
+                            },
+                            {
+                                "choice_id": 220002,
+                                "set_name": "level_of_assurance_list",
+                                "value": "Moderate assurance"
+                            },
+                            {
+                                "choice_id": 220003,
+                                "set_name": "level_of_assurance_list",
+                                "value": "Reasonable assurance"
+                            },
+                            {
+                                "choice_id": 220004,
+                                "set_name": "level_of_assurance_list",
+                                "value": "High assurance"
+                            },
+                            {
+                                "choice_id": 220005,
+                                "set_name": "level_of_assurance_list",
+                                "value": "Not applicable"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Level of assurance provided for emissions"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "assure_verif_valid_statement_file",
+                        "type": "file",
+                        "prompts": [
+                            {
+                                "value": "Upload of assurance, verification, or validation statement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "perc_scope_1_assure_verif_valid",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Percentage of total scope 1 GHG emissions assured, verified, or validated"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "perc_scope_1_assure_verif_valid_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "perc_scope_2_lb_assure_verif_valid",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Percentage of total location-based scope 2 GHG emissions assured, verified, or validated"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "perc_scope_2_lb_assure_verif_valid_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "perc_scope_2_mb_assure_verif_valid",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Percentage of total market-based scope 2 GHG emissions assured, verified, or validated"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "perc_scope_2_mb_assure_verif_valid_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "perc_scope_3_assure_verif_valid",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Percentage of total scope 3 GHG emissions assured, verified, or validated"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "perc_scope_3_assure_verif_valid_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "disclose_target_valid_yn",
+            "type": "bool",
+            "prompts": [
+                {
+                    "value": "Indicates disclosure of validation of GHG emissions reduction targets"
+                }
+            ]
+        },
+        {
+            "name": "rationale_target_valid_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if of validation of GHG emissions reduction targets is not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "assure_verif_valid_statement_target",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Details of disclosure of validation of GHG emissions reduction target"
+                }
+            ],
+            "form": {
+                "name": "assure_verif_valid_statement_target_form",
+                "description": "Details of disclosure of validation of GHG emissions reduction target",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "target_validation_provider",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Disclosure of validation of GHG emissions reduction target provider"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "target_validation_source",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 230001,
+                                "set_name": "target_validation_source_list",
+                                "value": "SBTi"
+                            },
+                            {
+                                "choice_id": 230002,
+                                "set_name": "target_validation_source_list",
+                                "value": "Other not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Source target validated against"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "target_validation_source_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other Source target validated against"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "target_validation_statement",
+                        "type": "file",
+                        "prompts": [
+                            {
+                                "value": "Upload of target validation statement"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

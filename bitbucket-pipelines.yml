@@ -1,0 +1,43 @@
+image: python:3.11
+
+definitions:
+  services:
+    postgres:
+      image: postgres
+      variables:
+        POSTGRES_DB: $LEADER_DB_NAME
+        POSTGRES_USER: $LEADER_DB_USER
+        POSTGRES_PASSWORD: $LEADER_DB_PASSWORD
+    redis:
+      image: redis
+  steps:
+    - step: &push
+        name: "Push to the cloud"
+        script:
+          - git clone --bare git@bitbucket.org:Insom1/nzdpu-wis.git
+          - cd nzdpu-wis.git
+          - git push --mirror git@github.com:nzdpu/nzdpu-wis.git || exit 0
+
+pipelines:
+  default:
+    - step: *push
+  branches:
+    develop:
+      # TODO: fix pipeline failing because of pycrypto (2.6.1) not supporting PEP 517 builds
+      # - step:
+      #     name: "Run tests"
+      #     caches:
+      #       - pip
+      #     script:
+      #       - apt update && apt upgrade -y && apt install libmagic1 -y && apt clean
+      #       - curl -sSL https://install.python-poetry.org | python3 -
+      #       - export PATH="$POETRY_HOME/bin:$PATH"
+      #       - poetry run pip install --upgrade pip setuptools wheel
+      #       - poetry install
+      #       - source .venv/bin/activate
+      #       - make prepare-db
+      #       - make run-tests
+      #     services:
+      #       - postgres
+      #       - redis
+      - step: *push

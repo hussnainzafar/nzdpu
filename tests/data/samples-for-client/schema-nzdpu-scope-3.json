@@ -1,0 +1,765 @@
+{
+    "name": "nzdpu_scope_3",
+    "description": "NZDPU - Scope 3 Form",
+    "active": true,
+    "user_id": 1,
+    "attributes": [
+        {
+            "name": "scope_3_breakdown_source",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 90001,
+                    "choice_set_id": 9,
+                    "value": "GHG Protocol"
+                },
+                {
+                    "choice_id": 90002,
+                    "choice_set_id": 9,
+                    "value": "ISO"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Scope 3 Breakdown Source List"
+                }
+            ]
+        },
+        {
+            "name": "scope_3_ghg_protocol_form",
+            "type": "form",
+            "form": {
+                "name": "scope_3_ghg_protocol_form",
+                "description": "Disclosure of scope 3 ghg protocol details",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_3_ghgp_category",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 11001,
+                                "choice_set_id": 11,
+                                "value": "Capital Goods"
+                            },
+                            {
+                                "choice_id": 11002,
+                                "choice_set_id": 11,
+                                "value": "Fuel and energy-related activities not included in scope 1 and scope 2"
+                            },
+                            {
+                                "choice_id": 11003,
+                                "choice_set_id": 11,
+                                "value": "Waste generated in operations"
+                            },
+                            {
+                                "choice_id": 11004,
+                                "choice_set_id": 11,
+                                "value": "Upstream transportation and distribution"
+                            },
+                            {
+                                "choice_id": 11005,
+                                "choice_set_id": 11,
+                                "value": "Business travel"
+                            },
+                            {
+                                "choice_id": 11006,
+                                "choice_set_id": 11,
+                                "value": "Employee commuting"
+                            },
+                            {
+                                "choice_id": 11007,
+                                "choice_set_id": 11,
+                                "value": "Upstream leased assets"
+                            },
+                            {
+                                "choice_id": 11008,
+                                "choice_set_id": 11,
+                                "value": "Downstream transportation and distribution"
+                            },
+                            {
+                                "choice_id": 11009,
+                                "choice_set_id": 11,
+                                "value": "Processing of sold products"
+                            },
+                            {
+                                "choice_id": 11010,
+                                "choice_set_id": 11,
+                                "value": "Use of sold products"
+                            },
+                            {
+                                "choice_id": 11011,
+                                "choice_set_id": 11,
+                                "value": "End-of-life treamtnet of sold products"
+                            },
+                            {
+                                "choice_id": 11012,
+                                "choice_set_id": 11,
+                                "value": "Downstream leased assets"
+                            },
+                            {
+                                "choice_id": 11013,
+                                "choice_set_id": 11,
+                                "value": "Franchises"
+                            },
+                            {
+                                "choice_id": 11014,
+                                "choice_set_id": 11,
+                                "value": "Investments"
+                            },
+                            {
+                                "choice_id": 11015,
+                                "choice_set_id": 11,
+                                "value": "Category 15"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Disclosure of Scope 3 Emissions GHG Protocol Category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghgp_materiality",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 12001,
+                                "choice_set_id": 12,
+                                "value": "Material and disclosed"
+                            },
+                            {
+                                "choice_id": 12002,
+                                "choice_set_id": 12,
+                                "value": "Material and not disclosed"
+                            },
+                            {
+                                "choice_id": 12003,
+                                "choice_set_id": 12,
+                                "value": "Not material and disclosed"
+                            },
+                            {
+                                "choice_id": 12004,
+                                "choice_set_id": 12,
+                                "value": "Not material and not disclosed"
+                            },
+                            {
+                                "choice_id": 12005,
+                                "choice_set_id": 12,
+                                "value": "Not evaluated"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Materiality of scope 3 GHG emissions category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghgp_materiality_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of how materiality was determined"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s3_ghgp_non_disclose",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Rationale if scope 3 GHG Protocol emissions not disclosed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_ghgp_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_3_ghg_protocol_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_ghgp_emissions_units",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 30001,
+                                "choice_set_id": 3,
+                                "value": "tCO2e"
+                            },
+                            {
+                                "choice_id": 30002,
+                                "choice_set_id": 3,
+                                "value": "tCO2"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_methodology_form",
+                        "type": "form",
+                        "form": {
+                            "name": "scope_3_methodology_form",
+                            "description": "Disclosure of scope 3 ghg protocol details",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_methodology_type",
+                                    "type": "single",
+                                    "choices": [
+                                        {
+                                            "choice_id": 13001,
+                                            "choice_set_id": 13,
+                                            "value": "Asset-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13002,
+                                            "choice_set_id": 13,
+                                            "value": "Average data method"
+                                        },
+                                        {
+                                            "choice_id": 13003,
+                                            "choice_set_id": 13,
+                                            "value": "Average product method"
+                                        },
+                                        {
+                                            "choice_id": 13004,
+                                            "choice_set_id": 13,
+                                            "value": "Average spend-based method"
+                                        },
+                                        {
+                                            "choice_id": 13005,
+                                            "choice_set_id": 13,
+                                            "value": "Distance-based method"
+                                        },
+                                        {
+                                            "choice_id": 13006,
+                                            "choice_set_id": 13,
+                                            "value": "Franchise-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13007,
+                                            "choice_set_id": 13,
+                                            "value": "Fuel-based method"
+                                        },
+                                        {
+                                            "choice_id": 13008,
+                                            "choice_set_id": 13,
+                                            "value": "Hybrid method"
+                                        },
+                                        {
+                                            "choice_id": 13009,
+                                            "choice_set_id": 13,
+                                            "value": "Investment-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13010,
+                                            "choice_set_id": 13,
+                                            "value": "Lessor-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13011,
+                                            "choice_set_id": 13,
+                                            "value": "Site-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13012,
+                                            "choice_set_id": 13,
+                                            "value": "Spend-based method"
+                                        },
+                                        {
+                                            "choice_id": 13013,
+                                            "choice_set_id": 13,
+                                            "value": "Waste-type-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13014,
+                                            "choice_set_id": 13,
+                                            "value": "Other methodology type not listed"
+                                        }
+                                    ],
+                                    "prompts": [
+                                        {
+                                            "value": "Scope 3 methodology type list"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_type_other",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Other Scope 3 methodology type"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_source",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Methodology source used to calculate scope 3 GHG emissions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Percentage of scope 3 GHG emissions calculated using methodology"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_methodology_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_exclusion_form",
+                        "type": "form",
+                        "form": {
+                            "name": "scope_3_exclusion_form",
+                            "description": "Scope 3 Exclusions Form",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_exclusion_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of scope 3 GHG emissions source excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_exclusion_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of why scope 3 GHG emissions source is excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_exclusion_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Estimated percentage of scope 3 GHG emissions excluded from inventory"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_exclusion_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "scope_3_exclusion_perc_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of how percentage of scope 3 GHG emissions excluded was calculated"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "scope_3_iso_category_form",
+            "type": "form",
+            "form": {
+                "name": "scope_3_iso_category_form",
+                "description": "Disclosure of scope 3 GHG category emissions materiality using ISO",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_3_iso_category",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 14001,
+                                "choice_set_id": 14,
+                                "value": "Indirect GHG Emissions from transportation"
+                            },
+                            {
+                                "choice_id": 14002,
+                                "choice_set_id": 14,
+                                "value": "Indirect GHG emissions associated with the use of products from the organization"
+                            },
+                            {
+                                "choice_id": 14003,
+                                "choice_set_id": 14,
+                                "value": "Indirect HG emissions from products used by organization"
+                            },
+                            {
+                                "choice_id": 14004,
+                                "choice_set_id": 14,
+                                "value": "Indirect GHG emissions from other sources"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 ISO category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_category_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other Scope 3 ISO Category"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_materiality",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 12001,
+                                "choice_set_id": 12,
+                                "value": "Material and disclosed"
+                            },
+                            {
+                                "choice_id": 12002,
+                                "choice_set_id": 12,
+                                "value": "Material and not disclosed"
+                            },
+                            {
+                                "choice_id": 12003,
+                                "choice_set_id": 12,
+                                "value": "Not material and disclosed"
+                            },
+                            {
+                                "choice_id": 12004,
+                                "choice_set_id": 12,
+                                "value": "Not material and not disclosed"
+                            },
+                            {
+                                "choice_id": 12005,
+                                "choice_set_id": 12,
+                                "value": "Not evaluated"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Disclosure of scope 3 GHG materiality using ISO"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_materiality_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of how materiality was determined"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rationale_s3_iso_non_disclose",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Rationale if scope 3 ISO emissions not disclosed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_iso_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_3_iso_category_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_iso_emissions_units",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 30001,
+                                "choice_set_id": 3,
+                                "value": "tCO2e"
+                            },
+                            {
+                                "choice_id": 30002,
+                                "choice_set_id": 3,
+                                "value": "tCO2"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 3 GHG emissions units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_3_methodology_form",
+                        "type": "form",
+                        "form": {
+                            "name": "scope_3_methodology_form",
+                            "description": "Disclosure of scope 3 ghg protocol details",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_methodology_type",
+                                    "type": "single",
+                                    "choices": [
+                                        {
+                                            "choice_id": 13001,
+                                            "choice_set_id": 13,
+                                            "value": "Asset-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13002,
+                                            "choice_set_id": 13,
+                                            "value": "Average data method"
+                                        },
+                                        {
+                                            "choice_id": 13003,
+                                            "choice_set_id": 13,
+                                            "value": "Average product method"
+                                        },
+                                        {
+                                            "choice_id": 13004,
+                                            "choice_set_id": 13,
+                                            "value": "Average spend-based method"
+                                        },
+                                        {
+                                            "choice_id": 13005,
+                                            "choice_set_id": 13,
+                                            "value": "Distance-based method"
+                                        },
+                                        {
+                                            "choice_id": 13006,
+                                            "choice_set_id": 13,
+                                            "value": "Franchise-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13007,
+                                            "choice_set_id": 13,
+                                            "value": "Fuel-based method"
+                                        },
+                                        {
+                                            "choice_id": 13008,
+                                            "choice_set_id": 13,
+                                            "value": "Hybrid method"
+                                        },
+                                        {
+                                            "choice_id": 13009,
+                                            "choice_set_id": 13,
+                                            "value": "Investment-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13010,
+                                            "choice_set_id": 13,
+                                            "value": "Lessor-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13011,
+                                            "choice_set_id": 13,
+                                            "value": "Site-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13012,
+                                            "choice_set_id": 13,
+                                            "value": "Spend-based method"
+                                        },
+                                        {
+                                            "choice_id": 13013,
+                                            "choice_set_id": 13,
+                                            "value": "Waste-type-specific method"
+                                        },
+                                        {
+                                            "choice_id": 13014,
+                                            "choice_set_id": 13,
+                                            "value": "Other methodology type not listed"
+                                        }
+                                    ],
+                                    "prompts": [
+                                        {
+                                            "value": "Scope 3 methodology type list"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_type_other",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Other Scope 3 methodology type"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_source",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Methodology source used to calculate scope 3 GHG emissions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_methodology_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Percentage of scope 3 GHG emissions calculated using methodology"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_methodology_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "scope_3_exclusion_form",
+                        "type": "form",
+                        "form": {
+                            "name": "scope_3_exclusion_form",
+                            "description": "Scope 3 Exclusions Form",
+                            "user_id": 1,
+                            "attributes": [
+                                {
+                                    "name": "scope_3_exclusion_description",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Description of scope 3 GHG emissions source excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_exclusion_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of why scope 3 GHG emissions source is excluded from inventory"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "scope_3_exclusion_perc",
+                                    "type": "float",
+                                    "prompts": [
+                                        {
+                                            "value": "Estimated percentage of scope 3 GHG emissions excluded from inventory"
+                                        }
+                                    ],
+                                    "view": {
+                                        "constraint_value": [
+                                            {
+                                                "code": "scope_3_exclusion_perc_range",
+                                                "actions": [
+                                                    {
+                                                        "set": {
+                                                            "min": 0,
+                                                            "max": 100
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "scope_3_exclusion_perc_explanation",
+                                    "type": "text",
+                                    "prompts": [
+                                        {
+                                            "value": "Explanation of how percentage of scope 3 GHG emissions excluded was calculated"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

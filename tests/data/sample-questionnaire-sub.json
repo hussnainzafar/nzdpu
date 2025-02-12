@@ -1,0 +1,37 @@
+{
+  "company_name": "Insomniac Design",
+  "reporting_year": 2022,
+  "organizational_boundary": 104,
+  "organizational_boundary_other": "custom single",
+  "methodology_used": [201, 202, "choice1", "choice2"],
+  "breakdown_scope1_ghg": [
+    {
+      "ghg_gas": 301,
+      "ghg_gas_other": "",
+      "ghg_emissions": 10.0,
+      "ghg_units": 401,
+      "ghg_units_other": ""
+    },
+    {
+      "ghg_gas": 302,
+      "ghg_gas_other": "",
+      "ghg_emissions": 20.0,
+      "ghg_units": 402,
+      "ghg_units_other": ""
+    },
+    {
+      "ghg_gas": 308,
+      "ghg_gas_other": "custom gas",
+      "ghg_emissions": 10.0,
+      "ghg_units": 408,
+      "ghg_units_other": "custom unit"
+    },
+    {
+      "ghg_gas": 308,
+      "ghg_gas_other": "another custom gas",
+      "ghg_emissions": 10.0,
+      "ghg_units": 408,
+      "ghg_units_other": "another custom unit"
+    }
+  ]
+}

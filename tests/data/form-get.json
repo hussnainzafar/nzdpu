@@ -1,0 +1,412 @@
+{
+    "name": "nzdpu_form",
+    "description": "NZDPU SCHEMA 4.0",
+    "created_on": "2024-09-12T14:44:50.158742",
+    "user_id": 1,
+    "heritable": false,
+    "id": 1,
+    "views": [
+      {
+        "table_def_id": 1,
+        "name": "nzdpu_form_simple_test",
+        "created_on": "2024-09-12T14:44:50.160818",
+        "user_id": 1,
+        "revision_id": null,
+        "description": "A sample questionnaire view",
+        "revision": 1,
+        "active": true,
+        "constraint_view": {},
+        "permissions_set_id": null,
+        "id": 1
+      }
+    ],
+    "attributes": [
+      {
+        "name": "disclosure_source",
+        "attribute_type": "text",
+        "created_on": "2024-09-12T14:44:50.164460",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 1,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 1,
+            "value": "Disclosure source",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 1
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 1,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.165085",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 1,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "filing_type",
+        "attribute_type": "text",
+        "created_on": "2024-09-12T14:44:50.166518",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 2,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 2,
+            "value": "Filing type for disclosure",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 2
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 2,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.166818",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 2,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "data_model",
+        "attribute_type": "text",
+        "created_on": "2024-09-12T14:44:50.167780",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 3,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 3,
+            "value": "Data model for disclosure",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 3
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 3,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.168078",
+            "constraint_value": [
+              {
+                "code": "data_model_min",
+                "conditions": [],
+                "actions": [
+                  {
+                    "set": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            ],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 3,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "date_start_reporting_year",
+        "attribute_type": "datetime",
+        "created_on": "2024-09-12T14:44:50.168902",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 4,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 4,
+            "value": "Reporting period start date",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 4
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 4,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.169153",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 4,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "date_end_reporting_year",
+        "attribute_type": "datetime",
+        "created_on": "2024-09-12T14:44:50.169922",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 5,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 5,
+            "value": "Reporting period end date",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 5
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 5,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.170153",
+            "constraint_value": [
+              {
+                "code": "current_date_range",
+                "conditions": [],
+                "actions": [
+                  {
+                    "set": {
+                      "required": true,
+                      "min": "2023-06-27T00:00:00.000Z",
+                      "max": "{currentDate}"
+                    }
+                  }
+                ]
+              }
+            ],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 5,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "reporting_year",
+        "attribute_type": "int",
+        "created_on": "2024-09-12T14:44:50.170869",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 6,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 6,
+            "value": "Reporting year",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 6
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 6,
+            "table_view_id": 1,
+            "constraint_view": {
+              "type": "int",
+              "nzdpuForm": "GENERAL_DISCLOSURE",
+              "view": [
+                "DATA_EXPLORER"
+              ],
+              "item": {
+                "variant": "YEAR"
+              }
+            },
+            "created_on": "2024-09-12T14:44:50.171096",
+            "constraint_value": [
+              {
+                "code": "reporting_year_range",
+                "conditions": [],
+                "actions": [
+                  {
+                    "set": {
+                      "min": 2015,
+                      "max": 2022
+                    }
+                  }
+                ]
+              }
+            ],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 6,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "org_boundary_approach",
+        "attribute_type": "text",
+        "created_on": "2024-09-12T14:44:50.171826",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 7,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 7,
+            "value": "Organizational boundary approach used to consolidate GHG emissions",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 7
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 7,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.172057",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 7,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "reporting_datetime",
+        "attribute_type": "datetime",
+        "created_on": "2024-09-12T14:44:50.172765",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 8,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 8,
+            "value": "Reporting date",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 8
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 8,
+            "table_view_id": 1,
+            "constraint_view": {},
+            "created_on": "2024-09-12T14:44:50.173007",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 8,
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "scope_1_emissions_group",
+        "attribute_type": "label",
+        "created_on": "2024-09-12T14:44:50.173725",
+        "table_def_id": 1,
+        "user_id": 1,
+        "attribute_type_id": null,
+        "choice_set_id": null,
+        "id": 9,
+        "choices": null,
+        "prompts": [
+          {
+            "column_def_id": 9,
+            "value": "Scope 1 Emissions",
+            "description": "",
+            "language_code": "en_US",
+            "role": "label",
+            "id": 9
+          }
+        ],
+        "form": null,
+        "views": [
+          {
+            "column_def_id": 9,
+            "table_view_id": 1,
+            "constraint_view": {
+              "type": "label",
+              "nzdpuForm": "SCOPE1",
+              "view": [
+                "COMPANY_PROFILE",
+                "COMPANY_PROFILE_OVERVIEW"
+              ],
+              "item": {
+                "variant": "GROUP",
+                "additionalProps": {
+                  "groupScope": "scope_1_emissions_group",
+                  "headingType": "ACCENT",
+                  "isAccordion": false
+                }
+              }
+            },
+            "created_on": "2024-09-12T14:44:50.173955",
+            "constraint_value": [],
+            "user_id": 1,
+            "permissions_set_id": null,
+            "choice_set_id": null,
+            "id": 9,
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+{
+    "scope_3_breakdown_source": 90002,
+    "scope_3_ghg_protocol_form": null,
+    "scope_3_iso_category_form": [
+        {
+            "scope_3_iso_category": 14001,
+            "scope_3_iso_category_other": null,
+            "scope_3_iso_materiality": 12001,
+            "scope_3_iso_materiality_description": "Description of how materiality was determined",
+            "rationale_s3_iso_non_disclose": null,
+            "scope_3_iso_emissions": 600000,
+            "scope_3_iso_emissions_units": 30002,
+            "scope_3_methodology_form": [
+                {
+                    "scope_3_methodology_type": 13001,
+                    "scope_3_methodology_type_other": null,
+                    "scope_3_methodology_source": "Source of methodology",
+                    "scope_3_methodology_perc": 55.55
+                },
+                {
+                    "scope_3_methodology_type": 13003,
+                    "scope_3_methodology_type_other": null,
+                    "scope_3_methodology_source": "Source of methodology",
+                    "scope_3_methodology_perc": 20
+                },
+                {
+                    "scope_3_methodology_type": 13014,
+                    "scope_3_methodology_type_other": "User defined custom methodology",
+                    "scope_3_methodology_source": "Source of methodology",
+                    "scope_3_methodology_perc": 24.45
+                }
+            ],
+            "scope_3_exclusion_form": [
+                {
+                    "scope_3_exclusion_description": "Description of exclusion",
+                    "scope_3_exclusion_explanation": "Explanation of exclusion",
+                    "scope_3_exclusion_perc": 33.33,
+                    "scope_3_exclusion_perc_explanation": "Explanation of how percentage of scope 3 GHG emissions excluded was calculated"
+                },
+                {
+                    "scope_3_exclusion_description": "There can be multiple/zero exclusions sub-forms in the scope_3_exclusion_form form array",
+                    "scope_3_exclusion_explanation": null,
+                    "scope_3_exclusion_perc": null,
+                    "scope_3_exclusion_perc_explanation": null
+                }
+            ]
+        },
+        {
+            "scope_3_iso_category": 14003,
+            "scope_3_iso_category_other": null,
+            "scope_3_iso_materiality": 12004,
+            "scope_3_iso_materiality_description": "Description of how materiality was determined",
+            "rationale_s3_iso_non_disclose": "Explanation for non disclosure",
+            "scope_3_iso_emissions": null,
+            "scope_3_iso_emissions_units": null,
+            "scope_3_methodology_form": null,
+            "scope_3_exclusion_form": null
+        },
+        {
+            "scope_3_iso_category": 14004,
+            "scope_3_iso_category_other": "User defined custom category",
+            "scope_3_iso_materiality": 12005,
+            "scope_3_iso_materiality_description": "Description of how materiality was determined",
+            "rationale_s3_iso_non_disclose": "Explanation for non disclosure",
+            "scope_3_iso_emissions": null,
+            "scope_3_iso_emissions_units": null,
+            "scope_3_methodology_form": null,
+            "scope_3_exclusion_form": null
+        }
+    ]
+}

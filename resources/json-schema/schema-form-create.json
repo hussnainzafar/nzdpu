@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema-form-create.json",
+  "title": "Schema - Create",
+  "description": "Request body format for the 'Create Schema' API.",
+  "type": "object",
+  "properties": {
+    "name": { "type":  "string" },
+    "description": { "type": "string" },
+    "user_id": { "type": "integer" },
+    "view": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "permissions_set_id": { "type":  "integer" },
+        "constraint_view": { "type": "object" }
+      },
+      "required": ["name"]
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "user_id": { "type": "integer" },
+          "type": {
+            "enum": [
+              "label","text", "bool", "int", "float", "datetime", "single","multiple", "form", "file", "form_or_null", "bool_or_null", "text_or_null", "float_or_null", "int_or_null", "file_or_null"
+            ]
+          },
+          "type_id": { "type": "integer" },
+          "view": {
+            "type": "object",
+            "properties": {
+              "permissions_set_id": { "type":  "integer" },
+              "constraint_value": {
+                "type": "array",
+                "items": {
+                  "$ref": "schema-constraint.json"
+                }
+              },
+              "constraint_view": { "type": "object" }
+            }
+          },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "choice_id": { "type":  "number" },
+                "value": { "type": "string" },
+                "description": { "type": "string" },
+                "language_code": { "type": "string" }
+              },
+              "required": ["choice_id","value"]
+            }
+          },
+          "prompts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value": { "type": "string" },
+                "description": { "type": "string" },
+                "language_code": { "type": "string" }
+              },
+              "required": ["value"]
+            }
+          },
+          "form": {
+            "$ref": "schema-form-create.json"
+          }
+        },
+        "required": ["name","type"],
+        "allOf": [
+          {
+            "if": {
+              "properties": { "type": { "enum": ["single","multiple"] } }
+            },
+            "then": {
+              "required": ["choices"]
+            }
+          },
+          {
+            "if": {
+              "properties": { "type": { "const": ["form"] } }
+            },
+            "then": {
+              "required": ["form"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": ["name","user_id"]
+}

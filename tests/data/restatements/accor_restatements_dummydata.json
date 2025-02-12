@@ -1,0 +1,82 @@
+{
+    "nz_id": 1001,
+    "reporting_datetime": "2021-11-14 00:00:00.000",
+    "data_source": "Updated source",
+    "restatements": [
+        {
+            "path": "total_s1_emissions_ghg",
+            "reason": "test",
+            "value": "345000"
+        },
+        {
+            "path": "s1_co2_emissions",
+            "reason": "test",
+            "value": "343876"
+        },
+        {
+            "path": "s1_emissions_exclusion_dict.{::0}.s1_emissions_exclusion_perc",
+            "reason": "test",
+            "value": "30"
+        },
+        {
+            "path": "total_s2_lb_emissions_ghg",
+            "reason": "test",
+            "value": "2594000"
+        },
+        {
+            "path": "total_s2_mb_emissions_ghg",
+            "reason": "test",
+            "value": "2579000"
+        },
+        {
+            "path": "total_s3_emissions_ghg",
+            "reason": "test",
+            "value": "3507890"
+        },
+        {
+            "path": "total_s3_ghgp_c2_emissions_ghg",
+            "reason": "test",
+            "value": "183280"
+        },
+        {
+            "path": "total_s3_ghgp_c4_emissions_ghg",
+            "reason": "test",
+            "value": "40042"
+        },
+        {
+            "path": "total_s3_ghgp_c7_emissions_ghg",
+            "reason": "test",
+            "value": "146941"
+        },
+        {
+            "path": "total_s3_ghgp_c14_emissions_ghg",
+            "reason": "test",
+            "value": "817698"
+        },
+        {
+            "path": "tgt_abs_dict.{::0}.tgt_abs_base_year_s1_emissions",
+            "reason": "test",
+            "value": "468151"
+        },
+        {
+            "path": "tgt_abs_dict.{::0}.tgt_abs_base_year_s2_emissions",
+            "reason": "test",
+            "value": "3002986"
+        },
+        {
+            "path": "tgt_abs_dict.{::0}.tgt_abs_target_year_total_emissions",
+            "reason": "test",
+            "value": "1867487"
+        },
+        {
+            "path": "tgt_abs_progress_dict.{::0}.tgt_abs_progress_perc",
+            "reason": "test",
+            "value": "36.1"
+        },
+        {
+            "path": "tgt_abs_valid_dict.{::0}.valid_tgt_abs_source",
+            "reason": "test",
+            "value": "SBTi Test"
+        }
+    ]
+}

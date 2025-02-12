@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema-constraint.json",
+  "title": "Schema constraint",
+  "description": "A generic constraint on an element of the schema",
+  "type": "object",
+  "properties": {
+    "code": { "type": "string" },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": {
+              "enum": [ "attribute","view" ]
+            }
+          },
+          "operator": {
+            "type": {
+              "enum": [ "and","or" ]
+            }
+          }
+        },
+        "patternProperties": {
+          "^\\w+$": {
+            "type": "object",
+            "patternProperties": {
+              "^(lt|leq|eq|geq|gt)$": {
+                "anyOf": [
+                  { "type": "string" },
+                  { "type": "number" },
+                  { "type": "boolean" }
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "set": {
+            "type": "object",
+            "patternProperties": {
+              "^\\w+$": {
+                "anyOf": [
+                  { "type": "string" },
+                  { "type": "number" },
+                  { "type": "boolean" },
+                  { "type": "array" },
+                  { "type": "object" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["code","actions"]
+}

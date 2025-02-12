@@ -1,0 +1,926 @@
+{
+    "s1_emissions_exclusion_dict": [
+        {
+            "s1_emissions_exclusion_desc": "—",
+            "s1_emissions_exclusion_explan": "—",
+            "s1_emissions_exclusion_perc": "—",
+            "s1_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s1_other_ghg_emissions_dict": [
+        {
+            "s1_other_ghg_emissions_name": "—",
+            "s1_other_ghg_emissions": "—",
+            "s1_other_ghg_emissions_gwp_source": "—",
+            "s1_other_ghg_emissions_gwp_time_horizon": "—"
+        }
+    ],
+    "s2_lb_emissions_exclusion_dict": [
+        {
+            "s2_lb_emissions_exclusion_desc": "—",
+            "s2_lb_emissions_exclusion_explan": "—",
+            "s2_lb_emissions_exclusion_perc": "—",
+            "s2_lb_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s2_mb_emissions_exclusion_dict": [
+        {
+            "s2_mb_emissions_exclusion_desc": "—",
+            "s2_mb_emissions_exclusion_explan": "—",
+            "s2_mb_emissions_exclusion_perc": "—",
+            "s2_mb_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c1_emissions_method_dict": [
+        {
+            "s3_ghgp_c1_emissions_method_type": "—",
+            "s3_ghgp_c1_emissions_method_desc": "—",
+            "s3_ghgp_c1_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c1_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c1_emissions_exclusion_desc": "—",
+            "s3_ghgp_c1_emissions_exclusion_explan": "—",
+            "s3_ghgp_c1_emissions_exclusion_perc": "—",
+            "s3_ghgp_c1_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c2_emissions_method_dict": [
+        {
+            "s3_ghgp_c2_emissions_method_type": "—",
+            "s3_ghgp_c2_emissions_method_desc": "—",
+            "s3_ghgp_c2_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c2_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c2_emissions_exclusion_desc": "—",
+            "s3_ghgp_c2_emissions_exclusion_explan": "—",
+            "s3_ghgp_c2_emissions_exclusion_perc": "—",
+            "s3_ghgp_c2_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c3_emissions_method_dict": [
+        {
+            "s3_ghgp_c3_emissions_method_type": "—",
+            "s3_ghgp_c3_emissions_method_desc": "—",
+            "s3_ghgp_c3_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c3_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c3_emissions_exclusion_desc": "—",
+            "s3_ghgp_c3_emissions_exclusion_explan": "—",
+            "s3_ghgp_c3_emissions_exclusion_perc": "—",
+            "s3_ghgp_c3_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c4_emissions_method_dict": [
+        {
+            "s3_ghgp_c4_emissions_method_type": "—",
+            "s3_ghgp_c4_emissions_method_desc": "—",
+            "s3_ghgp_c4_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c4_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c4_emissions_exclusion_desc": "—",
+            "s3_ghgp_c4_emissions_exclusion_explan": "—",
+            "s3_ghgp_c4_emissions_exclusion_perc": "—",
+            "s3_ghgp_c4_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c5_emissions_method_dict": [
+        {
+            "s3_ghgp_c5_emissions_method_type": "—",
+            "s3_ghgp_c5_emissions_method_desc": "—",
+            "s3_ghgp_c5_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c5_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c5_emissions_exclusion_desc": "—",
+            "s3_ghgp_c5_emissions_exclusion_explan": "—",
+            "s3_ghgp_c5_emissions_exclusion_perc": "—",
+            "s3_ghgp_c5_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c6_emissions_method_dict": [
+        {
+            "s3_ghgp_c6_emissions_method_type": "—",
+            "s3_ghgp_c6_emissions_method_desc": "—",
+            "s3_ghgp_c6_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c6_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c6_emissions_exclusion_desc": "—",
+            "s3_ghgp_c6_emissions_exclusion_explan": "—",
+            "s3_ghgp_c6_emissions_exclusion_perc": "—",
+            "s3_ghgp_c6_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c7_emissions_method_dict": [
+        {
+            "s3_ghgp_c7_emissions_method_type": "—",
+            "s3_ghgp_c7_emissions_method_desc": "—",
+            "s3_ghgp_c7_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c7_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c7_emissions_exclusion_desc": "—",
+            "s3_ghgp_c7_emissions_exclusion_explan": "—",
+            "s3_ghgp_c7_emissions_exclusion_perc": "—",
+            "s3_ghgp_c7_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c8_emissions_method_dict": [
+        {
+            "s3_ghgp_c8_emissions_method_type": "—",
+            "s3_ghgp_c8_emissions_method_desc": "—",
+            "s3_ghgp_c8_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c8_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c8_emissions_exclusion_desc": "—",
+            "s3_ghgp_c8_emissions_exclusion_explan": "—",
+            "s3_ghgp_c8_emissions_exclusion_perc": "—",
+            "s3_ghgp_c8_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c9_emissions_method_dict": [
+        {
+            "s3_ghgp_c9_emissions_method_type": "—",
+            "s3_ghgp_c9_emissions_method_desc": "—",
+            "s3_ghgp_c9_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c9_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c9_emissions_exclusion_desc": "—",
+            "s3_ghgp_c9_emissions_exclusion_explan": "—",
+            "s3_ghgp_c9_emissions_exclusion_perc": "—",
+            "s3_ghgp_c9_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c10_emissions_method_dict": [
+        {
+            "s3_ghgp_c10_emissions_method_type": "—",
+            "s3_ghgp_c10_emissions_method_desc": "—",
+            "s3_ghgp_c10_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c10_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c10_emissions_exclusion_desc": "—",
+            "s3_ghgp_c10_emissions_exclusion_explan": "—",
+            "s3_ghgp_c10_emissions_exclusion_perc": "—",
+            "s3_ghgp_c10_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c11_emissions_method_dict": [
+        {
+            "s3_ghgp_c11_emissions_method_type": "—",
+            "s3_ghgp_c11_emissions_method_desc": "—",
+            "s3_ghgp_c11_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c11_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c11_emissions_exclusion_desc": "—",
+            "s3_ghgp_c11_emissions_exclusion_explan": "—",
+            "s3_ghgp_c11_emissions_exclusion_perc": "—",
+            "s3_ghgp_c11_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c12_emissions_method_dict": [
+        {
+            "s3_ghgp_c12_emissions_method_type": "—",
+            "s3_ghgp_c12_emissions_method_desc": "—",
+            "s3_ghgp_c12_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c12_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c12_emissions_exclusion_desc": "—",
+            "s3_ghgp_c12_emissions_exclusion_explan": "—",
+            "s3_ghgp_c12_emissions_exclusion_perc": "—",
+            "s3_ghgp_c12_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c13_emissions_method_dict": [
+        {
+            "s3_ghgp_c13_emissions_method_type": "—",
+            "s3_ghgp_c13_emissions_method_desc": "—",
+            "s3_ghgp_c13_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c13_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c13_emissions_exclusion_desc": "—",
+            "s3_ghgp_c13_emissions_exclusion_explan": "—",
+            "s3_ghgp_c13_emissions_exclusion_perc": "—",
+            "s3_ghgp_c13_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c14_emissions_method_dict": [
+        {
+            "s3_ghgp_c14_emissions_method_type": "—",
+            "s3_ghgp_c14_emissions_method_desc": "—",
+            "s3_ghgp_c14_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c14_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c14_emissions_exclusion_desc": "—",
+            "s3_ghgp_c14_emissions_exclusion_explan": "—",
+            "s3_ghgp_c14_emissions_exclusion_perc": "—",
+            "s3_ghgp_c14_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_c15_emissions_method_dict": [
+        {
+            "s3_ghgp_c15_emissions_method_type": "—",
+            "s3_ghgp_c15_emissions_method_desc": "—",
+            "s3_ghgp_c15_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_c15_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_c15_emissions_exclusion_desc": "—",
+            "s3_ghgp_c15_emissions_exclusion_explan": "—",
+            "s3_ghgp_c15_emissions_exclusion_perc": "—",
+            "s3_ghgp_c15_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_ghgp_other_emissions_method_dict": [
+        {
+            "s3_ghgp_other_emissions_method_type": "—",
+            "s3_ghgp_other_emissions_method_desc": "—",
+            "s3_ghgp_other_emissions_method_perc": "—"
+        }
+    ],
+    "s3_ghgp_other_emissions_exclusion_dict": [
+        {
+            "s3_ghgp_other_emissions_exclusion_desc": "—",
+            "s3_ghgp_other_emissions_exclusion_explan": "—",
+            "s3_ghgp_other_emissions_exclusion_perc": "—",
+            "s3_ghgp_other_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_iso_c3_emissions_method_dict": [
+        {
+            "s3_iso_c3_emissions_method_type": "—",
+            "s3_iso_c3_emissions_method_desc": "—",
+            "s3_iso_c3_emissions_method_perc": "—"
+        }
+    ],
+    "s3_iso_c3_emissions_exclusion_dict": [
+        {
+            "s3_iso_c3_emissions_exclusion_desc": "—",
+            "s3_iso_c3_emissions_exclusion_explan": "—",
+            "s3_iso_c3_emissions_exclusion_perc": "—",
+            "s3_iso_c3_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_iso_c4_emissions_method_dict": [
+        {
+            "s3_iso_c4_emissions_method_type": "—",
+            "s3_iso_c4_emissions_method_desc": "—",
+            "s3_iso_c4_emissions_method_perc": "—"
+        }
+    ],
+    "s3_iso_c4_emissions_exclusion_dict": [
+        {
+            "s3_iso_c4_emissions_exclusion_desc": "—",
+            "s3_iso_c4_emissions_exclusion_explan": "—",
+            "s3_iso_c4_emissions_exclusion_perc": "—",
+            "s3_iso_c4_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_iso_c5_emissions_method_dict": [
+        {
+            "s3_iso_c5_emissions_method_type": "—",
+            "s3_iso_c5_emissions_method_desc": "—",
+            "s3_iso_c5_emissions_method_perc": "—"
+        }
+    ],
+    "s3_iso_c5_emissions_exclusion_dict": [
+        {
+            "s3_iso_c5_emissions_exclusion_desc": "—",
+            "s3_iso_c5_emissions_exclusion_explan": "—",
+            "s3_iso_c5_emissions_exclusion_perc": "—",
+            "s3_iso_c5_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "s3_iso_c6_emissions_method_dict": [
+        {
+            "s3_iso_c6_emissions_method_type": "—",
+            "s3_iso_c6_emissions_method_desc": "—",
+            "s3_iso_c6_emissions_method_perc": "—"
+        }
+    ],
+    "s3_iso_c6_emissions_exclusion_dict": [
+        {
+            "s3_iso_c6_emissions_exclusion_desc": "—",
+            "s3_iso_c6_emissions_exclusion_explan": "—",
+            "s3_iso_c6_emissions_exclusion_perc": "—",
+            "s3_iso_c6_emissions_exclusion_perc_explan": "—"
+        }
+    ],
+    "fin_emissions_aum_sector_dict": [
+        {
+            "fin_emissions_aum_sector_name": "—",
+            "fin_emissions_aum_sector_code": "—"
+        }
+    ],
+    "fin_emissions_aum_dict": [
+        {
+            "fin_emissions_aum_cvg_asset_class": "—",
+            "fin_emissions_aum_cvg_sector": "—",
+            "fin_emissions_aum_cvg_scope": "—",
+            "fin_emissions_aum_cvg_s3_cat": "—",
+            "fin_emissions_aum_s1_ghg": "—",
+            "fin_emissions_aum_s1_co2": "—",
+            "fin_emissions_aum_s1_cvg_ghg": "—",
+            "fin_emissions_aum_s1_cvg_amount": "—",
+            "fin_emissions_aum_s1_cvg_amount_usd": "—",
+            "fin_emissions_aum_s2_ghg": "—",
+            "fin_emissions_aum_s2_co2": "—",
+            "fin_emissions_aum_s2_cvg_ghg": "—",
+            "fin_emissions_aum_s2_cvg_amount": "—",
+            "fin_emissions_aum_s2_cvg_amount_usd": "—",
+            "fin_emissions_aum_s1s2_ghg": "—",
+            "fin_emissions_aum_s1s2_co2": "—",
+            "fin_emissions_aum_s1s2_cvg_ghg": "—",
+            "fin_emissions_aum_s1s2_cvg_amount": "—",
+            "fin_emissions_aum_s1s2_cvg_amount_usd": "—",
+            "fin_emissions_aum_s3_ghg": "—",
+            "fin_emissions_aum_s3_co2": "—",
+            "fin_emissions_aum_s3_cvg_ghg": "—",
+            "fin_emissions_aum_s3_cvg_amount": "—",
+            "fin_emissions_aum_s3_cvg_amount_usd": "—",
+            "fin_emissions_aum_total_ghg": "—",
+            "fin_emissions_aum_total_co2": "—",
+            "fin_emissions_aum_total_cvg_ghg": "—",
+            "fin_emissions_aum_total_cvg_amount": "—",
+            "fin_emissions_aum_total_cvg_amount_usd": "—",
+            "fin_emissions_aum_method": "—",
+            "fin_emissions_aum_calc_desc": "—"
+        }
+    ],
+    "fin_emissions_int_aum_dict": [
+        {
+            "fin_emissions_int_aum_intensity_type": "—",
+            "fin_emissions_int_aum_desc": "—",
+            "fin_emissions_int_aum_cvg_asset_class": "—",
+            "fin_emissions_int_aum_cvg_sector": "—",
+            "fin_emissions_int_aum_cvg_scope": "—",
+            "fin_emissions_int_aum_cvg_s3_cat": "—",
+            "fin_emissions_int_aum_cvg_ghg": "—",
+            "fin_emissions_int_aum": "—",
+            "fin_emissions_int_aum_units": "—",
+            "fin_emissions_int_aum_usd": "—",
+            "fin_emissions_int_aum_units_usd": "—",
+            "fin_emissions_int_aum_method": "—",
+            "fin_emissions_int_aum_calc_desc": "—"
+        }
+    ],
+    "fin_emissions_aum_data_quality_dict": [
+        {
+            "fin_emissions_aum_data_quality_cvg_asset_class": "—",
+            "fin_emissions_aum_data_quality_cvg_sector": "—",
+            "fin_emissions_aum_data_quality_perc_reported": "—",
+            "fin_emissions_aum_pcaf_data_quality_score_s1": "—",
+            "fin_emissions_aum_pcaf_data_quality_score_s2": "—",
+            "fin_emissions_aum_pcaf_data_quality_score_s1s2": "—",
+            "fin_emissions_aum_pcaf_data_quality_score_s3": "—",
+            "fin_emissions_aum_pcaf_data_quality_score_total": "—"
+        }
+    ],
+    "fin_emissions_grossexp_sector_dict": [
+        {
+            "fin_emissions_grossexp_sector_name": "—",
+            "fin_emissions_grossexp_sector_code": "—"
+        }
+    ],
+    "fin_emissions_grossexp_dict": [
+        {
+            "fin_emissions_grossexp_cvg_asset_class": "—",
+            "fin_emissions_grossexp_cvg_sector": "—",
+            "fin_emissions_grossexp_cvg_scope": "—",
+            "fin_emissions_grossexp_cvg_s3_cat": "—",
+            "fin_emissions_grossexp_s1_ghg": "—",
+            "fin_emissions_grossexp_s1_co2": "—",
+            "fin_emissions_grossexp_s1_cvg_ghg": "—",
+            "fin_emissions_grossexp_s1_cvg_amount": "—",
+            "fin_emissions_grossexp_s1_cvg_amount_usd": "—",
+            "fin_emissions_grossexp_s2_ghg": "—",
+            "fin_emissions_grossexp_s2_co2": "—",
+            "fin_emissions_grossexp_s2_cvg_ghg": "—",
+            "fin_emissions_grossexp_s2_cvg_amount": "—",
+            "fin_emissions_grossexp_s2_cvg_amount_usd": "—",
+            "fin_emissions_grossexp_s1s2_ghg": "—",
+            "fin_emissions_grossexp_s1s2_co2": "—",
+            "fin_emissions_grossexp_s1s2_cvg_ghg": "—",
+            "fin_emissions_grossexp_s1s2_cvg_amount": "—",
+            "fin_emissions_grossexp_s1s2_cvg_amount_usd": "—",
+            "fin_emissions_grossexp_s3_ghg": "—",
+            "fin_emissions_grossexp_s3_co2": "—",
+            "fin_emissions_grossexp_s3_cvg_ghg": "—",
+            "fin_emissions_grossexp_s3_cvg_amount": "—",
+            "fin_emissions_grossexp_s3_cvg_amount_usd": "—",
+            "fin_emissions_grossexp_total_ghg": "—",
+            "fin_emissions_grossexp_total_co2": "—",
+            "fin_emissions_grossexp_total_cvg_ghg": "—",
+            "fin_emissions_grossexp_total_cvg_amount": "—",
+            "fin_emissions_grossexp_total_cvg_amount_usd": "—",
+            "fin_emissions_grossexp_method": "—",
+            "fin_emissions_grossexp_calc_desc": "—"
+        }
+    ],
+    "fin_emissions_int_grossexp_dict": [
+        {
+            "fin_emissions_int_grossexp_intensity_type": "—",
+            "fin_emissions_int_grossexp_desc": "—",
+            "fin_emissions_int_grossexp_cvg_asset_class": "—",
+            "fin_emissions_int_grossexp_cvg_sector": "—",
+            "fin_emissions_int_grossexp_cvg_scope": "—",
+            "fin_emissions_int_grossexp_cvg_s3_cat": "—",
+            "fin_emissions_int_grossexp_cvg_ghg": "—",
+            "fin_emissions_int_grossexp": "—",
+            "fin_emissions_int_grossexp_units": "—",
+            "fin_emissions_int_grossexp_usd": "—",
+            "fin_emissions_int_grossexp_units_usd": "—",
+            "fin_emissions_int_grossexp_method": "—",
+            "fin_emissions_int_grossexp_calc_desc": "—"
+        }
+    ],
+    "fin_emissions_grossexp_data_quality_dict": [
+        {
+            "fin_emissions_grossexp_data_quality_cvg_asset_class": "—",
+            "fin_emissions_grossexp_data_quality_cvg_sector": "—",
+            "fin_emissions_grossexp_data_quality_perc_reported": "—",
+            "fin_emissions_grossexp_pcaf_data_quality_score_s1": "—",
+            "fin_emissions_grossexp_pcaf_data_quality_score_s2": "—",
+            "fin_emissions_grossexp_pcaf_data_quality_score_s1s2": "—",
+            "fin_emissions_grossexp_pcaf_data_quality_score_s3": "—",
+            "fin_emissions_grossexp_pcaf_data_quality_score_total": "—"
+        }
+    ],
+     "verif_emissions_dict": [
+        {
+            "verif_emissions_provider": "—",
+            "verif_emissions_standard": "—",
+            "verif_emissions_level_of_assurance": "—",
+            "verif_emissions_cvg_scope": "—",
+            "verif_emissions_cvg_s3_cat": "—",
+            "perc_s1_emissions_verif": "—",
+            "perc_s2_lb_emissions_verif": "—",
+            "perc_s2_mb_emissions_verif": "—",
+            "perc_s3_emissions_verif": "—",
+            "verif_emissions_statement": "—"
+        }
+    ],
+    "tgt_abs_dict": [
+        {
+            "tgt_abs_id": "—",
+            "tgt_abs_name": "—",
+            "tgt_abs_status": "—",
+            "tgt_abs_status_if_inactive": "—",
+            "tgt_abs_year_set": "—",
+            "tgt_abs_type": "—",
+            "tgt_abs_org_boundary": "—",
+            "tgt_abs_cvg_scope": "—",
+            "tgt_abs_cvg_s3_cat": "—",
+            "tgt_abs_cvg_ghg": "—",
+            "tgt_abs_cvg_sector_approach": "—",
+            "tgt_abs_cvg_sector": "—",
+            "tgt_abs_cvg_desc": "—",
+            "tgt_abs_base_year_s1_perc": "—",
+            "tgt_abs_base_year_s2_perc": "—",
+            "tgt_abs_base_year_s1s2_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c1_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c2_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c3_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c4_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c5_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c6_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c7_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c8_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c9_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c10_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c11_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c12_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c13_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c14_perc": "—",
+            "tgt_abs_base_year_s3_ghgp_c15_perc": "—",
+            "tgt_abs_base_year_s3_perc": "—",
+            "tgt_abs_base_year_total_perc": "—",
+            "tgt_abs_base_year": "—",
+            "tgt_abs_base_year_s1_emissions": "—",
+            "tgt_abs_base_year_s2_emissions": "—",
+            "tgt_abs_base_year_s1s2_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c1_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c2_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c3_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c4_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c5_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c6_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c7_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c8_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c9_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c10_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c11_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c12_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c13_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c14_emissions": "—",
+            "tgt_abs_base_year_s3_ghgp_c15_emissions": "—",
+            "tgt_abs_base_year_s3_emissions": "—",
+            "tgt_abs_base_year_total_emissions": "—",
+            "tgt_abs_target_year": "—",
+            "tgt_abs_target_year_s1_emissions": "—",
+            "tgt_abs_target_year_s2_emissions": "—",
+            "tgt_abs_target_year_s1s2_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c1_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c2_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c3_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c4_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c5_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c6_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c7_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c8_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c9_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c10_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c11_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c12_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c13_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c14_emissions": "—",
+            "tgt_abs_target_year_s3_ghgp_c15_emissions": "—",
+            "tgt_abs_target_year_s3_emissions": "—",
+            "tgt_abs_target_year_total_emissions": "—",
+            "tgt_abs_target_year_s1_perc_reduction": "—",
+            "tgt_abs_target_year_s2_perc_reduction": "—",
+            "tgt_abs_target_year_s1s2_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c1_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c2_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c3_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c4_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c5_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c6_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c7_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c8_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c9_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c10_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c11_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c12_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c13_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c14_perc_reduction": "—",
+            "tgt_abs_target_year_s3_ghgp_c15_perc_reduction": "—",
+            "tgt_abs_target_year_s3_perc_reduction": "—",
+            "tgt_abs_target_year_total_perc_reduction": "—",
+            "tgt_abs_ambition": "—",
+            "tgt_abs_method": "—",
+            "tgt_abs_method_desc": "—",
+            "tgt_abs_calc_desc": "—",
+            "tgt_abs_achieve_within_vc_desc": "—",
+            "tgt_abs_achieve_within_vc_perc": "—",
+            "tgt_abs_use_of_carbon_credits": "—",
+            "tgt_abs_use_of_carbon_credits_desc": "—",
+            "tgt_abs_use_of_carbon_credits_perc": "—",
+            "tgt_abs_achieve_other_desc": "—"
+        }
+    ],
+     "tgt_abs_progress_dict": [
+        {
+            "tgt_abs_id_progress": "—",
+            "tgt_abs_progress_year": "—",
+            "tgt_abs_progress_year_s1_emissions": "—",
+            "tgt_abs_progress_year_s2_emissions": "—",
+            "tgt_abs_progress_year_s1s2_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c1_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c2_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c3_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c4_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c5_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c6_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c7_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c8_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c9_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c10_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c11_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c12_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c13_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c14_emissions": "—",
+            "tgt_abs_progress_year_s3_ghgp_c15_emissions": "—",
+            "tgt_abs_progress_year_s3_emissions": "—",
+            "tgt_abs_progress_year_total_emissions": "—",
+            "tgt_abs_progress_year_s1_perc_reduction": "—",
+            "tgt_abs_progress_year_s2_perc_reduction": "—",
+            "tgt_abs_progress_year_s1s2_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c1_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c2_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c3_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c4_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c5_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c6_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c7_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c8_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c9_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c10_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c11_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c12_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c13_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c14_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_ghgp_c15_perc_reduction": "—",
+            "tgt_abs_progress_year_s3_perc_reduction": "—",
+            "tgt_abs_progress_year_total_perc_reduction": "—",
+            "tgt_abs_progress_perc": "—"
+        }
+    ],
+     "tgt_int_dict": [
+        {
+            "tgt_int_id": "—",
+            "tgt_int_name": "—",
+            "tgt_int_status": "—",
+            "tgt_int_status_if_inactive": "—",
+            "tgt_int_year_set": "—",
+            "tgt_int_type": "—",
+            "tgt_int_intensity_type": "—",
+            "tgt_int_desc": "—",
+            "tgt_int_org_boundary": "—",
+            "tgt_int_cvg_scope": "—",
+            "tgt_int_cvg_s3_cat": "—",
+            "tgt_int_cvg_ghg": "—",
+            "tgt_int_cvg_sector_approach": "—",
+            "tgt_int_cvg_sector": "—",
+            "tgt_int_cvg_desc": "—",
+            "tgt_int_base_year_s1_perc": "—",
+            "tgt_int_base_year_s2_perc": "—",
+            "tgt_int_base_year_s1s2_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c1_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c2_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c3_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c4_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c5_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c6_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c7_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c8_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c9_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c10_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c11_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c12_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c13_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c14_perc": "—",
+            "tgt_int_base_year_s3_ghgp_c15_perc": "—",
+            "tgt_int_base_year_s3_perc": "—",
+            "tgt_int_base_year_total_perc": "—",
+            "tgt_int_units": "—",
+            "tgt_int_units_usd": "—",
+            "tgt_int_units_num": "—",
+            "tgt_int_units_denom": "—",
+            "tgt_int_units_denom_usd": "—",
+            "tgt_int_base_year": "—",
+            "tgt_int_base_year_activity_metric": "—",
+            "tgt_int_base_year_activity_metric_usd": "—",
+            "tgt_int_base_year_s1_int": "—",
+            "tgt_int_base_year_s2_int": "—",
+            "tgt_int_base_year_s1s2_int": "—",
+            "tgt_int_base_year_s3_ghgp_c1_int": "—",
+            "tgt_int_base_year_s3_ghgp_c2_int": "—",
+            "tgt_int_base_year_s3_ghgp_c3_int": "—",
+            "tgt_int_base_year_s3_ghgp_c4_int": "—",
+            "tgt_int_base_year_s3_ghgp_c5_int": "—",
+            "tgt_int_base_year_s3_ghgp_c6_int": "—",
+            "tgt_int_base_year_s3_ghgp_c7_int": "—",
+            "tgt_int_base_year_s3_ghgp_c8_int": "—",
+            "tgt_int_base_year_s3_ghgp_c9_int": "—",
+            "tgt_int_base_year_s3_ghgp_c10_int": "—",
+            "tgt_int_base_year_s3_ghgp_c11_int": "—",
+            "tgt_int_base_year_s3_ghgp_c12_int": "—",
+            "tgt_int_base_year_s3_ghgp_c13_int": "—",
+            "tgt_int_base_year_s3_ghgp_c14_int": "—",
+            "tgt_int_base_year_s3_ghgp_c15_int": "—",
+            "tgt_int_base_year_s3_int": "—",
+            "tgt_int_base_year_total_int": "—",
+            "tgt_int_base_year_s1_int_usd": "—",
+            "tgt_int_base_year_s2_int_usd": "—",
+            "tgt_int_base_year_s1s2_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c1_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c2_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c3_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c4_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c5_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c6_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c7_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c8_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c9_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c10_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c11_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c12_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c13_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c14_int_usd": "—",
+            "tgt_int_base_year_s3_ghgp_c15_int_usd": "—",
+            "tgt_int_base_year_s3_int_usd": "—",
+            "tgt_int_base_year_total_int_usd": "—",
+            "tgt_int_base_year_s1_emissions": "—",
+            "tgt_int_base_year_s2_emissions": "—",
+            "tgt_int_base_year_s1s2_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c1_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c2_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c3_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c4_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c5_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c6_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c7_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c8_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c9_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c10_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c11_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c12_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c13_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c14_emissions": "—",
+            "tgt_int_base_year_s3_ghgp_c15_emissions": "—",
+            "tgt_int_base_year_s3_emissions": "—",
+            "tgt_int_base_year_total_emissions": "—",
+            "tgt_int_target_year": "—",
+            "tgt_int_target_year_s1_int": "—",
+            "tgt_int_target_year_s2_int": "—",
+            "tgt_int_target_year_s1s2_int": "—",
+            "tgt_int_target_year_s3_ghgp_c1_int": "—",
+            "tgt_int_target_year_s3_ghgp_c2_int": "—",
+            "tgt_int_target_year_s3_ghgp_c3_int": "—",
+            "tgt_int_target_year_s3_ghgp_c4_int": "—",
+            "tgt_int_target_year_s3_ghgp_c5_int": "—",
+            "tgt_int_target_year_s3_ghgp_c6_int": "—",
+            "tgt_int_target_year_s3_ghgp_c7_int": "—",
+            "tgt_int_target_year_s3_ghgp_c8_int": "—",
+            "tgt_int_target_year_s3_ghgp_c9_int": "—",
+            "tgt_int_target_year_s3_ghgp_c10_int": "—",
+            "tgt_int_target_year_s3_ghgp_c11_int": "—",
+            "tgt_int_target_year_s3_ghgp_c12_int": "—",
+            "tgt_int_target_year_s3_ghgp_c13_int": "—",
+            "tgt_int_target_year_s3_ghgp_c14_int": "—",
+            "tgt_int_target_year_s3_ghgp_c15_int": "—",
+            "tgt_int_target_year_s3_int": "—",
+            "tgt_int_target_year_total_int": "—",
+            "tgt_int_target_year_s1_int_usd": "—",
+            "tgt_int_target_year_s2_int_usd": "—",
+            "tgt_int_target_year_s1s2_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c1_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c2_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c3_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c4_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c5_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c6_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c7_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c8_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c9_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c10_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c11_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c12_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c13_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c14_int_usd": "—",
+            "tgt_int_target_year_s3_ghgp_c15_int_usd": "—",
+            "tgt_int_target_year_s3_int_usd": "—",
+            "tgt_int_target_year_total_int_usd": "—",
+            "tgt_int_target_year_s1_int_perc_reduction": "—",
+            "tgt_int_target_year_s2_int_perc_reduction": "—",
+            "tgt_int_target_year_s1s2_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c1_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c2_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c3_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c4_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c5_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c6_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c7_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c8_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c9_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c10_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c11_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c12_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c13_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c14_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_ghgp_c15_int_perc_reduction": "—",
+            "tgt_int_target_year_s3_int_perc_reduction": "—",
+            "tgt_int_target_year_total_int_perc_reduction": "—",
+            "tgt_int_ambition": "—",
+            "tgt_int_method": "—",
+            "tgt_int_method_desc": "—",
+            "tgt_int_calc_desc": "—",
+            "tgt_int_achieve_within_vc_desc": "—",
+            "tgt_int_achieve_within_vc_perc": "—",
+            "tgt_int_use_of_carbon_credits": "—",
+            "tgt_int_use_of_carbon_credits_desc": "—",
+            "tgt_int_use_of_carbon_credits_perc": "—",
+            "tgt_int_achieve_other_desc": "—"
+        }
+    ],
+    "tgt_int_progress_dict": [
+        {
+            "tgt_int_id_progress": "—",
+            "tgt_int_progress_year": "—",
+            "tgt_int_progress_year_s1_int": "—",
+            "tgt_int_progress_year_s2_int": "—",
+            "tgt_int_progress_year_s1s2_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c1_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c2_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c3_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c4_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c5_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c6_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c7_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c8_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c9_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c10_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c11_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c12_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c13_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c14_int": "—",
+            "tgt_int_progress_year_s3_ghgp_c15_int": "—",
+            "tgt_int_progress_year_s3_int": "—",
+            "tgt_int_progress_year_total_int": "—",
+            "tgt_int_progress_year_s1_int_usd": "—",
+            "tgt_int_progress_year_s2_int_usd": "—",
+            "tgt_int_progress_year_s1s2_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c1_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c2_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c3_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c4_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c5_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c6_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c7_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c8_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c9_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c10_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c11_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c12_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c13_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c14_int_usd": "—",
+            "tgt_int_progress_year_s3_ghgp_c15_int_usd": "—",
+            "tgt_int_progress_year_s3_int_usd": "—",
+            "tgt_int_progress_year_total_int_usd": "—",
+            "tgt_int_progress_year_s1_int_perc_reduction": "—",
+            "tgt_int_progress_year_s2_int_perc_reduction": "—",
+            "tgt_int_progress_year_s1s2_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c1_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c2_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c3_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c4_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c5_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c6_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c7_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c8_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c9_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c10_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c11_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c12_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c13_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c14_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_ghgp_c15_int_perc_reduction": "—",
+            "tgt_int_progress_year_s3_int_perc_reduction": "—",
+            "tgt_int_progress_year_total_int_perc_reduction": "—",
+            "tgt_int_progress_year_s1_emissions": "—",
+            "tgt_int_progress_year_s2_emissions": "—",
+            "tgt_int_progress_year_s1s2_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c1_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c2_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c3_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c4_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c5_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c6_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c7_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c8_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c9_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c10_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c11_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c12_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c13_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c14_emissions": "—",
+            "tgt_int_progress_year_s3_ghgp_c15_emissions": "—",
+            "tgt_int_progress_year_s3_emissions": "—",
+            "tgt_int_progress_perc": "—"
+        }
+    ],
+    "tgt_abs_valid_dict": [
+        {
+            "tgt_abs_id_valid": "—",
+            "rationale_tgt_abs_valid_non_disclose": "—",
+            "valid_tgt_abs_provider": "—",
+            "valid_tgt_abs_source": "—",
+            "valid_tgt_abs_statement": "—"
+        }
+    ],
+    "tgt_int_valid_dict": [
+        {
+            "tgt_int_id_valid": "—",
+            "rationale_tgt_int_valid_non_disclose": "—",
+            "valid_tgt_int_provider": "—",
+            "valid_tgt_int_source": "—",
+            "valid_tgt_int_statement": "—"
+        }
+    ]
+}

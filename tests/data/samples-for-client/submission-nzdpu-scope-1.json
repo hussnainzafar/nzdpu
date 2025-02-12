@@ -1,0 +1,106 @@
+{
+    "scope_1_emissions": 990000,
+    "scope_1_emissions_units": 30001,
+    "rationale_s1_non_disclose": "Add string text here or set as null if not specified",
+    "scope_1_ghg": [
+        {
+            "scope_1_ghg_gas": 40001,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": 500000,
+            "scope_1_ghg_gwp_source": 50001,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60001,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40002,
+            "scope_1_ghg_gas_name": 100000,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": 50006,
+            "scope_1_ghg_gwp_source_other": "User defined GWP source",
+            "scope_1_ghg_gwp_time_horizon": 60002,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40003,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40004,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40005,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40006,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40007,
+            "scope_1_ghg_gas_name": null,
+            "scope_1_ghg_emissions": null,
+            "scope_1_ghg_gwp_source": null,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": null,
+            "scope_1_ghg_gwp_time_horizon_other": null
+        },
+        {
+            "scope_1_ghg_gas": 40008,
+            "scope_1_ghg_gas_name": "User defined Gas",
+            "scope_1_ghg_emissions": 300000,
+            "scope_1_ghg_gwp_source": 50006,
+            "scope_1_ghg_gwp_source_other": "Custom GWP source",
+            "scope_1_ghg_gwp_time_horizon": 60004,
+            "scope_1_ghg_gwp_time_horizon_other": "Custom time horizon"
+        },
+        {
+            "scope_1_ghg_gas": 40008,
+            "scope_1_ghg_gas_name": "Another custom Gas",
+            "scope_1_ghg_emissions": 33000,
+            "scope_1_ghg_gwp_source": 50003,
+            "scope_1_ghg_gwp_source_other": null,
+            "scope_1_ghg_gwp_time_horizon": 60004,
+            "scope_1_ghg_gwp_time_horizon_other": "10-year"
+        }
+    ],
+    "rationale_s1_ghg_non_disclose": null,
+    "rationale_s1_ghg_non_disclose_other": null,
+    "rationale_s1_ghg_not_equal_s1_total": "Text explanation",
+    "scope_1_methodology": [80001, 80003, "User defined methodology"],
+    "scope_1_exclusion": [
+        {
+            "scope_1_exclusion_description": "Text description of exclusion",
+            "scope_1_exclusion_explanation": "Text explanation of exclusion",
+            "scope_1_exclusion_perc": 55.55,
+            "scope_1_exclusion_perc_explanation": "Text explanation of how percentage was calculated"
+        },
+        {
+            "scope_1_exclusion_description": "There can be multiple/zero exclusions sub-forms in the scope_1_exclusion form array",
+            "scope_1_exclusion_explanation": null,
+            "scope_1_exclusion_perc": null,
+            "scope_1_exclusion_perc_explanation": null
+        }
+    ]
+}

@@ -1,0 +1,810 @@
+[
+  {
+    "id": 1,
+    "name": "nzdpu_form",
+    "description": "NZDPU - Disclosure Metadata, General Requirements, Scope 1, Scope 2, Scope 3 Forms",
+    "created_on": "2023-10-18T17:16:02.116572",
+    "user_id": 1,
+    "heritable": false
+  },
+  {
+    "id": 2,
+    "name": "scope_1_ghg_breakdown_form",
+    "description": "Breakdown of total scope 1 GHG emissions by GHG",
+    "created_on": "2023-10-18T17:16:02.117958",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 3,
+    "name": "scope_1_methodology_form",
+    "description": "Form for scope_1_methodology",
+    "created_on": "2023-10-18T17:16:02.118857",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 4,
+    "name": "scope_1_exclusion_form",
+    "description": "Exclusions form for scope 1 GHG emissions",
+    "created_on": "2023-10-18T17:16:02.119751",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 5,
+    "name": "scope_1_change_type_form",
+    "description": "Form for scope_1_change_type",
+    "created_on": "2023-10-18T17:16:02.120082",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 6,
+    "name": "scope_2_lb_methodology_form",
+    "description": "Form for scope_2_lb_methodology",
+    "created_on": "2023-10-18T17:16:02.120753",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 7,
+    "name": "scope_2_lb_exclusion_form",
+    "description": "Exclusions form for scope 2 Location-Based GHG emissions",
+    "created_on": "2023-10-18T17:16:02.121532",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 8,
+    "name": "scope_2_lb_change_type_form",
+    "description": "Form for scope_2_lb_change_type",
+    "created_on": "2023-10-18T17:16:02.121852",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 9,
+    "name": "scope_2_mb_methodology_form",
+    "description": "Form for scope_2_mb_methodology",
+    "created_on": "2023-10-18T17:16:02.122490",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 10,
+    "name": "scope_2_mb_exclusion_form",
+    "description": "Exclusions form for scope 2 Market-Based GHG emissions",
+    "created_on": "2023-10-18T17:16:02.123215",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 11,
+    "name": "scope_2_mb_change_type_form",
+    "description": "Form for scope_2_mb_change_type",
+    "created_on": "2023-10-18T17:16:02.123524",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 12,
+    "name": "scope_3_ghg_protocol_form",
+    "description": "Disclosure of scope 3 GHG protocol details",
+    "created_on": "2023-10-18T17:16:02.124001",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 13,
+    "name": "scope_3_ghgp_methodology_form",
+    "description": "Disclosure of scope 3 GHG protocol details",
+    "created_on": "2023-10-18T17:16:02.124805",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 14,
+    "name": "scope_3_ghgp_exclusion_form",
+    "description": "Disclosure of scope 3 GHG protocol details",
+    "created_on": "2023-10-18T17:16:02.126025",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 15,
+    "name": "scope_3_ghgp_change_type_form",
+    "description": "Form for scope_3_ghgp_change_type",
+    "created_on": "2023-10-18T17:16:02.126362",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 16,
+    "name": "scope_3_iso_form",
+    "description": "Disclosure of scope 3 GHG category emissions materiality using ISO",
+    "created_on": "2023-10-18T17:16:02.126573",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 17,
+    "name": "scope_3_iso_methodology_form",
+    "description": "Disclosure of scope 3 GHG protocol details",
+    "created_on": "2023-10-18T17:16:02.127383",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 18,
+    "name": "scope_3_iso_exclusion_form",
+    "description": "Disclosure of scope 3 ISO exclusion",
+    "created_on": "2023-10-18T17:16:02.127933",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 19,
+    "name": "scope_3_iso_change_type_form",
+    "description": "Form for scope_3_iso_change_type",
+    "created_on": "2023-10-18T17:16:02.128276",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 20,
+    "name": "fn_aum_coverage_sector_form",
+    "description": "Disclosure of sectors included in financed GHG emissions for assets under management [Table]",
+    "created_on": "2023-10-18T17:16:02.131606",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 21,
+    "name": "fn_aum_coverage_form",
+    "description": "Details of disclosure of absolute financed GHG emissions for assets under management",
+    "created_on": "2023-10-18T17:16:02.131767",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 22,
+    "name": "fn_aum_asset_class_form",
+    "description": "Form for fn_aum_asset_class",
+    "created_on": "2023-10-18T17:16:02.131867",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 23,
+    "name": "fn_aum_sector_form",
+    "description": "Form for fn_aum_sector",
+    "created_on": "2023-10-18T17:16:02.132145",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 24,
+    "name": "fn_aum_coverage_scope_form",
+    "description": "Form for fn_aum_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.132322",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 25,
+    "name": "fn_aum_coverage_s3_cat_form",
+    "description": "Form for fn_aum_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.132514",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 26,
+    "name": "fn_aum_scopes_aggregation_form",
+    "description": "Form for fn_aum_scopes_aggregation",
+    "created_on": "2023-10-18T17:16:02.132844",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 27,
+    "name": "fn_aum_coverage_ghg_s1_form",
+    "description": "Form for fn_aum_coverage_ghg_s1",
+    "created_on": "2023-10-18T17:16:02.133211",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 28,
+    "name": "fn_aum_coverage_ghg_s2_form",
+    "description": "Form for fn_aum_coverage_ghg_s2",
+    "created_on": "2023-10-18T17:16:02.133761",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 29,
+    "name": "fn_aum_coverage_ghg_s1s2_form",
+    "description": "Form for fn_aum_coverage_ghg_s1s2",
+    "created_on": "2023-10-18T17:16:02.134286",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 30,
+    "name": "fn_aum_coverage_ghg_s3_form",
+    "description": "Form for fn_aum_coverage_ghg_s3",
+    "created_on": "2023-10-18T17:16:02.134836",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 31,
+    "name": "fn_aum_coverage_ghg_total_form",
+    "description": "Form for fn_aum_coverage_ghg_total",
+    "created_on": "2023-10-18T17:16:02.135407",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 32,
+    "name": "fn_aum_change_type_form",
+    "description": "Form for fn_aum_change_type",
+    "created_on": "2023-10-18T17:16:02.135868",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 33,
+    "name": "fn_aum_intensity_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.136087",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 34,
+    "name": "fn_aum_intensity_physical_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.136176",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 35,
+    "name": "fn_aum_phys_int_asset_class_form",
+    "description": "Form for fn_aum_phys_int_asset_class",
+    "created_on": "2023-10-18T17:16:02.136307",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 36,
+    "name": "fn_aum_phys_int_sector_form",
+    "description": "Form for fn_aum_phys_int_sector",
+    "created_on": "2023-10-18T17:16:02.136540",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 37,
+    "name": "fn_aum_phys_int_coverage_scope_form",
+    "description": "Form for fn_aum_phys_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.136708",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 38,
+    "name": "fn_aum_phys_int_coverage_s3_cat_form",
+    "description": "Form for fn_aum_phys_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.136914",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 39,
+    "name": "fn_aum_phys_int_coverage_ghg_form",
+    "description": "Form for fn_aum_phys_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.137967",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 40,
+    "name": "fn_aum_intensity_economic_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.138248",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 41,
+    "name": "fn_aum_econ_int_asset_class_form",
+    "description": "Form for fn_aum_econ_int_asset_class",
+    "created_on": "2023-10-18T17:16:02.138380",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 42,
+    "name": "fn_aum_econ_int_sector_form",
+    "description": "Form for fn_aum_econ_int_sector",
+    "created_on": "2023-10-18T17:16:02.138615",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 43,
+    "name": "fn_aum_econ_int_coverage_scope_form",
+    "description": "Form for fn_aum_econ_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.138778",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 44,
+    "name": "fn_aum_econ_int_coverage_s3_cat_form",
+    "description": "Form for fn_aum_econ_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.138983",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 45,
+    "name": "fn_aum_econ_int_coverage_ghg_form",
+    "description": "Form for fn_aum_econ_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.139593",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 46,
+    "name": "fn_aum_data_quality_form",
+    "description": "Details of disclosure of financed GHG emissions data quality for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.139930",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 47,
+    "name": "fn_aum_data_quality_asset_class_form",
+    "description": "Form for fn_aum_data_quality_asset_class",
+    "created_on": "2023-10-18T17:16:02.140018",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 48,
+    "name": "fn_aum_data_quality_sector_form",
+    "description": "Form for fn_aum_data_quality_sector",
+    "created_on": "2023-10-18T17:16:02.140267",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 49,
+    "name": "fn_gross_exp_coverage_sector_form",
+    "description": "Disclosure of sectors included in financed GHG emissions for assets under management [Table]",
+    "created_on": "2023-10-18T17:16:02.144281",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 50,
+    "name": "fn_gross_exp_coverage_form",
+    "description": "Details of disclosure of absolute financed GHG emissions for assets under management",
+    "created_on": "2023-10-18T17:16:02.144458",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 51,
+    "name": "fn_gross_exp_asset_class_form",
+    "description": "Form for fn_gross_exp_asset_class",
+    "created_on": "2023-10-18T17:16:02.144562",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 52,
+    "name": "fn_gross_exp_sector_form",
+    "description": "Form for fn_gross_exp_sector",
+    "created_on": "2023-10-18T17:16:02.144827",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 53,
+    "name": "fn_gross_exp_coverage_scope_form",
+    "description": "Form for fn_gross_exp_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.144997",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 54,
+    "name": "fn_gross_exp_coverage_s3_cat_form",
+    "description": "Form for fn_gross_exp_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.145211",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 55,
+    "name": "fn_gross_exp_scopes_aggregation_form",
+    "description": "Form for fn_gross_exp_scopes_aggregation",
+    "created_on": "2023-10-18T17:16:02.145554",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 56,
+    "name": "fn_gross_exp_coverage_ghg_s1_form",
+    "description": "Form for fn_gross_exp_coverage_ghg_s1",
+    "created_on": "2023-10-18T17:16:02.145966",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 57,
+    "name": "fn_gross_exp_coverage_ghg_s2_form",
+    "description": "Form for fn_gross_exp_coverage_ghg_s2",
+    "created_on": "2023-10-18T17:16:02.146600",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 58,
+    "name": "fn_gross_exp_coverage_ghg_s1s2_form",
+    "description": "Form for fn_gross_exp_coverage_ghg_s1s2",
+    "created_on": "2023-10-18T17:16:02.147186",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 59,
+    "name": "fn_gross_exp_coverage_ghg_s3_form",
+    "description": "Form for fn_gross_exp_coverage_ghg_s3",
+    "created_on": "2023-10-18T17:16:02.147740",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 60,
+    "name": "fn_gross_exp_coverage_ghg_total_form",
+    "description": "Form for fn_gross_exp_coverage_ghg_total",
+    "created_on": "2023-10-18T17:16:02.148303",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 61,
+    "name": "fn_gross_exp_change_type_form",
+    "description": "Form for fn_gross_exp_change_type",
+    "created_on": "2023-10-18T17:16:02.148812",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 62,
+    "name": "fn_gross_exp_intensity_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.149036",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 63,
+    "name": "fn_gross_exp_intensity_physical_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.149133",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 64,
+    "name": "fn_gross_exp_phys_int_asset_class_form",
+    "description": "Form for fn_gross_exp_phys_int_asset_class",
+    "created_on": "2023-10-18T17:16:02.149261",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 65,
+    "name": "fn_gross_exp_phys_int_sector_form",
+    "description": "Form for fn_gross_exp_phys_int_sector",
+    "created_on": "2023-10-18T17:16:02.149498",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 66,
+    "name": "fn_gross_exp_phys_int_coverage_scope_form",
+    "description": "Form for fn_gross_exp_phys_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.149669",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 67,
+    "name": "fn_gross_exp_phys_int_coverage_s3_cat_form",
+    "description": "Form for fn_gross_exp_phys_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.149874",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 68,
+    "name": "fn_gross_exp_phys_int_coverage_ghg_form",
+    "description": "Form for fn_gross_exp_phys_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.151008",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 69,
+    "name": "fn_gross_exp_intensity_economic_form",
+    "description": "Details of disclosure of financed GHG emissions intensity for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.151299",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 70,
+    "name": "fn_gross_exp_econ_int_asset_class_form",
+    "description": "Form for fn_gross_exp_econ_int_asset_class",
+    "created_on": "2023-10-18T17:16:02.151419",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 71,
+    "name": "fn_gross_exp_econ_int_sector_form",
+    "description": "Form for fn_gross_exp_econ_int_sector",
+    "created_on": "2023-10-18T17:16:02.151662",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 72,
+    "name": "fn_gross_exp_econ_int_coverage_scope_form",
+    "description": "Form for fn_gross_exp_econ_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.151834",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 73,
+    "name": "fn_gross_exp_econ_int_coverage_s3_cat_form",
+    "description": "Form for fn_gross_exp_econ_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.152042",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 74,
+    "name": "fn_gross_exp_econ_int_coverage_ghg_form",
+    "description": "Form for fn_gross_exp_econ_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.152661",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 75,
+    "name": "fn_gross_exp_data_quality_form",
+    "description": "Details of disclosure of financed GHG emissions data quality for assets under management [Line Items]",
+    "created_on": "2023-10-18T17:16:02.153048",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 76,
+    "name": "fn_gross_exp_data_quality_asset_class_form",
+    "description": "Form for fn_gross_exp_data_quality_asset_class",
+    "created_on": "2023-10-18T17:16:02.153168",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 77,
+    "name": "fn_gross_exp_data_quality_sector_form",
+    "description": "Form for fn_gross_exp_data_quality_sector",
+    "created_on": "2023-10-18T17:16:02.153521",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 78,
+    "name": "target_abs_form",
+    "description": "Details of disclosure of absolute GHG emissions reduction targets [Line Items]",
+    "created_on": "2023-10-18T17:16:02.153925",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 79,
+    "name": "tgt_abs_coverage_scope_form",
+    "description": "Form for tgt_abs_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.154384",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 80,
+    "name": "tgt_abs_coverage_s3_cat_form",
+    "description": "Form for tgt_abs_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.154598",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 81,
+    "name": "tgt_abs_coverage_ghg_form",
+    "description": "Form for tgt_abs_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.154938",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 82,
+    "name": "abs_target_coverage_sector_list_form",
+    "description": "Disclosure of sectors included in financed GHG emissions for assets under management [Table]",
+    "created_on": "2023-10-18T17:16:02.156291",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 83,
+    "name": "tgt_abs_scopes_aggregation_form",
+    "description": "Form for tgt_abs_scopes_aggregation",
+    "created_on": "2023-10-18T17:16:02.156556",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 84,
+    "name": "abs_progress_absolute_target_form",
+    "description": "Details of progress towards absolute GHG emissions reduction target [Line Items]",
+    "created_on": "2023-10-18T17:16:02.162661",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 85,
+    "name": "target_int_form",
+    "description": "Details of disclosure of GHG emissions intensity reduction targets [Line Items]",
+    "created_on": "2023-10-18T17:16:02.164841",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 86,
+    "name": "target_int_physical_form",
+    "description": "Details of disclosure of GHG emissions intensity physical reduction targets [Line Items]",
+    "created_on": "2023-10-18T17:16:02.165319",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 87,
+    "name": "tgt_phys_int_coverage_scope_form",
+    "description": "Form for tgt_phys_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.165455",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 88,
+    "name": "tgt_phys_int_coverage_s3_cat_form",
+    "description": "Form for tgt_phys_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.165668",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 89,
+    "name": "tgt_phys_int_coverage_ghg_form",
+    "description": "Form for tgt_phys_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.166015",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 90,
+    "name": "int_ph_target_coverage_sector_list_form",
+    "description": "Disclosure of sectors included in financed GHG emissions for assets under management [Table]",
+    "created_on": "2023-10-18T17:16:02.167367",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 91,
+    "name": "tgt_phys_int_scopes_aggregation_form",
+    "description": "Form for tgt_phys_int_scopes_aggregation",
+    "created_on": "2023-10-18T17:16:02.167589",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 92,
+    "name": "int_ph_progress_intensity_target_form",
+    "description": "Details of progress towards absolute GHG emissions reduction target [Line Items]",
+    "created_on": "2023-10-18T17:16:02.172336",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 93,
+    "name": "target_int_economic_form",
+    "description": "Details of disclosure of GHG emissions intensity economic reduction targets [Line Items]",
+    "created_on": "2023-10-18T17:16:02.175101",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 94,
+    "name": "tgt_econ_int_coverage_scope_form",
+    "description": "Form for tgt_econ_int_coverage_scope",
+    "created_on": "2023-10-18T17:16:02.177063",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 95,
+    "name": "tgt_econ_int_coverage_s3_cat_form",
+    "description": "Form for tgt_econ_int_coverage_s3_cat",
+    "created_on": "2023-10-18T17:16:02.177294",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 96,
+    "name": "tgt_econ_int_coverage_ghg_form",
+    "description": "Form for tgt_econ_int_coverage_ghg",
+    "created_on": "2023-10-18T17:16:02.177630",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 97,
+    "name": "int_ec_target_coverage_sector_form",
+    "description": "Disclosure of sectors included in financed GHG emissions",
+    "created_on": "2023-10-18T17:16:02.214838",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 98,
+    "name": "tgt_econ_int_scopes_aggregation_form",
+    "description": "Form for tgt_econ_int_scopes_aggregation",
+    "created_on": "2023-10-18T17:16:02.215089",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 99,
+    "name": "int_ec_progress_intensity_economic_target_form",
+    "description": "Details of progress towards absolute GHG emissions reduction target [Line Items]",
+    "created_on": "2023-10-18T17:16:02.220554",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 100,
+    "name": "assure_verif_valid_statement_dis_form",
+    "description": "Details of disclosure of assurance, verification, or validation of GHG emissions",
+    "created_on": "2023-10-18T17:16:02.224199",
+    "user_id": 1,
+    "heritable": true
+  },
+  {
+    "id": 101,
+    "name": "assure_verif_statement_target_form",
+    "description": "Details of disclosure of validation of GHG emissions reduction target",
+    "created_on": "2023-10-18T17:16:02.225656",
+    "user_id": 1,
+    "heritable": true
+  }
+]

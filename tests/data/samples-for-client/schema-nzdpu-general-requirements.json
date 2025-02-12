@@ -1,0 +1,147 @@
+{
+    "name": "nzdpu_general_requirements",
+    "description": "NZDPU - General Requirements Form",
+    "user_id": 1,
+    "attributes": [
+        {
+            "name": "data_model",
+            "type": "single",
+            "prompts": [
+                {
+                    "value": "Reporting data model"
+                }
+            ],
+            "choices": [
+                {
+                    "choice_id": 10001,
+                    "choice_set_id": 1,
+                    "value": "NZDPU Core"
+                },
+                {
+                    "choice_id": 10002,
+                    "choice_set_id": 1,
+                    "value": "ISSB"
+                },
+                {
+                    "choice_id": 10003,
+                    "choice_set_id": 1,
+                    "value": "EFRAG"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "date_start_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period Start Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "date_end_reporting_year",
+            "type": "datetime",
+            "prompts": [
+                {
+                    "value": "Reporting Period End Date"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "reporting_period_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true,
+                                    "min": "2015-01-01T00:00:00.000Z",
+                                    "max": "{currentDate}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "org_boundary_approach",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 20001,
+                    "choice_set_id": 2,
+                    "value": "Operational control"
+                },
+                {
+                    "choice_id": 20002,
+                    "choice_set_id": 2,
+                    "value": "Equity share"
+                },
+                {
+                    "choice_id": 20003,
+                    "choice_set_id": 2,
+                    "value": "Financial control"
+                },
+                {
+                    "choice_id": 20004,
+                    "choice_set_id": 2,
+                    "value": "Aligned with consolidated financial statement (and operational control for entities outside the consolidated accounting group)"
+                },
+                {
+                    "choice_id": 20005,
+                    "choice_set_id": 2,
+                    "value": "Aligned with consolidated financial statement (and equity share for entities outside the consolidated accounting group)"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Organizational boundary approach used to consolidate GHG emissions"
+                }
+            ],
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "required",
+                        "actions": [
+                            {
+                                "set": {
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

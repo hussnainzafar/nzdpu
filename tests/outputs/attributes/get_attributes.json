@@ -1,0 +1,47 @@
+{
+  "start": 0,
+  "end": 4,
+  "total": 4,
+  "items": [
+    {
+      "name": "tgt_abs_base_year",
+      "table_def_id": 1,
+      "created_on": "2023-10-16T13:10:33.384768",
+      "user_id": 1,
+      "attribute_type": "int",
+      "attribute_type_id": null,
+      "choice_set_id": null,
+      "id": 1
+    },
+    {
+      "name": "s1_other_ghg_emissions_dict",
+      "table_def_id": 1,
+      "created_on": "2023-10-16T13:10:33.389287",
+      "user_id": 1,
+      "attribute_type": "form_or_null",
+      "attribute_type_id": null,
+      "choice_set_id": null,
+      "id": 2
+    },
+    {
+      "name": "rationale_s1_emissions_non_disclose",
+      "table_def_id": 1,
+      "created_on": "2023-10-16T13:10:33.400437",
+      "user_id": 1,
+      "attribute_type": "text_or_null",
+      "attribute_type_id": 2,
+      "choice_set_id": null,
+      "id": 3
+    },
+    {
+      "name": "disclose_s3_ghgp_c1_emissions_method_bool",
+      "table_def_id": 1,
+      "created_on": "2023-10-16T13:10:33.404408",
+      "user_id": 1,
+      "attribute_type": "bool_or_null",
+      "attribute_type_id": null,
+      "choice_set_id": null,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,1620 @@
+{
+  "source": 760001,
+  "reporting_datetime": "2020-01-02T00:00:00.000Z",
+  "legal_entity_identifier": "0EEB8GF0W0NPCIHZX097",
+  "data_model": 10001,
+  "date_start_reporting_year": "2019-01-01T00:00:00.000Z",
+  "date_end_reporting_year": "2020-01-01T00:00:00.000Z",
+  "reporting_year": 2020,
+  "org_boundary_approach": 20001,
+  "disclose_s1_yn": true,
+  "scope_1_emissions": 44000,
+  "scope_1_emissions_units": 30001,
+  "total_scope_1_emissions_ghg": null,
+  "total_scope_1_emissions_co2": 120000,
+  "rationale_s1_non_disclose": "N/A",
+  "disclose_s1_ghg_bd_yn": true,
+  "rationale_s1_ghg_bd_non_disclose": -999999,
+  "rationale_s1_ghg_bd_non_disclose_other": null,
+  "rationale_s1_ghg_not_equal_s1_total": "N/A",
+  "scope_1_ghg_breakdown": null,
+  "disclose_s1_ghg_other_yn": true,
+  "scope_1_methodology": [
+    80000,
+    80001,
+    "User defined methodology"
+  ],
+  "disclose_s1_exclusion_yn": true,
+  "scope_1_exclusion": null,
+  "scope_1_change_type": [
+    240001,
+    240004
+  ],
+  "scope_1_change_description": "Change description",
+  "disclose_s2_lb_yn": true,
+  "scope_2_lb_emissions": 25000,
+  "scope_2_lb_emissions_units": 30001,
+  "total_scope_2_lb_emissions_ghg": 25000,
+  "total_scope_2_lb_emissions_co2": -999999,
+  "rationale_s2_lb_non_disclose": "N/A",
+  "scope_2_lb_methodology": [
+    270052,
+    270053,
+    270043,
+    "User defined methodology"
+  ],
+  "disclose_s2_lb_exclusion_yn": true,
+  "scope_2_lb_exclusion": [
+    {
+      "scope_2_lb_exclusion_description": "Small international offices less than 500 square feet",
+      "scope_2_lb_exclusion_explanation": "Difficult to collect data",
+      "scope_2_lb_exclusion_perc": 0.1,
+      "scope_2_lb_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+    },
+    {
+      "scope_2_lb_exclusion_description": "Recent acquisitions",
+      "scope_2_lb_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+      "scope_2_lb_exclusion_perc": -999998,
+      "scope_2_lb_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_2_lb_change_type": [
+    240001,
+    240004
+  ],
+  "scope_2_lb_change_description": "Change description",
+  "disclose_s2_mb_yn": true,
+  "scope_2_mb_emissions": 12000,
+  "scope_2_mb_emissions_units": 30001,
+  "total_scope_2_mb_emissions_ghg": 12000,
+  "total_scope_2_mb_emissions_co2": -999999,
+  "rationale_s2_mb_non_disclose": "N/A",
+  "scope_2_mb_methodology": [
+    270052,
+    270053,
+    270043,
+    "User defined methodology"
+  ],
+  "disclose_s2_mb_exclusion_yn": true,
+  "scope_2_mb_exclusion": [
+    {
+      "scope_2_mb_exclusion_description": "Small international offices less than 500 square feet",
+      "scope_2_mb_exclusion_explanation": "Difficult to collect data",
+      "scope_2_mb_exclusion_perc": 0.1,
+      "scope_2_mb_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+    },
+    {
+      "scope_2_mb_exclusion_description": "Recent acquisitions",
+      "scope_2_mb_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+      "scope_2_mb_exclusion_perc": -999998,
+      "scope_2_mb_exclusion_perc_explanation": "-"
+    }
+  ],
+  "scope_2_mb_change_type": [
+    240001,
+    240004
+  ],
+  "scope_2_mb_change_description": "Change description",
+  "scope_3_breakdown_source": 90001,
+  "total_scope_3_emissions_ghg": 2000,
+  "total_scope_3_emissions_co2": -999999,
+  "scope_3_ghg_protocol": [
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110001,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110002,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110003,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "N/A"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110004,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110005,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110006,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110007,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110008,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110009,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110010,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110011,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110012,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110013,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110014,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "disclose_s3_ghgp_cat_yn": true,
+      "scope_3_ghgp_category": 110015,
+      "scope_3_ghgp_category_other": "N/A",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    },
+    {
+      "scope_3_ghgp_category": 110016,
+      "scope_3_ghgp_category_other": "User defined category",
+      "rationale_s3_ghgp_non_disclose": "N/A",
+      "scope_3_ghgp_relevancy": -999999,
+      "scope_3_ghgp_relevancy_description": "N/A",
+      "scope_3_ghgp_emissions": 1200,
+      "scope_3_ghgp_emissions_units": 30001,
+      "scope_3_ghgp_emissions_ghg": 1200,
+      "scope_3_ghgp_emissions_co2": -999999,
+      "disclose_s3_ghgp_methodology_yn": true,
+      "scope_3_ghgp_methodology": [
+        {
+          "scope_3_ghgp_methodology_type": 280000,
+          "scope_3_ghgp_methodology_type_other": "N/A",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 20
+        },
+        {
+          "scope_3_ghgp_methodology_type": 280081,
+          "scope_3_ghgp_methodology_type_other": "User defined other methodology",
+          "scope_3_ghgp_methodology_description": "User defined description",
+          "scope_3_ghgp_methodology_perc": 40
+        }
+      ],
+      "disclose_s3_ghgp_exclusion_yn": true,
+      "scope_3_ghgp_exclusion": [
+        {
+          "scope_3_ghgp_exclusion_description": "Small international offices less than 500 square feet",
+          "scope_3_ghgp_exclusion_explanation": "Difficult to collect data",
+          "scope_3_ghgp_exclusion_perc": 0.1,
+          "scope_3_ghgp_exclusion_perc_explanation": "Office activities which should not represent significant emissions."
+        },
+        {
+          "scope_3_ghgp_exclusion_description": "Recent acquisitions",
+          "scope_3_ghgp_exclusion_explanation": "Emissions from acquisitions are not included in our organizational boundary until 12 months post-acquisition.",
+          "scope_3_ghgp_exclusion_perc": -999998,
+          "scope_3_ghgp_exclusion_perc_explanation": "-"
+        }
+      ],
+      "scope_3_ghgp_change_type": [
+        240001,
+        240004
+      ],
+      "scope_3_ghgp_change_description": "Change description"
+    }
+  ],
+  "scope_3_iso": null,
+  "disclose_fn_aum_yn": true,
+  "rationale_fn_aum_non_disclose": "N/A",
+  "fn_aum_total_emissions_ghg_sum": 30000,
+  "fn_aum_total_emissions_co2_sum": -999999,
+  "aum_coverage_total_perc": 20,
+  "fn_aum_exclusions": "Exclusion example",
+  "currency_fn_aum": 180003,
+  "fn_aum_sector_classification": 190000,
+  "fn_aum_sector_classification_other": "N/A",
+  "fn_aum_coverage_sector": [
+    {
+      "fn_aum_coverage_sector_name": "Health Care",
+      "fn_aum_coverage_sector_code": "HC-1890"
+    },
+    {
+      "fn_aum_coverage_sector_name": "Materials",
+      "fn_aum_coverage_sector_code": "MT-1790"
+    }
+  ],
+  "disclose_fn_aum_abs_yn": true,
+  "fn_aum_coverage": [
+    {
+      "fn_aum_asset_class": [
+        250001,
+        250007
+      ],
+      "fn_aum_sector": [
+        "Materials|MT-1790",
+        "Health Care|HC-1890"
+      ],
+      "fn_aum_coverage_scope": [
+        300001,
+        300002
+      ],
+      "fn_aum_coverage_s3_cat": [
+        -999999
+      ],
+      "fn_aum_scopes_aggregation": [
+        310001,
+        310002
+      ],
+      "fn_aum_scope_1_emissions": 4000,
+      "fn_aum_scope_1_emissions_units": 30001,
+      "fn_aum_scope_1_emissions_ghg": 4000,
+      "fn_aum_scope_1_emissions_co2": -999999,
+      "fn_aum_coverage_ghg_s1": [
+        320001,
+        320002
+      ],
+      "aum_coverage_s1": 2000,
+      "aum_coverage_s1_usd": 300,
+      "fn_aum_scope_2_emissions": 2000,
+      "fn_aum_scope_2_emissions_units": 30001,
+      "fn_aum_scope_2_emissions_ghg": 2000,
+      "fn_aum_scope_2_emissions_co2": -999999,
+      "fn_aum_coverage_ghg_s2": [
+        320001,
+        320002
+      ],
+      "aum_coverage_s2": 1500,
+      "aum_coverage_s2_usd": 500,
+      "fn_aum_scope_1_and_2_emissions": -999998,
+      "fn_aum_scope_1_and_2_emissions_units": -999998,
+      "fn_aum_scope_1_and_2_emissions_ghg": -999998,
+      "fn_aum_scope_1_and_2_emissions_co2": -999998,
+      "fn_aum_coverage_ghg_s1s2": -999998,
+      "aum_coverage_s1s2": -999998,
+      "aum_coverage_s1s2_usd": -999998,
+      "fn_aum_scope_3_emissions": -999999,
+      "fn_aum_scope_3_emissions_units": -999999,
+      "fn_aum_scope_3_emissions_ghg": -999999,
+      "fn_aum_scope_3_emissions_co2": -999999,
+      "fn_aum_coverage_ghg_s3": -999999,
+      "aum_coverage_s3": -999999,
+      "aum_coverage_s3_usd": -999999,
+      "fn_aum_total_emissions": -999998,
+      "fn_aum_total_emissions_units": -999998,
+      "fn_aum_total_emissions_ghg": -999998,
+      "fn_aum_total_emissions_co2": -999998,
+      "fn_aum_coverage_ghg_total": -999998,
+      "aum_coverage_total": -999998,
+      "aum_coverage_total_usd": -999998,
+      "fn_aum_methodology": "Methodology 1",
+      "fn_aum_methodology_underlying": "Methodology underlying 1"
+    }
+  ],
+  "fn_aum_change_type": [
+    240001,
+    240002
+  ],
+  "fn_aum_change_description": "Changes in calculation",
+  "disclose_fn_aum_int_yn": true,
+  "fn_aum_intensity": [
+    {
+      "fn_aum_intensity_type": 330001,
+      "fn_aum_intensity_physical": [
+        {
+          "fn_aum_phys_int_description": "Description 1",
+          "fn_aum_phys_int_asset_class": [
+            340001,
+            340002
+          ],
+          "fn_aum_phys_int_sector": [
+            "Materials|MT-1790",
+            "Health Care|HC-1890"
+          ],
+          "fn_aum_phys_int_coverage_scope": [
+            300001,
+            300002
+          ],
+          "fn_aum_phys_int_coverage_s3_cat": [
+            -999998
+          ],
+          "fn_aum_emissions_physical_intensity": 4000,
+          "fn_aum_units_phys_int_numerator": 30001,
+          "fn_aum_units_phys_int_denom": 460000,
+          "fn_aum_units_phys_int_denom_other": "N/A",
+          "fn_aum_phys_int_coverage_ghg": [
+            320001,
+            320002
+          ],
+          "fn_aum_phys_int_methodology": "Methodology 2",
+          "fn_aum_phys_int_methodology_underlying": "Methodologies underlying"
+        }
+      ],
+      "fn_aum_intensity_economic": [
+        -999999
+      ]
+    }
+  ],
+  "disclose_fn_aum_data_quality_yn": true,
+  "fn_aum_data_quality": [
+    {
+      "fn_aum_data_quality_asset_class": [
+        340001,
+        340002
+      ],
+      "fn_aum_data_quality_sector": [
+        "Materials|MT-1790",
+        "Health Care|HC-1890"
+      ],
+      "fn_aum_perc_reported": 20,
+      "fn_aum_pcaf_data_quality_score_s1": 2,
+      "fn_aum_pcaf_data_quality_score_s2": 3,
+      "fn_aum_pcaf_data_quality_score_s1s2": -999998,
+      "fn_aum_pcaf_data_quality_score_s3": -999999,
+      "fn_aum_pcaf_data_quality_score_total": -999999
+    }
+  ],
+  "disclose_fn_gross_exp_yn": true,
+  "rationale_fn_gross_exp_non_disclose": "N/A",
+  "fn_gross_exp_total_emissions_ghg_sum": 2000,
+  "fn_gross_exp_total_emissions_co2_sum": -999999,
+  "gross_exp_coverage_total_perc": 20,
+  "fn_gross_exp_exclusions": "Exclusion text",
+  "currency_fn_gross_exp": 180002,
+  "fn_gross_exp_sector_classification": 190001,
+  "fn_gross_exp_sector_classification_other": -999999,
+  "fn_gross_exp_coverage_sector": [
+    {
+      "fn_gross_exp_coverage_sector_name": "Financial",
+      "fn_gross_exp_coverage_sector_code": "1590"
+    },
+    {
+      "fn_gross_exp_coverage_sector_name": "Technology",
+      "fn_gross_exp_coverage_sector_code": "1390"
+    }
+  ],
+  "disclose_fn_gross_exp_abs_yn": true,
+  "fn_gross_exp_coverage": [
+    {
+      "fn_gross_exp_asset_class": [
+        250001,
+        250002
+      ],
+      "fn_gross_exp_sector": [
+        "Financial|1590",
+        "Technology|1390"
+      ],
+      "fn_gross_exp_coverage_scope": [
+        300001,
+        300002
+      ],
+      "fn_gross_exp_coverage_s3_cat": [
+        -999999
+      ],
+      "fn_gross_exp_scopes_aggregation": [
+        310001,
+        310002
+      ],
+      "fn_gross_exp_scope_1_emissions": 1300,
+      "fn_gross_exp_scope_1_emissions_units": 30001,
+      "fn_gross_exp_scope_1_emissions_ghg": 1300,
+      "fn_gross_exp_scope_1_emissions_co2": -999999,
+      "fn_gross_exp_coverage_ghg_s1": [
+        320001,
+        320002
+      ],
+      "gross_exp_coverage_s1": 1400,
+      "gross_exp_coverage_s1_usd": 600,
+      "fn_gross_exp_scope_2_emissions": 3000,
+      "fn_gross_exp_scope_2_emissions_units": 30001,
+      "fn_gross_exp_scope_2_emissions_ghg": 3000,
+      "fn_gross_exp_scope_2_emissions_co2": -999999,
+      "fn_gross_exp_coverage_ghg_s2": [
+        320001,
+        320002
+      ],
+      "gross_exp_coverage_s2": 1500,
+      "gross_exp_coverage_s2_usd": 700,
+      "fn_gross_exp_scope_1_and_2_emissions": -999998,
+      "fn_gross_exp_scope_1_and_2_emissions_units": -999998,
+      "fn_gross_exp_scope_1_and_2_emissions_ghg": -999998,
+      "fn_gross_exp_scope_1_and_2_emissions_co2": -999998,
+      "fn_gross_exp_coverage_ghg_s1s2": -999998,
+      "gross_exp_coverage_s1s2": -999998,
+      "gross_exp_coverage_s1s2_usd": -999998,
+      "fn_gross_exp_scope_3_emissions": -999998,
+      "fn_gross_exp_scope_3_emissions_units": -999999,
+      "fn_gross_exp_scope_3_emissions_ghg": -999999,
+      "fn_gross_exp_scope_3_emissions_co2": -999999,
+      "fn_gross_exp_coverage_ghg_s3": -999999,
+      "gross_exp_coverage_s3": -999999,
+      "gross_exp_coverage_s3_usd": -999999,
+      "fn_gross_exp_total_emissions": -999998,
+      "fn_gross_exp_total_emissions_units": -999998,
+      "fn_gross_exp_total_emissions_ghg": -999998,
+      "fn_gross_exp_total_emissions_co2": -999998,
+      "fn_gross_exp_coverage_ghg_total": -999998,
+      "gross_exp_coverage_total": -999998,
+      "gross_exp_coverage_total_usd": -999998,
+      "fn_gross_exp_methodology": "Methodology 1",
+      "fn_gross_exp_methodology_underlying": "Methodologies underlying 1"
+    }
+  ],
+  "fn_gross_exp_change_type": [
+    240001,
+    240002
+  ],
+  "fn_gross_exp_change_description": "Change Calculation",
+  "disclose_fn_gross_exp_int_yn": true,
+  "fn_gross_exp_intensity": [
+    {
+      "fn_gross_exp_intensity_type": 330002,
+      "fn_gross_exp_intensity_physical": [
+        -999999
+      ],
+      "fn_gross_exp_intensity_economic": [
+        {
+          "fn_gross_exp_econ_int_description": "Description",
+          "fn_gross_exp_econ_int_asset_class": [
+            340001,
+            340002
+          ],
+          "fn_gross_exp_econ_int_sector": [
+            "Financial|1590",
+            "Technology|1390"
+          ],
+          "fn_gross_exp_econ_int_coverage_scope": [
+            300001,
+            300002
+          ],
+          "fn_gross_exp_econ_int_coverage_s3_cat": [
+            -999999
+          ],
+          "fn_gross_exp_emissions_economic_intensity": 2000,
+          "fn_gross_exp_emissions_economic_intensity_usd": 200,
+          "fn_gross_exp_units_econ_int_numerator": 30001,
+          "fn_gross_exp_units_econ_int_denom": 460000,
+          "fn_gross_exp_units_econ_int_denom_other": "N/A",
+          "fn_gross_exp_econ_int_coverage_ghg": [
+            320001,
+            320002
+          ],
+          "fn_gross_exp_econ_int_methodology": "Methodologies 2",
+          "fn_gross_exp_econ_int_methodology_underlying": "Methodologies underlying"
+        }
+      ]
+    }
+  ],
+  "disclose_fn_gross_exp_data_quality_yn": true,
+  "fn_gross_exp_data_quality": [
+    {
+      "fn_gross_exp_data_quality_asset_class": [
+        340001,
+        340002
+      ],
+      "fn_gross_exp_data_quality_sector": [
+        "Financial|1590",
+        "Technology|1390"
+      ],
+      "fn_gross_exp_perc_reported": 20,
+      "fn_gross_exp_pcaf_data_quality_score_s1": 2,
+      "fn_gross_exp_pcaf_data_quality_score_s2": 3,
+      "fn_gross_exp_pcaf_data_quality_score_s1s2": -999999,
+      "fn_gross_exp_pcaf_data_quality_score_s3": -999998,
+      "fn_gross_exp_pcaf_data_quality_score_total": -999998
+    }
+  ],
+  "disclose_absolute_target_yn": true,
+  "target_abs": [
+    {
+      "tgt_abs_id": "abs_id_1",
+      "tgt_abs_name": "Scope1_2",
+      "tgt_abs_status": 360001,
+      "tgt_abs_status_if_inactive": -999999,
+      "tgt_abs_year_set": 2030,
+      "tgt_abs_type": 380001,
+      "tgt_abs_coverage_sector_approach": 390002,
+      "tgt_abs_sector_classification": 190000,
+      "tgt_abs_sector_classification_other": "N/A",
+      "abs_target_coverage_sector_list": [
+        {
+          "tgt_abs_coverage_sector_name": "Industrial",
+          "tgt_abs_coverage_sector_code": "1380"
+        }
+      ],
+      "tgt_abs_coverage_sector": "Industrial|1380",
+      "tgt_abs_coverage_scope": [
+        300001,
+        300002
+      ],
+      "tgt_abs_coverage_s3_cat": [
+        -999999
+      ],
+      "tgt_abs_scopes_aggregation": [
+        310001,
+        310002
+      ],
+      "tgt_abs_coverage_ghg": [
+        320001,
+        320002
+      ],
+      "tgt_abs_org_boundary": 20001,
+      "tgt_abs_coverage_exclusions": "Exclusion text",
+      "tgt_abs_coverage_perc_s1": 10,
+      "tgt_abs_coverage_perc_s2": 90,
+      "tgt_abs_coverage_perc_s1s2": -999999,
+      "tgt_abs_coverage_perc_s3_c1": -999999,
+      "tgt_abs_coverage_perc_s3_c2": -999999,
+      "tgt_abs_coverage_perc_s3_c3": -999999,
+      "tgt_abs_coverage_perc_s3_c4": -999999,
+      "tgt_abs_coverage_perc_s3_c5": -999999,
+      "tgt_abs_coverage_perc_s3_c6": -999999,
+      "tgt_abs_coverage_perc_s3_c7": -999999,
+      "tgt_abs_coverage_perc_s3_c8": -999999,
+      "tgt_abs_coverage_perc_s3_c9": -999999,
+      "tgt_abs_coverage_perc_s3_c10": -999999,
+      "tgt_abs_coverage_perc_s3_c11": -999999,
+      "tgt_abs_coverage_perc_s3_c12": -999999,
+      "tgt_abs_coverage_perc_s3_c13": -999999,
+      "tgt_abs_coverage_perc_s3_c14": -999999,
+      "tgt_abs_coverage_perc_s3_c15": -999999,
+      "tgt_abs_coverage_perc_s3": -999999,
+      "tgt_abs_coverage_perc_total": -999999,
+      "tgt_abs_base_year": 2017,
+      "tgt_abs_base_year_s1": 2000,
+      "tgt_abs_base_year_s2": 3000,
+      "tgt_abs_base_year_s1s2": -999999,
+      "tgt_abs_base_year_s3_c1": -999999,
+      "tgt_abs_base_year_s3_c2": -999999,
+      "tgt_abs_base_year_s3_c3": -999999,
+      "tgt_abs_base_year_s3_c4": -999999,
+      "tgt_abs_base_year_s3_c5": -999999,
+      "tgt_abs_base_year_s3_c6": -999999,
+      "tgt_abs_base_year_s3_c7": -999999,
+      "tgt_abs_base_year_s3_c8": -999999,
+      "tgt_abs_base_year_s3_c9": -999999,
+      "tgt_abs_base_year_s3_c10": -999999,
+      "tgt_abs_base_year_s3_c11": -999999,
+      "tgt_abs_base_year_s3_c12": -999999,
+      "tgt_abs_base_year_s3_c13": -999999,
+      "tgt_abs_base_year_s3_c14": -999999,
+      "tgt_abs_base_year_s3_c15": -999999,
+      "tgt_abs_base_year_s3": -999999,
+      "tgt_abs_base_year_total": -999999,
+      "tgt_abs_units_s1": 400001,
+      "tgt_abs_units_s2": 400001,
+      "tgt_abs_units_s1s2": -999999,
+      "tgt_abs_units_s3_c1": -999999,
+      "tgt_abs_units_s3_c2": -999999,
+      "tgt_abs_units_s3_c3": -999999,
+      "tgt_abs_units_s3_c4": -999999,
+      "tgt_abs_units_s3_c5": -999999,
+      "tgt_abs_units_s3_c6": -999999,
+      "tgt_abs_units_s3_c7": -999999,
+      "tgt_abs_units_s3_c8": -999999,
+      "tgt_abs_units_s3_c9": -999999,
+      "tgt_abs_units_s3_c10": -999999,
+      "tgt_abs_units_s3_c11": -999999,
+      "tgt_abs_units_s3_c12": -999999,
+      "tgt_abs_units_s3_c13": -999999,
+      "tgt_abs_units_s3_c14": -999999,
+      "tgt_abs_units_s3_c15": -999999,
+      "tgt_abs_units_s3": -999999,
+      "tgt_abs_units_total": -999999,
+      "tgt_abs_target_year": 2030,
+      "tgt_abs_target_year_s1": 1000,
+      "tgt_abs_target_year_s2": 100,
+      "tgt_abs_target_year_s1s2": -999999,
+      "tgt_abs_target_year_s3_c1": -999999,
+      "tgt_abs_target_year_s3_c2": -999999,
+      "tgt_abs_target_year_s3_c3": -999999,
+      "tgt_abs_target_year_s3_c4": -999999,
+      "tgt_abs_target_year_s3_c5": -999999,
+      "tgt_abs_target_year_s3_c6": -999999,
+      "tgt_abs_target_year_s3_c7": -999999,
+      "tgt_abs_target_year_s3_c8": -999999,
+      "tgt_abs_target_year_s3_c9": -999999,
+      "tgt_abs_target_year_s3_c10": -999999,
+      "tgt_abs_target_year_s3_c11": -999999,
+      "tgt_abs_target_year_s3_c12": -999999,
+      "tgt_abs_target_year_s3_c13": -999999,
+      "tgt_abs_target_year_s3_c14": -999999,
+      "tgt_abs_target_year_s3_c15": -999999,
+      "tgt_abs_target_year_s3": -999999,
+      "tgt_abs_target_year_total": -999999,
+      "tgt_abs_target_year_reduct_perc_s1": 20,
+      "tgt_abs_target_year_reduct_perc_s2": 10,
+      "tgt_abs_target_year_reduct_perc_s1s2": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c1": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c2": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c3": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c4": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c5": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c6": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c7": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c8": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c9": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c10": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c11": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c12": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c13": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c14": -999999,
+      "tgt_abs_target_year_reduct_perc_s3_c15": -999999,
+      "tgt_abs_target_year_reduct_perc_s3": -999999,
+      "tgt_abs_target_year_reduct_perc_total": -999999,
+      "abs_progress_absolute_target": [
+        {
+          "tgt_abs_progress_year": 2018,
+          "tgt_abs_s1": 3000,
+          "tgt_abs_s2": 2000,
+          "tgt_abs_s1s2": -999999,
+          "tgt_abs_s3_c1": -999999,
+          "tgt_abs_s3_c2": -999999,
+          "tgt_abs_s3_c3": -999999,
+          "tgt_abs_s3_c4": -999999,
+          "tgt_abs_s3_c5": -999999,
+          "tgt_abs_s3_c6": -999999,
+          "tgt_abs_s3_c7": -999999,
+          "tgt_abs_s3_c8": -999999,
+          "tgt_abs_s3_c9": -999999,
+          "tgt_abs_s3_c10": -999999,
+          "tgt_abs_s3_c11": -999999,
+          "tgt_abs_s3_c12": -999999,
+          "tgt_abs_s3_c13": -999999,
+          "tgt_abs_s3_c14": -999999,
+          "tgt_abs_s3_c15": -999999,
+          "tgt_abs_s3": -999999,
+          "tgt_abs_total": -999999,
+          "tgt_abs_progress_perc": 15,
+          "tgt_abs_reduct_perc_s1": 10,
+          "tgt_abs_reduct_perc_s2": 5,
+          "tgt_abs_reduct_perc_s1s2": -999999,
+          "tgt_abs_reduct_perc_s3_c1": -999999,
+          "tgt_abs_reduct_perc_s3_c2": -999999,
+          "tgt_abs_reduct_perc_s3_c3": -999999,
+          "tgt_abs_reduct_perc_s3_c4": -999999,
+          "tgt_abs_reduct_perc_s3_c5": -999999,
+          "tgt_abs_reduct_perc_s3_c6": -999999,
+          "tgt_abs_reduct_perc_s3_c7": -999999,
+          "tgt_abs_reduct_perc_s3_c8": -999999,
+          "tgt_abs_reduct_perc_s3_c9": -999999,
+          "tgt_abs_reduct_perc_s3_c10": -999999,
+          "tgt_abs_reduct_perc_s3_c11": -999999,
+          "tgt_abs_reduct_perc_s3_c12": -999999,
+          "tgt_abs_reduct_perc_s3_c13": -999999,
+          "tgt_abs_reduct_perc_s3_c14": -999999,
+          "tgt_abs_reduct_perc_s3_c15": -999999,
+          "tgt_abs_reduct_perc_s3": -999999,
+          "tgt_abs_reduct_perc_total": -999999
+        }
+      ],
+      "tgt_abs_level_ambition": 410001,
+      "tgt_abs_level_ambition_other": "N/A",
+      "tgt_abs_methodology_type": 420001,
+      "tgt_abs_methodology_type_other": "N/A",
+      "tgt_abs_methodology_description": "Methodology description",
+      "tgt_abs_methodology_underlying": "Methodologies underlying",
+      "tgt_abs_achieve_within_vc_description": "Achievement description",
+      "tgt_abs_achieve_within_vc_reduction_perc": 20,
+      "tgt_abs_achieve_cc_yn": 920001,
+      "tgt_abs_achieve_cc_description": "Achievement description",
+      "tgt_abs_achieve_cc_perc": 10,
+      "tgt_abs_achieve_other_description": "Other description"
+    }
+  ],
+  "disclose_intensity_target_yn": true,
+  "target_int": [
+    {
+      "tgt_int_id": "int_id_1",
+      "tgt_int_name": "Scope1_2",
+      "tgt_int_status": 360001,
+      "tgt_int_status_if_inactive": -999999,
+      "tgt_int_year_set": 2030,
+      "tgt_int_type": 380001,
+      "tgt_int_intensity_type": 330001,
+      "target_int_physical": [
+        {
+          "tgt_phys_int_intensity_description": "Description",
+          "tgt_phys_int_coverage_sector_approach": 390002,
+          "tgt_phys_int_sector_classification": 190000,
+          "tgt_phys_int_sector_classification_other": "N/A",
+          "int_ph_target_coverage_sector_list": [
+            {
+              "tgt_phys_int_coverage_sector_name": "Industrial",
+              "tgt_phys_int_coverage_sector_code": "1380"
+            }
+          ],
+          "tgt_phys_int_coverage_sector": "Industrial|1380",
+          "tgt_phys_int_coverage_scope": [
+            300001,
+            300002
+          ],
+          "tgt_phys_int_coverage_s3_cat": [
+            -999999
+          ],
+          "tgt_phys_int_scopes_aggregation": [
+            310001,
+            310002
+          ],
+          "tgt_phys_int_coverage_ghg": [
+            320001,
+            320002
+          ],
+          "tgt_phys_int_org_boundary": 20001,
+          "tgt_phys_int_coverage_exclusions": "Exclusion text",
+          "tgt_phys_int_coverage_perc_s1": 10,
+          "tgt_phys_int_coverage_perc_s2": 90,
+          "tgt_phys_int_coverage_perc_s1s2": -999999,
+          "tgt_phys_int_coverage_perc_s3_c1": -999999,
+          "tgt_phys_int_coverage_perc_s3_c2": -999999,
+          "tgt_phys_int_coverage_perc_s3_c3": -999999,
+          "tgt_phys_int_coverage_perc_s3_c4": -999999,
+          "tgt_phys_int_coverage_perc_s3_c5": -999999,
+          "tgt_phys_int_coverage_perc_s3_c6": -999999,
+          "tgt_phys_int_coverage_perc_s3_c7": -999999,
+          "tgt_phys_int_coverage_perc_s3_c8": -999999,
+          "tgt_phys_int_coverage_perc_s3_c9": -999999,
+          "tgt_phys_int_coverage_perc_s3_c10": -999999,
+          "tgt_phys_int_coverage_perc_s3_c11": -999999,
+          "tgt_phys_int_coverage_perc_s3_c12": -999999,
+          "tgt_phys_int_coverage_perc_s3_c13": -999999,
+          "tgt_phys_int_coverage_perc_s3_c14": -999999,
+          "tgt_phys_int_coverage_perc_s3_c15": -999999,
+          "tgt_phys_int_coverage_perc_s3": -999999,
+          "tgt_phys_int_coverage_perc_total": -999999,
+          "tgt_phys_int_base_year": 2017,
+          "tgt_phys_int_units_numerator": 400001,
+          "tgt_phys_int_units_denom": 440030,
+          "tgt_phys_int_units_denom_other": "N/A",
+          "tgt_phys_int_base_year_activity_metric": 30,
+          "tgt_phys_int_base_year_s1_int": 2000,
+          "tgt_phys_int_base_year_s2_int": 3000,
+          "tgt_phys_int_base_year_s1s2_int": -999999,
+          "tgt_phys_int_base_year_s3_c1_int": -999999,
+          "tgt_phys_int_base_year_s3_c2_int": -999999,
+          "tgt_phys_int_base_year_s3_c3_int": -999999,
+          "tgt_phys_int_base_year_s3_c4_int": -999999,
+          "tgt_phys_int_base_year_s3_c5_int": -999999,
+          "tgt_phys_int_base_year_s3_c6_int": -999999,
+          "tgt_phys_int_base_year_s3_c7_int": -999999,
+          "tgt_phys_int_base_year_s3_c8_int": -999999,
+          "tgt_phys_int_base_year_s3_c9_int": -999999,
+          "tgt_phys_int_base_year_s3_c10_int": -999999,
+          "tgt_phys_int_base_year_s3_c11_int": -999999,
+          "tgt_phys_int_base_year_s3_c12_int": -999999,
+          "tgt_phys_int_base_year_s3_c13_int": -999999,
+          "tgt_phys_int_base_year_s3_c14_int": -999999,
+          "tgt_phys_int_base_year_s3_c15_int": -999999,
+          "tgt_phys_int_base_year_s3_int": -999999,
+          "tgt_phys_int_base_year_total_int": -999999,
+          "tgt_phys_int_base_year_s1_abs": 2000,
+          "tgt_phys_int_base_year_s2_abs": 3000,
+          "tgt_phys_int_base_year_s1s2_abs": -999999,
+          "tgt_phys_int_base_year_s3_c1_abs": -999999,
+          "tgt_phys_int_base_year_s3_c2_abs": -999999,
+          "tgt_phys_int_base_year_s3_c3_abs": -999999,
+          "tgt_phys_int_base_year_s3_c4_abs": -999999,
+          "tgt_phys_int_base_year_s3_c5_abs": -999999,
+          "tgt_phys_int_base_year_s3_c6_abs": -999999,
+          "tgt_phys_int_base_year_s3_c7_abs": -999999,
+          "tgt_phys_int_base_year_s3_c8_abs": -999999,
+          "tgt_phys_int_base_year_s3_c9_abs": -999999,
+          "tgt_phys_int_base_year_s3_c10_abs": -999999,
+          "tgt_phys_int_base_year_s3_c11_abs": -999999,
+          "tgt_phys_int_base_year_s3_c12_abs": -999999,
+          "tgt_phys_int_base_year_s3_c13_abs": -999999,
+          "tgt_phys_int_base_year_s3_c14_abs": -999999,
+          "tgt_phys_int_base_year_s3_c15_abs": -999999,
+          "tgt_phys_int_base_year_s3_abs": -999999,
+          "tgt_phys_int_base_year_total_abs": -999999,
+          "tgt_phys_int_target_year": 2030,
+          "tgt_phys_int_target_year_s1_int": 1000,
+          "tgt_phys_int_target_year_s2_int": 100,
+          "tgt_phys_int_target_year_s1s2_int": -999999,
+          "tgt_phys_int_target_year_s3_c1_int": -999999,
+          "tgt_phys_int_target_year_s3_c2_int": -999999,
+          "tgt_phys_int_target_year_s3_c3_int": -999999,
+          "tgt_phys_int_target_year_s3_c4_int": -999999,
+          "tgt_phys_int_target_year_s3_c5_int": -999999,
+          "tgt_phys_int_target_year_s3_c6_int": -999999,
+          "tgt_phys_int_target_year_s3_c7_int": -999999,
+          "tgt_phys_int_target_year_s3_c8_int": -999999,
+          "tgt_phys_int_target_year_s3_c9_int": -999999,
+          "tgt_phys_int_target_year_s3_c10_int": -999999,
+          "tgt_phys_int_target_year_s3_c11_int": -999999,
+          "tgt_phys_int_target_year_s3_c12_int": -999999,
+          "tgt_phys_int_target_year_s3_c13_int": -999999,
+          "tgt_phys_int_target_year_s3_c14_int": -999999,
+          "tgt_phys_int_target_year_s3_c15_int": -999999,
+          "tgt_phys_int_target_year_s3_int": -999999,
+          "tgt_phys_int_target_year_total_int": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s1": 20,
+          "tgt_phys_int_target_year_reduct_perc_s2": 10,
+          "tgt_phys_int_target_year_reduct_perc_s1s2": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c1": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c2": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c3": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c4": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c5": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c6": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c7": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c8": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c9": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c10": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c11": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c12": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c13": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c14": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3_c15": -999999,
+          "tgt_phys_int_target_year_reduct_perc_s3": -999999,
+          "tgt_phys_int_target_year_reduct_perc_total": -999999,
+          "int_ph_progress_intensity_target": [
+            {
+              "tgt_phys_int_progress_year": 2018,
+              "tgt_phys_int_s1_int": 3000,
+              "tgt_phys_int_s2_int": 2000,
+              "tgt_phys_int_s1s2_int": -999999,
+              "tgt_phys_int_s3_c1_int": -999999,
+              "tgt_phys_int_s3_c2_int": -999999,
+              "tgt_phys_int_s3_c3_int": -999999,
+              "tgt_phys_int_s3_c4_int": -999999,
+              "tgt_phys_int_s3_c5_int": -999999,
+              "tgt_phys_int_s3_c6_int": -999999,
+              "tgt_phys_int_s3_c7_int": -999999,
+              "tgt_phys_int_s3_c8_int": -999999,
+              "tgt_phys_int_s3_c9_int": -999999,
+              "tgt_phys_int_s3_c10_int": -999999,
+              "tgt_phys_int_s3_c11_int": -999999,
+              "tgt_phys_int_s3_c12_int": -999999,
+              "tgt_phys_int_s3_c13_int": -999999,
+              "tgt_phys_int_s3_c14_int": -999999,
+              "tgt_phys_int_s3_c15_int": -999999,
+              "tgt_phys_int_s3_int": -999999,
+              "tgt_phys_int_total_int": -999999,
+              "tgt_phys_int_reduct_perc_s1": 10,
+              "tgt_phys_int_reduct_perc_s2": 5,
+              "tgt_phys_int_reduct_perc_s1s2": -999999,
+              "tgt_phys_int_reduct_perc_s3_c1": -999999,
+              "tgt_phys_int_reduct_perc_s3_c2": -999999,
+              "tgt_phys_int_reduct_perc_s3_c3": -999999,
+              "tgt_phys_int_reduct_perc_s3_c4": -999999,
+              "tgt_phys_int_reduct_perc_s3_c5": -999999,
+              "tgt_phys_int_reduct_perc_s3_c6": -999999,
+              "tgt_phys_int_reduct_perc_s3_c7": -999999,
+              "tgt_phys_int_reduct_perc_s3_c8": -999999,
+              "tgt_phys_int_reduct_perc_s3_c9": -999999,
+              "tgt_phys_int_reduct_perc_s3_c10": -999999,
+              "tgt_phys_int_reduct_perc_s3_c11": -999999,
+              "tgt_phys_int_reduct_perc_s3_c12": -999999,
+              "tgt_phys_int_reduct_perc_s3_c13": -999999,
+              "tgt_phys_int_reduct_perc_s3_c14": -999999,
+              "tgt_phys_int_reduct_perc_s3_c15": -999999,
+              "tgt_phys_int_reduct_perc_s3": -999999,
+              "tgt_phys_int_reduct_perc_total": -999999,
+              "tgt_phys_int_s1_abs": 1000,
+              "tgt_phys_int_s2_abs": 500,
+              "tgt_phys_int_s1s2_abs": -999999,
+              "tgt_phys_int_s3_c1_abs": -999999,
+              "tgt_phys_int_s3_c2_abs": -999999,
+              "tgt_phys_int_s3_c3_abs": -999999,
+              "tgt_phys_int_s3_c4_abs": -999999,
+              "tgt_phys_int_s3_c5_abs": -999999,
+              "tgt_phys_int_s3_c6_abs": -999999,
+              "tgt_phys_int_s3_c7_abs": -999999,
+              "tgt_phys_int_s3_c8_abs": -999999,
+              "tgt_phys_int_s3_c9_abs": -999999,
+              "tgt_phys_int_s3_c10_abs": -999999,
+              "tgt_phys_int_s3_c11_abs": -999999,
+              "tgt_phys_int_s3_c12_abs": -999999,
+              "tgt_phys_int_s3_c13_abs": -999999,
+              "tgt_phys_int_s3_c14_abs": -999999,
+              "tgt_phys_int_s3_c15_abs": -999999,
+              "tgt_phys_int_s3_abs": -999999,
+              "tgt_phys_int_total_abs": -999999,
+              "tgt_phys_int_progress_perc": 30
+            }
+          ]
+        }
+      ],
+      "target_int_economic": [
+        -999999
+      ],
+      "tgt_int_level_ambition": 410001,
+      "tgt_int_level_ambition_other": "N/A",
+      "tgt_int_methodology_type": 420001,
+      "tgt_int_methodology_type_other": "N/A",
+      "tgt_int_methodology_description": "Methodology description",
+      "tgt_int_methodology_underlying": "Methodologies underlying",
+      "tgt_int_achieve_within_vc_description": "Achievement description",
+      "tgt_int_achieve_within_vc_reduction_perc": 20,
+      "tgt_int_achieve_cc_yn": 920001,
+      "tgt_int_achieve_cc_description": "Achievement description",
+      "tgt_int_achieve_cc_perc": 10,
+      "tgt_int_achieve_other_description": "Other description"
+    }
+  ],
+  "disclose_emissions_assure_verif_yn": 500001,
+  "rationale_emissions_assure_verif_non_disclose": "N/A",
+  "assure_verif_valid_statement_dis": [
+    {
+      "assure_verif_valid_provider": "Provider 1",
+      "assure_verif_valid_standard": 870000,
+      "assure_verif_valid_standard_other": "N/A",
+      "level_of_assurance": 220001,
+      "assure_verif_valid_statement": 1,
+      "perc_scope_1_assure_verif_valid": 1,
+      "perc_scope_2_lb_assure_verif_valid": 12,
+      "perc_scope_2_mb_assure_verif_valid": 15,
+      "perc_scope_3_assure_verif_valid": 9
+    },
+    {
+      "assure_verif_valid_provider": "Provider 2",
+      "assure_verif_valid_standard": 870000,
+      "assure_verif_valid_standard_other": "N/A",
+      "level_of_assurance": 220001,
+      "assure_verif_valid_statement": 2,
+      "perc_scope_1_assure_verif_valid": 1,
+      "perc_scope_2_lb_assure_verif_valid": 12,
+      "perc_scope_2_mb_assure_verif_valid": 15,
+      "perc_scope_3_assure_verif_valid": 9
+    }
+  ],
+  "disclose_target_valid_yn": 500001,
+  "rationale_target_valid_non_disclose": "N/A",
+  "assure_verif_statement_target": [
+    {
+      "target_id": "abs_id_1",
+      "target_validation_provider": "Provider 1",
+      "target_validation_source": null,
+      "target_validation_source_other": null,
+      "target_validation_statement": 3
+    }
+  ]
+}

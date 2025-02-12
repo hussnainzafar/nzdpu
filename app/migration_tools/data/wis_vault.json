@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Google Cloud Storage",
+    "storage_type": 0,
+    "access_type": "google_adc",
+    "access_data": null
+  }
+]

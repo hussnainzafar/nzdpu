@@ -1,0 +1,482 @@
+[
+    {
+        "name": "nzdpu_form",
+        "description": "NZDPU SCHEMA 4.0",
+        "created_on": "2024-11-29T16:31:01.803077",
+        "user_id": 1,
+        "heritable": false,
+        "id": 1
+    },
+    {
+        "name": "s1_emissions_exclusion_dict_form",
+        "description": "Scope 1 GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:01.844034",
+        "user_id": 1,
+        "heritable": true,
+        "id": 2
+    },
+    {
+        "name": "s1_other_ghg_emissions_dict_form",
+        "description": "Other Scope 1 GHG emissions",
+        "created_on": "2024-11-29T16:31:01.926825",
+        "user_id": 1,
+        "heritable": true,
+        "id": 3
+    },
+    {
+        "name": "s2_lb_emissions_exclusion_dict_form",
+        "description": "Scope 2 location-based GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:01.961462",
+        "user_id": 1,
+        "heritable": true,
+        "id": 4
+    },
+    {
+        "name": "s2_mb_emissions_exclusion_dict_form",
+        "description": "Scope 2 market-based GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:01.998158",
+        "user_id": 1,
+        "heritable": true,
+        "id": 5
+    },
+    {
+        "name": "s3_ghgp_c1_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 1 (Purchased goods and services) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.045477",
+        "user_id": 1,
+        "heritable": true,
+        "id": 6
+    },
+    {
+        "name": "s3_ghgp_c1_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 1 (Purchased goods and services) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.063893",
+        "user_id": 1,
+        "heritable": true,
+        "id": 7
+    },
+    {
+        "name": "s3_ghgp_c2_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 2 (Capital goods) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.098588",
+        "user_id": 1,
+        "heritable": true,
+        "id": 8
+    },
+    {
+        "name": "s3_ghgp_c2_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 2 (Capital goods) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.118424",
+        "user_id": 1,
+        "heritable": true,
+        "id": 9
+    },
+    {
+        "name": "s3_ghgp_c3_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 3 (Fuel- and energy-related activities not included in Scope 1 or Scope 2) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.158703",
+        "user_id": 1,
+        "heritable": true,
+        "id": 10
+    },
+    {
+        "name": "s3_ghgp_c3_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 3 (Fuel- and energy-related activities not included in Scope 1 or Scope 2) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.177787",
+        "user_id": 1,
+        "heritable": true,
+        "id": 11
+    },
+    {
+        "name": "s3_ghgp_c4_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 4 (Upstream transportation and distribution) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.218053",
+        "user_id": 1,
+        "heritable": true,
+        "id": 12
+    },
+    {
+        "name": "s3_ghgp_c4_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 4 (Upstream transportation and distribution) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.238793",
+        "user_id": 1,
+        "heritable": true,
+        "id": 13
+    },
+    {
+        "name": "s3_ghgp_c5_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 5 (Waste generated in operations) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.275636",
+        "user_id": 1,
+        "heritable": true,
+        "id": 14
+    },
+    {
+        "name": "s3_ghgp_c5_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 5 (Waste generated in operations) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.298282",
+        "user_id": 1,
+        "heritable": true,
+        "id": 15
+    },
+    {
+        "name": "s3_ghgp_c6_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 6 (Business travel) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.337864",
+        "user_id": 1,
+        "heritable": true,
+        "id": 16
+    },
+    {
+        "name": "s3_ghgp_c6_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 6 (Business travel) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.356682",
+        "user_id": 1,
+        "heritable": true,
+        "id": 17
+    },
+    {
+        "name": "s3_ghgp_c7_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 7 (Employee commuting) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.390922",
+        "user_id": 1,
+        "heritable": true,
+        "id": 18
+    },
+    {
+        "name": "s3_ghgp_c7_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 7 (Employee commuting) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.414311",
+        "user_id": 1,
+        "heritable": true,
+        "id": 19
+    },
+    {
+        "name": "s3_ghgp_c8_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 8 (Upstream leased assets) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.445140",
+        "user_id": 1,
+        "heritable": true,
+        "id": 20
+    },
+    {
+        "name": "s3_ghgp_c8_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 8 (Upstream leased assets) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.462197",
+        "user_id": 1,
+        "heritable": true,
+        "id": 21
+    },
+    {
+        "name": "s3_ghgp_c9_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 9 (Downstream transportation and distribution) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.494135",
+        "user_id": 1,
+        "heritable": true,
+        "id": 22
+    },
+    {
+        "name": "s3_ghgp_c9_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 9 (Downstream transportation and distribution) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.511611",
+        "user_id": 1,
+        "heritable": true,
+        "id": 23
+    },
+    {
+        "name": "s3_ghgp_c10_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 10 (Processing of sold products) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.545193",
+        "user_id": 1,
+        "heritable": true,
+        "id": 24
+    },
+    {
+        "name": "s3_ghgp_c10_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 10 (Processing of sold products) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.563086",
+        "user_id": 1,
+        "heritable": true,
+        "id": 25
+    },
+    {
+        "name": "s3_ghgp_c11_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 11 (Use of sold products) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.594114",
+        "user_id": 1,
+        "heritable": true,
+        "id": 26
+    },
+    {
+        "name": "s3_ghgp_c11_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 11 (Use of sold products) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.611169",
+        "user_id": 1,
+        "heritable": true,
+        "id": 27
+    },
+    {
+        "name": "s3_ghgp_c12_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 12 (End-of-life treatment of sold products) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.644039",
+        "user_id": 1,
+        "heritable": true,
+        "id": 28
+    },
+    {
+        "name": "s3_ghgp_c12_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 12 (End-of-life treatment of sold products) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.662064",
+        "user_id": 1,
+        "heritable": true,
+        "id": 29
+    },
+    {
+        "name": "s3_ghgp_c13_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 13 (Downstream leased assets) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.694451",
+        "user_id": 1,
+        "heritable": true,
+        "id": 30
+    },
+    {
+        "name": "s3_ghgp_c13_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 13 (Downstream leased assets) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.712303",
+        "user_id": 1,
+        "heritable": true,
+        "id": 31
+    },
+    {
+        "name": "s3_ghgp_c14_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 14 (Franchises) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.745676",
+        "user_id": 1,
+        "heritable": true,
+        "id": 32
+    },
+    {
+        "name": "s3_ghgp_c14_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 14 (Franchises) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.764294",
+        "user_id": 1,
+        "heritable": true,
+        "id": 33
+    },
+    {
+        "name": "s3_ghgp_c15_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Category 15 (Investments) GHG emissions",
+        "created_on": "2024-11-29T16:31:02.796032",
+        "user_id": 1,
+        "heritable": true,
+        "id": 34
+    },
+    {
+        "name": "s3_ghgp_c15_emissions_exclusion_dict_form",
+        "description": "Scope 3 Category 15 (Investments) GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.813557",
+        "user_id": 1,
+        "heritable": true,
+        "id": 35
+    },
+    {
+        "name": "s3_ghgp_other_emissions_method_dict_form",
+        "description": "Methodologies used to calculate other Scope 3 GHG emissions",
+        "created_on": "2024-11-29T16:31:02.844926",
+        "user_id": 1,
+        "heritable": true,
+        "id": 36
+    },
+    {
+        "name": "s3_ghgp_other_emissions_exclusion_dict_form",
+        "description": "Other Scope 3 GHG emissions sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.863941",
+        "user_id": 1,
+        "heritable": true,
+        "id": 37
+    },
+    {
+        "name": "s3_iso_c3_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Indirect GHG emissions from transportation",
+        "created_on": "2024-11-29T16:31:02.896003",
+        "user_id": 1,
+        "heritable": true,
+        "id": 38
+    },
+    {
+        "name": "s3_iso_c3_emissions_exclusion_dict_form",
+        "description": "Scope 3 Indirect GHG emissions from transportation sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.914779",
+        "user_id": 1,
+        "heritable": true,
+        "id": 39
+    },
+    {
+        "name": "s3_iso_c4_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Indirect GHG emissions from products used by an organization",
+        "created_on": "2024-11-29T16:31:02.951810",
+        "user_id": 1,
+        "heritable": true,
+        "id": 40
+    },
+    {
+        "name": "s3_iso_c4_emissions_exclusion_dict_form",
+        "description": "Scope 3 Indirect GHG emissions from products used by an organization sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:02.969793",
+        "user_id": 1,
+        "heritable": true,
+        "id": 41
+    },
+    {
+        "name": "s3_iso_c5_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Indirect GHG emissions associated with the use of products from the organization",
+        "created_on": "2024-11-29T16:31:03.003295",
+        "user_id": 1,
+        "heritable": true,
+        "id": 42
+    },
+    {
+        "name": "s3_iso_c5_emissions_exclusion_dict_form",
+        "description": "Scope 3 Indirect GHG emissions associated with the use of products from the organization sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:03.021884",
+        "user_id": 1,
+        "heritable": true,
+        "id": 43
+    },
+    {
+        "name": "s3_iso_c6_emissions_method_dict_form",
+        "description": "Methodologies used to calculate Scope 3 Indirect GHG emissions from other sources",
+        "created_on": "2024-11-29T16:31:03.057426",
+        "user_id": 1,
+        "heritable": true,
+        "id": 44
+    },
+    {
+        "name": "s3_iso_c6_emissions_exclusion_dict_form",
+        "description": "Scope 3 Indirect GHG emissions from other sources excluded from inventory",
+        "created_on": "2024-11-29T16:31:03.075595",
+        "user_id": 1,
+        "heritable": true,
+        "id": 45
+    },
+    {
+        "name": "fin_emissions_aum_sector_dict_form",
+        "description": "Sectors included in financed GHG emissions for assets under management",
+        "created_on": "2024-11-29T16:31:03.104929",
+        "user_id": 1,
+        "heritable": true,
+        "id": 46
+    },
+    {
+        "name": "fin_emissions_int_aum_dict_form",
+        "description": "Financed GHG emissions intensity for assets under management",
+        "created_on": "2024-11-29T16:31:03.200147",
+        "user_id": 1,
+        "heritable": true,
+        "id": 48
+    },
+    {
+        "name": "fin_emissions_grossexp_sector_dict_form",
+        "description": "Sectors included in financed GHG emissions for gross exposure",
+        "created_on": "2024-11-29T16:31:03.265315",
+        "user_id": 1,
+        "heritable": true,
+        "id": 50
+    },
+    {
+        "name": "fin_emissions_int_grossexp_dict_form",
+        "description": "Financed GHG emissions intensity for gross exposure",
+        "created_on": "2024-11-29T16:31:03.358236",
+        "user_id": 1,
+        "heritable": true,
+        "id": 52
+    },
+    {
+        "name": "verif_emissions_dict_form",
+        "description": "Assurance or verification of GHG emissions statement",
+        "created_on": "2024-11-29T16:31:03.424067",
+        "user_id": 1,
+        "heritable": true,
+        "id": 54
+    },
+    {
+        "name": "tgt_abs_progress_dict_form",
+        "description": "Progress against absolute GHG emissions reduction target",
+        "created_on": "2024-11-29T16:31:03.697286",
+        "user_id": 1,
+        "heritable": true,
+        "id": 56
+    },
+    {
+        "name": "tgt_int_dict_form",
+        "description": "GHG emissions intensity reduction target",
+        "created_on": "2024-11-29T16:31:03.815922",
+        "user_id": 1,
+        "heritable": true,
+        "id": 58
+    },
+    {
+        "name": "tgt_int_valid_dict_form",
+        "description": "Validation of GHG emissions intensity reduction target",
+        "created_on": "2024-11-29T16:31:04.349767",
+        "user_id": 1,
+        "heritable": true,
+        "id": 60
+    },
+    {
+        "name": "fin_emissions_aum_dict_form",
+        "description": "Financed GHG emissions for assets under management",
+        "created_on": "2024-11-29T16:31:03.126244",
+        "user_id": 1,
+        "heritable": true,
+        "id": 47
+    },
+    {
+        "name": "fin_emissions_aum_data_quality_dict_form",
+        "description": "Financed GHG emissions for assets under management data quality",
+        "created_on": "2024-11-29T16:31:03.233059",
+        "user_id": 1,
+        "heritable": true,
+        "id": 49
+    },
+    {
+        "name": "fin_emissions_grossexp_dict_form",
+        "description": "Financed GHG emissions for gross exposure",
+        "created_on": "2024-11-29T16:31:03.282349",
+        "user_id": 1,
+        "heritable": true,
+        "id": 51
+    },
+    {
+        "name": "fin_emissions_grossexp_data_quality_dict_form",
+        "description": "Financed GHG emissions for gross exposure data quality",
+        "created_on": "2024-11-29T16:31:03.394767",
+        "user_id": 1,
+        "heritable": true,
+        "id": 53
+    },
+    {
+        "name": "tgt_abs_dict_form",
+        "description": "Absolute GHG emissions reduction target",
+        "created_on": "2024-11-29T16:31:03.460888",
+        "user_id": 1,
+        "heritable": true,
+        "id": 55
+    },
+    {
+        "name": "tgt_abs_valid_dict_form",
+        "description": "Validation",
+        "created_on": "2024-11-29T16:31:03.790380",
+        "user_id": 1,
+        "heritable": true,
+        "id": 57
+    },
+    {
+        "name": "tgt_int_progress_dict_form",
+        "description": "Progress against GHG emissions intensity reduction target",
+        "created_on": "2024-11-29T16:31:04.159813",
+        "user_id": 1,
+        "heritable": true,
+        "id": 59
+    }
+]

@@ -1,0 +1,800 @@
+{
+    "name": "nzdpu_scope_1",
+    "description": "NZDPU - Scope 1 Form",
+    "user_id": 1,
+    "view": {
+        "name": "nzdpu_scope_1_view",
+        "description": "NZDPU schema scope 1 view"
+    },
+    "attributes": [
+        {
+            "name": "disclosure_scope_1_emissions",
+            "type": "label",
+            "prompts": [
+                {
+                    "value": "Disclosure of scope 1 emissions"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "label",
+                    "item": {
+                        "variant": "PRIMARY_HEADING"
+                    }
+                }
+            }
+        },
+        {
+            "name": "scope_1_emissions",
+            "type": "float",
+            "view": {
+                "constraint_value": [
+                    {
+                        "code": "total_scope1_emissions_range",
+                        "actions": [
+                            {
+                                "set": {
+                                    "min": 0
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "constraint_view": {
+                    "type": "float",
+                    "layout": {
+                        "span": 6
+                    }
+                }
+            },
+            "prompts": [
+                {
+                    "value": "Total scope1 emissions value"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_emissions_units",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 30001,
+                    "set_name": "scope_1_emissions_units",
+                    "value": "tCO2e"
+                },
+                {
+                    "choice_id": 30002,
+                    "set_name": "scope_1_emissions_units",
+                    "value": "tCO2"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Total scope1 emissions units"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "single",
+                    "layout": {
+                        "span": 6
+                    }
+                }
+            }
+        },
+        {
+            "name": "rationale_s1_non_disclose",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if total scope 1 GHG emissions not disclosed"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_ghg",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Greenhouse Gasses"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "form",
+                    "item": {
+                        "variant": "CATEGORIZED_EXTENSIBLE",
+                        "additionalProps": {
+                            "nameAttributeSingle": "scope_1_ghg_gas",
+                            "nameAttributeText": "scope_1_ghg_gas_name",
+                            "otherChoiceId": 40008
+                        }
+                    }
+                }
+            },
+            "form": {
+                "name": "scope_1_ghg_form",
+                "description": "Breakdown of total scope 1 GHG emissions by GHG",
+                "user_id": 1,
+                "view": {
+                    "name": "scope_1_ghg_view",
+                    "description": "View for breakdown of total scope 1 GHG emissions by GHG"
+                },
+                "attributes": [
+                    {
+                        "name": "scope_1_ghg_gas",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 40001,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "CO2"
+                            },
+                            {
+                                "choice_id": 40002,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "CH4"
+                            },
+                            {
+                                "choice_id": 40003,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "NO2"
+                            },
+                            {
+                                "choice_id": 40004,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "HFCs"
+                            },
+                            {
+                                "choice_id": 40005,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "PFCs"
+                            },
+                            {
+                                "choice_id": 40006,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "SF6"
+                            },
+                            {
+                                "choice_id": 40007,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "NF3"
+                            },
+                            {
+                                "choice_id": 40008,
+                                "set_name": "scope_1_ghg_gas",
+                                "value": "Other (please specify)"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Greenhouse gas"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "single",
+                                "rule": {
+                                    "effect": "HIDE",
+                                    "type": "SINGLE"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gas_name",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Greenhouse Gas Name"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "text",
+                                "layout": {
+                                    "span": 6,
+                                    "offset": 6
+                                },
+                                "rule": {
+                                    "effect": "SHOW",
+                                    "type": "SINGLE",
+                                    "conditions": [
+                                        {
+                                            "name": "scope_1_ghg_gas",
+                                            "schema": {
+                                                "const": 40008
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_emissions",
+                        "type": "float",
+                        "prompts": [
+                            {
+                                "value": "GHG emissions value"
+                            }
+                        ],
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "ghg_emissions_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "constraint_view": {
+                                "type": "float",
+                                "layout": {
+                                    "span": 6,
+                                    "offset": 6
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_source",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 50001,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "IPCC Sixth Assessment Report (AR6)"
+                            },
+                            {
+                                "choice_id": 50002,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "IPCC Fifth Asssessment Report (AR5)"
+                            },
+                            {
+                                "choice_id": 50003,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "IPCC Fourth Assessment Report (AR4)"
+                            },
+                            {
+                                "choice_id": 50004,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "IPCC Third Assessment Report (TAR)"
+                            },
+                            {
+                                "choice_id": 50005,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "IPCC Second Assessment Report (SAR)"
+                            },
+                            {
+                                "choice_id": 50006,
+                                "set_name": "scope_1_ghg_gwp_source",
+                                "value": "Other GWP source not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 1 GHG emissions Global Warming Potential source"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "single",
+                                "layout": {
+                                    "span": 6
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_source_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other GWP source"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "text",
+                                "layout": {
+                                    "span": 6
+                                },
+                                "rule": {
+                                    "effect": "SHOW",
+                                    "type": "SINGLE",
+                                    "conditions": [
+                                        {
+                                            "name": "scope_1_ghg_gwp_source",
+                                            "schema": {
+                                                "const": 50006
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_time_horizon",
+                        "type": "single",
+                        "choices": [
+                            {
+                                "choice_id": 60001,
+                                "set_name": "scope_1_ghg_gwp_time_horizon",
+                                "value": "20-year"
+                            },
+                            {
+                                "choice_id": 60002,
+                                "set_name": "scope_1_ghg_gwp_time_horizon",
+                                "value": "50-year"
+                            },
+                            {
+                                "choice_id": 60003,
+                                "set_name": "scope_1_ghg_gwp_time_horizon",
+                                "value": "100-year"
+                            },
+                            {
+                                "choice_id": 60004,
+                                "set_name": "scope_1_ghg_gwp_time_horizon",
+                                "value": "Other time horizon not listed"
+                            }
+                        ],
+                        "prompts": [
+                            {
+                                "value": "Scope 1 GHG emissions Global Warming Potential time horizon"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "single",
+                                "layout": {
+                                    "span": 6
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "scope_1_ghg_gwp_time_horizon_other",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Other time horizon"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "text",
+                                "layout": {
+                                    "span": 6
+                                },
+                                "rule": {
+                                    "effect": "SHOW",
+                                    "type": "SINGLE",
+                                    "conditions": [
+                                        {
+                                            "name": "scope_1_ghg_gwp_time_horizon",
+                                            "schema": {
+                                                "const": 60004
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "rationale_s1_ghg_non_disclose",
+            "type": "single",
+            "choices": [
+                {
+                    "choice_id": 70001,
+                    "set_name": "rationale_s1_ghg_non_disclose",
+                    "value": "Not applicable"
+                },
+                {
+                    "choice_id": 70002,
+                    "set_name": "rationale_s1_ghg_non_disclose",
+                    "value": "Not evaluated"
+                },
+                {
+                    "choice_id": 70003,
+                    "set_name": "rationale_s1_ghg_non_disclose",
+                    "value": "Data not available"
+                },
+                {
+                    "choice_id": 70004,
+                    "set_name": "rationale_s1_ghg_non_disclose",
+                    "value": "Other reason not listed"
+                }
+            ],
+            "prompts": [
+                {
+                    "value": "Rationale if scope 1 GHG breakdown not disclosed"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "single",
+                    "layout": {
+                        "span": 6,
+                        "offset": 6
+                    }
+                }
+            }
+        },
+        {
+            "name": "rationale_s1_ghg_non_disclose_other",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Other rationale if scope 1 GHG breakdown isn't disclosed"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "text",
+                    "rule": {
+                        "effect": "SHOW",
+                        "type": "SINGLE",
+                        "conditions": [
+                            {
+                                "name": "rationale_s1_ghg_non_disclose",
+                                "schema": {
+                                    "const": 70004
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "rationale_s1_ghg_not_equal_s1_total",
+            "type": "text",
+            "prompts": [
+                {
+                    "value": "Rationale if scope 1 GHG breakdown does not equal total"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_methodology",
+            "type": "multiple",
+            "view": {
+                "constraint_view": {
+                    "type": "multiple",
+                    "item": {
+                        "variant": "CHECKBOXES_EXTENSIBLE"
+                    }
+                }
+            },
+            "prompts": [
+                {
+                    "value": "Methodology"
+                }
+            ],
+            "choices": [
+                {
+                    "choice_id": 80001,
+                    "set_name": "scope_1_methodology",
+                    "value": "ABI Energia Linee Guida"
+                },
+                {
+                    "choice_id": 80002,
+                    "set_name": "scope_1_methodology",
+                    "value": "Act on the Rational Use of Energy"
+                },
+                {
+                    "choice_id": 80003,
+                    "set_name": "scope_1_methodology",
+                    "value": "American Petroleum Institute Compendium of Greenhouse Gas Emissions Methodologies for the Oil and Natural Gas Industry, 2009"
+                },
+                {
+                    "choice_id": 80004,
+                    "set_name": "scope_1_methodology",
+                    "value": "Australia - National Greenhouse and Energy Reporting Act"
+                },
+                {
+                    "choice_id": 80005,
+                    "set_name": "scope_1_methodology",
+                    "value": "Bilan Carbone"
+                },
+                {
+                    "choice_id": 80006,
+                    "set_name": "scope_1_methodology",
+                    "value": "Brazil GHG Protocol Programme"
+                },
+                {
+                    "choice_id": 80007,
+                    "set_name": "scope_1_methodology",
+                    "value": "Canadian Association of Petroleum Producers, Calculating Greenhouse Gas Emissions, 2003"
+                },
+                {
+                    "choice_id": 80008,
+                    "set_name": "scope_1_methodology",
+                    "value": "China Corporate Energy Conservation and GHG Management Programme"
+                },
+                {
+                    "choice_id": 80009,
+                    "set_name": "scope_1_methodology",
+                    "value": "Defra Environmental Reporting Guidelines: Including streamlined energy and carbon reporting guidance, 2019"
+                },
+                {
+                    "choice_id": 80010,
+                    "set_name": "scope_1_methodology",
+                    "value": "ENCORD: Construction CO2e Measurement Protocol"
+                },
+                {
+                    "choice_id": 80011,
+                    "set_name": "scope_1_methodology",
+                    "value": "Energy Information Administration 1605(b)"
+                },
+                {
+                    "choice_id": 80012,
+                    "set_name": "scope_1_methodology",
+                    "value": "Environment Canada +"
+                },
+                {
+                    "choice_id": 80013,
+                    "set_name": "scope_1_methodology",
+                    "value": "EPRA (European Public Real Estate Association) +"
+                },
+                {
+                    "choice_id": 80014,
+                    "set_name": "scope_1_methodology",
+                    "value": "European Union Emission Trading System (EU ETS) +"
+                },
+                {
+                    "choice_id": 80015,
+                    "set_name": "scope_1_methodology",
+                    "value": "French methodology for greenhouse gas emissions assessments by companies V4 (ADEME 2016)"
+                },
+                {
+                    "choice_id": 80016,
+                    "set_name": "scope_1_methodology",
+                    "value": "Hong Kong Environmental Protection Department, Guidelines to Account for and Report on Greenhouse Gas Emissions and Removals for Buildings, 2010"
+                },
+                {
+                    "choice_id": 80017,
+                    "set_name": "scope_1_methodology",
+                    "value": "ICLEI Local Government GHG Protocol"
+                },
+                {
+                    "choice_id": 80018,
+                    "set_name": "scope_1_methodology",
+                    "value": "IEA CO2 Emissions from Fuel Combustion"
+                },
+                {
+                    "choice_id": 80019,
+                    "set_name": "scope_1_methodology",
+                    "value": "India GHG Inventory Programme"
+                },
+                {
+                    "choice_id": 80020,
+                    "set_name": "scope_1_methodology",
+                    "value": "International Wine Industry Greenhouse Gas Protocol and Accounting Tool"
+                },
+                {
+                    "choice_id": 80021,
+                    "set_name": "scope_1_methodology",
+                    "value": "IPCC Guidelines for National Greenhouse Gas Inventories, 2006"
+                },
+                {
+                    "choice_id": 80022,
+                    "set_name": "scope_1_methodology",
+                    "value": "IPIECA's Petroleum Industry Guidelines +"
+                },
+                {
+                    "choice_id": 80023,
+                    "set_name": "scope_1_methodology",
+                    "value": "ISO 14064-1"
+                },
+                {
+                    "choice_id": 80024,
+                    "set_name": "scope_1_methodology",
+                    "value": "Japan Ministry of the Environment, Law Concerning the Promotion of the Measures to Cope with Global Warming, Superseded by Revision of the Act on Promotion of Global Warming Countermeasures (2005 Amendment)"
+                },
+                {
+                    "choice_id": 80025,
+                    "set_name": "scope_1_methodology",
+                    "value": "Korea GHG and Energy Target Management System Operating Guidelines"
+                },
+                {
+                    "choice_id": 80026,
+                    "set_name": "scope_1_methodology",
+                    "value": "National Development and Reform Commission (NDRC) Guidance for Accounting and Reporting of GHG Emissions for Corporates (Trial)"
+                },
+                {
+                    "choice_id": 80027,
+                    "set_name": "scope_1_methodology",
+                    "value": "New Zealand - Guidance for Voluntary, Corporate Greenhouse Gas Reporting"
+                },
+                {
+                    "choice_id": 80028,
+                    "set_name": "scope_1_methodology",
+                    "value": "Philippine Greenhouse Gas Accounting and Reporting Programme (PhilGARP)"
+                },
+                {
+                    "choice_id": 80029,
+                    "set_name": "scope_1_methodology",
+                    "value": "Programa GEI Mexico"
+                },
+                {
+                    "choice_id": 80030,
+                    "set_name": "scope_1_methodology",
+                    "value": "Recommendations for reporting significant indirect emissions under Article 173-IV (ADEME 2018)"
+                },
+                {
+                    "choice_id": 80031,
+                    "set_name": "scope_1_methodology",
+                    "value": "Regional Greenhouse Gas Initiative (RGGI) Model Rule"
+                },
+                {
+                    "choice_id": 80032,
+                    "set_name": "scope_1_methodology",
+                    "value": "Smart Freight Centre: GLEC Framework for Logistics Emissions Methodologies"
+                },
+                {
+                    "choice_id": 80033,
+                    "set_name": "scope_1_methodology",
+                    "value": "Taiwan - GHG Reduction Act"
+                },
+                {
+                    "choice_id": 80034,
+                    "set_name": "scope_1_methodology",
+                    "value": "Thailand Greenhouse Gas Management Organization: The National Guideline Carbon Footprint for organization"
+                },
+                {
+                    "choice_id": 80035,
+                    "set_name": "scope_1_methodology",
+                    "value": "The Climate Registry +"
+                },
+                {
+                    "choice_id": 80036,
+                    "set_name": "scope_1_methodology",
+                    "value": "The Cool Farm Tool"
+                },
+                {
+                    "choice_id": 80037,
+                    "set_name": "scope_1_methodology",
+                    "value": "The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses and Non-Commercial Organizations"
+                },
+                {
+                    "choice_id": 80038,
+                    "set_name": "scope_1_methodology",
+                    "value": "The Greenhouse Gas Protocol +"
+                },
+                {
+                    "choice_id": 80039,
+                    "set_name": "scope_1_methodology",
+                    "value": "The Tokyo Cap-and Trade Program"
+                },
+                {
+                    "choice_id": 80040,
+                    "set_name": "scope_1_methodology",
+                    "value": "Toitū +"
+                },
+                {
+                    "choice_id": 80041,
+                    "set_name": "scope_1_methodology",
+                    "value": "US EPA +"
+                },
+                {
+                    "choice_id": 80042,
+                    "set_name": "scope_1_methodology",
+                    "value": "VfU (Verein fur Umweltmanagement) Indicators Standard"
+                },
+                {
+                    "choice_id": 80043,
+                    "set_name": "scope_1_methodology",
+                    "value": "WBCSD: The Cement CO2 and Energy Protocol"
+                },
+                {
+                    "choice_id": 80044,
+                    "set_name": "scope_1_methodology",
+                    "value": "World Steel Association CO2 emissions data collection guidelines"
+                }
+            ]
+        },
+        {
+            "name": "scope_1_exclusion",
+            "type": "form",
+            "prompts": [
+                {
+                    "value": "Exclusions"
+                }
+            ],
+            "view": {
+                "constraint_view": {
+                    "type": "form",
+                    "item": {
+                        "variant": "EXTENSIBLE",
+                        "additionalProps": {
+                            "nameAttributeText": "scope_1_exclusion_description"
+                        }
+                    }
+                }
+            },
+            "form": {
+                "name": "scope_1_exclusion_form",
+                "description": "Exclusions form for scope 1 GHG emissions",
+                "user_id": 1,
+                "attributes": [
+                    {
+                        "name": "scope_1_exclusion_description",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Description of Emissions Exclusion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of Emissions Exclusion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_perc",
+                        "type": "float",
+                        "view": {
+                            "constraint_value": [
+                                {
+                                    "code": "scope_1_exclusion_percentage_range",
+                                    "actions": [
+                                        {
+                                            "set": {
+                                                "min": 0,
+                                                "max": 100
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "constraint_view": {
+                                "type": "float",
+                                "layout": {
+                                    "span": 6
+                                }
+                            }
+                        },
+                        "prompts": [
+                            {
+                                "value": "Estimated % of Emissions Excluded"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scope_1_exclusion_perc_explanation",
+                        "type": "text",
+                        "prompts": [
+                            {
+                                "value": "Explanation of Exclusion Calculation"
+                            }
+                        ],
+                        "view": {
+                            "constraint_view": {
+                                "type": "text",
+                                "layout": {
+                                    "span": 6
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
